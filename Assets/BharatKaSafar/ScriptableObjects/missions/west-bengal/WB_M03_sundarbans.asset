@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: WB_M03_sundarbans
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 8fec43bad330403dbe65947b65d2723b, type: 2}
+  missionID: WB_M03
+  chapterID: WB
+  missionNumber: 3
+  missionName: Mangrove Run
+  description: 
+  storyText: Mangrove Run! Forest checkpoint tak pahucho.
+  gameplaySceneName: BKS_WB_M03_Sundarbans
+  primaryObjectiveText: Mangrove Run! Forest checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: WB_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: West Bengal
+  placeName: Sundarbans
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 51a30facbfd226041bcd4cb17de70790, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Pothole/Mud Patch, Animal Crossing (optional)
+  howToDealText: 'Pothole/Mud Patch: steady momentum rakho, sudden brake mat karo.
+
+    Animal:
+    brake, horn do, raasta clear hone par chalo.'
+  memoryTokenName: Mangrove Badge
+  memoryTokenSprite: {fileID: 21300000, guid: 573fdc2d4a92e6547bc7ca3caa305bc4, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 913dff8d784c4a64f832c3d822b8af5f, type: 3}
+  draftSceneName: BKS_WB_M03_Sundarbans
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: CG_M01_chitrakote
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 82a0c6e944504e6080e6d1bee2421f4d, type: 2}
+  missionID: CG_M01
+  chapterID: CG
+  missionNumber: 1
+  missionName: Waterfall Dash
+  description: 
+  storyText: Waterfall Dash! Viewpoint tak pahucho.
+  gameplaySceneName: BKS_CG_M01_Chitrakote
+  primaryObjectiveText: Waterfall Dash! Viewpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: CG_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Chhattisgarh
+  placeName: Chitrakote
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 1acce1e89efdf9a40b0b2a71fb827701, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Pothole/Mud Patch
+  howToDealText: 'Rock: slow down, steer around.
+
+    Pothole/Mud Patch: steady momentum
+    rakho, sudden brake mat karo.'
+  memoryTokenName: Waterfall Drop
+  memoryTokenSprite: {fileID: 21300000, guid: 14187a63cde2d434e9637f7abcfec603, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: cb9efe6b62dbb9a42b0728717b3f5417, type: 3}
+  draftSceneName: BKS_CG_M01_Chitrakote
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

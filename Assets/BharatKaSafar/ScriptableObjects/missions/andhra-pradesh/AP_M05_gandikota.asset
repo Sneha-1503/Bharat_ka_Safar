@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: AP_M05_gandikota
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: d684bd43edd64d51987012cbe7e0f22a, type: 2}
+  missionID: AP_M05
+  chapterID: AP
+  missionNumber: 5
+  missionName: Canyon Dash
+  description: 
+  storyText: Canyon Dash! Viewpoint checkpoint tak pahucho.
+  gameplaySceneName: BKS_AP_M05_Gandikota
+  primaryObjectiveText: Canyon Dash! Viewpoint checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Andhra Pradesh
+  placeName: Gandikota
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: b621e9a87998c1145b8610619e73134b, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Crate
+  howToDealText: 'Rock: slow down, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Canyon Badge
+  memoryTokenSprite: {fileID: 21300000, guid: ad5ef86ed972008499c15d0ce095a614, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 77f5bf5edf12274459fbd74d0e7f521e, type: 3}
+  draftSceneName: BKS_AP_M05_Gandikota
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

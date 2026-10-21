@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: TG_M04_warangal
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: d104ce611f6e407bb97eca1614f02698, type: 2}
+  missionID: TG_M04
+  chapterID: TG
+  missionNumber: 4
+  missionName: Gate Quest
+  description: 
+  storyText: Gate Quest! 5 gate tokens lekar finish karo.
+  gameplaySceneName: BKS_TG_M04_Warangal
+  primaryObjectiveText: Gate Quest! 5 gate tokens lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: TG_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Telangana
+  placeName: Warangal
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 138e01522bd38bc4eac3db0419f82966, type: 3}
+  collectibleName: Kakatiya Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 2a85fd7072d63a5488276eb8d1caa7aa, type: 3}
+  obstaclesText: Rock, Crate
+  howToDealText: 'Rock: slow down, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Kakatiya Gate
+  memoryTokenSprite: {fileID: 21300000, guid: f3c4fc15bbad9244d954f794db4ba3f9, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 218ebd7b01834c14fb1d442221b6da76, type: 3}
+  draftSceneName: BKS_TG_M04_Warangal
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

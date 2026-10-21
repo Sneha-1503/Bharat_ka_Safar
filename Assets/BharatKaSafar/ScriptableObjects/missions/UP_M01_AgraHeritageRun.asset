@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: UP_M01_AgraHeritageRun
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 14e134ea71434cd5b11caba0a81ca31e, type: 2}
+  missionID: UP_M01
+  chapterID: UttarPradesh
+  missionNumber: 1
+  missionName: Taj Dash
+  description: 
+  storyText: Navigate the royal avenues surrounding the majestic Taj Mahal.
+  gameplaySceneName: BKS_UP_M01_Agra
+  primaryObjectiveText: Taj Dash! Taj gate tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 3
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: UP_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 50
+  stateName: Uttar Pradesh
+  placeName: Agra
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: c9e029b06b67c034ea1f929f3e89d0e7, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Pothole/Mud Patch
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Pothole/Mud Patch: steady
+    momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Mini Taj
+  memoryTokenSprite: {fileID: 21300000, guid: 390b42f81f6813743be252ca0c246dd0, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: a4ecca7628e124f4db1f11fa2377ddcd, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

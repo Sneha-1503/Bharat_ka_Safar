@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: MP_M03_ujjain
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: b45506245bc54b8a9a7eba0acab0b050, type: 2}
+  missionID: MP_M03
+  chapterID: MP
+  missionNumber: 3
+  missionName: Temple Rush
+  description: 
+  storyText: Temple Rush! Temple checkpoint tak pahucho.
+  gameplaySceneName: BKS_MP_M03_Ujjain
+  primaryObjectiveText: Temple Rush! Temple checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: MP_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Madhya Pradesh
+  placeName: Ujjain
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 52d5269ea8c945949abb111493579abb, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Cart, Barricade
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Barricade: brake,
+    open gap se niklo.'
+  memoryTokenName: Mahakal Token
+  memoryTokenSprite: {fileID: 21300000, guid: 91be92ea8ab7ee141963bd4d0fae6360, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 61dfa64180aea974da790f08d8053ab0, type: 3}
+  draftSceneName: BKS_MP_M03_Ujjain
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

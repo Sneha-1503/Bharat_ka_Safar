@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: ML_M05_nongriat
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 0ba4f0001e6b48d8a582cf44b7748310, type: 2}
+  missionID: ML_M05
+  chapterID: ML
+  missionNumber: 5
+  missionName: Root Trail
+  description: 
+  storyText: Root Trail! Forest checkpoint tak pahucho.
+  gameplaySceneName: BKS_ML_M05_Nongriat
+  primaryObjectiveText: Root Trail! Forest checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Meghalaya
+  placeName: Nongriat
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: f34ad78a02cae9241b56498e2382ead7, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Log, Pothole/Mud Patch
+  howToDealText: 'Log: brake, steer around.
+
+    Pothole/Mud Patch: steady momentum
+    rakho, sudden brake mat karo.'
+  memoryTokenName: Root Bridge Token
+  memoryTokenSprite: {fileID: 21300000, guid: 68e05b7b25da19b4fb9a69747379da16, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 6ad3dc8a1b99ea24fb4cfa1a16932444, type: 3}
+  draftSceneName: BKS_ML_M05_Nongriat
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

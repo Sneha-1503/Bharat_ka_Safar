@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: MN_M03_keibul-lamjao
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: e37b917652aa4f4494cdc7a01485fc16, type: 2}
+  missionID: MN_M03
+  chapterID: MN
+  missionNumber: 3
+  missionName: Wetland Ride
+  description: 
+  storyText: Wetland Ride! Forest checkpoint tak pahucho.
+  gameplaySceneName: BKS_MN_M03_KeibulLamjao
+  primaryObjectiveText: Wetland Ride! Forest checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: MN_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Manipur
+  placeName: Keibul Lamjao
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 02026023dfc892f45bcab14c7ae1c1de, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Pothole/Mud Patch, Animal Crossing (optional)
+  howToDealText: 'Pothole/Mud Patch: steady momentum rakho, sudden brake mat karo.
+
+    Animal:
+    brake, horn do, raasta clear hone par chalo.'
+  memoryTokenName: Deer Token
+  memoryTokenSprite: {fileID: 21300000, guid: 65ed712ebeb232e4d901b283265585fb, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 969ded8d2881d974dba96cdb62dfc03f, type: 3}
+  draftSceneName: BKS_MN_M03_KeibulLamjao
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

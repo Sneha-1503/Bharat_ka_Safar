@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: TG_M01_hyderabad
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: dca7ae3ee6d346f9a4bfb7bbd006d9ab, type: 2}
+  missionID: TG_M01
+  chapterID: TG
+  missionNumber: 1
+  missionName: Pearl Hunt
+  description: 
+  storyText: Pearl Hunt! 5 pearls lekar Charminar pahucho.
+  gameplaySceneName: BKS_TG_M01_Hyderabad
+  primaryObjectiveText: Pearl Hunt! 5 pearls lekar Charminar pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: TG_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Telangana
+  placeName: Hyderabad
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 4622432eceeca9644819201d2dc8d860, type: 3}
+  collectibleName: Pearl Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 611e0048b4e236042b913e01b4752af5, type: 3}
+  obstaclesText: Cart, Crate
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Crate: slow
+    down, steer around.'
+  memoryTokenName: Pearl Token
+  memoryTokenSprite: {fileID: 21300000, guid: 2f24eb46815843348b8dbef3c9d6b643, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 58a5084b40bd07340a3c8aac36892709, type: 3}
+  draftSceneName: BKS_TG_M01_Hyderabad
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

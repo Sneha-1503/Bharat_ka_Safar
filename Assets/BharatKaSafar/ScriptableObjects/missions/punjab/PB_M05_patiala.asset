@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: PB_M05_patiala
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 85171ed742214a5282301d4924d4eeef, type: 2}
+  missionID: PB_M05
+  chapterID: PB
+  missionNumber: 5
+  missionName: Phulkari Hunt
+  description: 
+  storyText: Phulkari Hunt! 5 patches lekar finish karo.
+  gameplaySceneName: BKS_PB_M05_Patiala
+  primaryObjectiveText: Phulkari Hunt! 5 patches lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Punjab
+  placeName: Patiala
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: cec53a21c1b4ea449a4752e1bc99f40c, type: 3}
+  collectibleName: Phulkari Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 0de16b899a510d14c92299221f427cc6, type: 3}
+  obstaclesText: Cart, Crate
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Crate: slow
+    down, steer around.'
+  memoryTokenName: Phulkari Patch
+  memoryTokenSprite: {fileID: 21300000, guid: 76d20a6835aba5943aabde02003e8dc3, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 7fc995e1905e433499d44e46be7185bb, type: 3}
+  draftSceneName: BKS_PB_M05_Patiala
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

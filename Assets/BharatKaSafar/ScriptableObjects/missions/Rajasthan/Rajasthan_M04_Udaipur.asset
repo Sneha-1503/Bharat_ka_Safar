@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: Rajasthan_M04_Udaipur
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 17e45edfb1f8439db19742b66c8199b2, type: 2}
+  missionID: Raj_M04
+  chapterID: Rajasthan
+  missionNumber: 4
+  missionName: Lake Loot
+  description: 
+  storyText: "Monsoon clouds are rolling in over Lake Pichola. Supplies need to reach
+    the boat before the storm breaks \u2014 the lakeside roads are narrow, and one
+    wrong turn means the water."
+  gameplaySceneName: BKS_Rajasthan_M04_Udaipur
+  primaryObjectiveText: Lake Loot! 5 royal coins lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: Raj_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 85
+  stateName: Rajasthan
+  placeName: Udaipur
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: c8a96f49b9708f5438b5574984e1d02c, type: 3}
+  collectibleName: Royal Coin
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 1c1ba4ca597072d489e91d4eb557a287, type: 3}
+  obstaclesText: Cart, Pothole/Mud Patch
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Pothole/Mud
+    Patch: steady momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Lake Boat
+  memoryTokenSprite: {fileID: 21300000, guid: e2935b30546f34644becf884780de5e7, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: a483fbecfa2a7e7489ebd6b561280b2a, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

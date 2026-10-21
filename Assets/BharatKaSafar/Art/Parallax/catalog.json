@@ -1,0 +1,2102 @@
+[
+ {
+  "number": 1,
+  "folder": "001-rk-beach",
+  "layers": [
+   "01-sky.png",
+   "02-far-hills.png",
+   "03-coastal-skyline.png",
+   "04-sea.png",
+   "05-sand-foreground.png"
+  ],
+  "state": "Andhra Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Visakhapatnam – RK Beach",
+  "lighting": "day"
+ },
+ {
+  "number": 2,
+  "folder": "002-tirumala-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Andhra Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Tirupati – Tirumala Temple",
+  "lighting": "night"
+ },
+ {
+  "number": 3,
+  "folder": "003-araku-valley",
+  "layers": [
+   "01-sky.png",
+   "02-far-ridges.png",
+   "03-terraced-hills.png",
+   "04-near-forest.png",
+   "05-grass-foreground.png"
+  ],
+  "state": "Andhra Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Araku Valley",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 4,
+  "folder": "004-vijayawada-kanaka-durga-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Andhra Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Vijayawada – Kanaka Durga Temple",
+  "lighting": "day"
+ },
+ {
+  "number": 5,
+  "folder": "005-gandikota-grand-canyon-of-india",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Andhra Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Gandikota – Grand Canyon of India",
+  "lighting": "night"
+ },
+ {
+  "number": 6,
+  "folder": "006-tawang-tawang-monastery",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Arunachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Tawang – Tawang Monastery",
+  "lighting": "sunset"
+ },
+ {
+  "number": 7,
+  "folder": "007-ziro-valley",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Arunachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Ziro Valley",
+  "lighting": "day"
+ },
+ {
+  "number": 8,
+  "folder": "008-bomdila",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Arunachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Bomdila",
+  "lighting": "night"
+ },
+ {
+  "number": 9,
+  "folder": "009-sela-pass",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Arunachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Sela Pass",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 10,
+  "folder": "010-namdapha-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Arunachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Namdapha National Park",
+  "lighting": "day"
+ },
+ {
+  "number": 11,
+  "folder": "011-guwahati-kamakhya-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Assam",
+  "master": "vibrant-preview.png",
+  "place": "Guwahati – Kamakhya Temple",
+  "lighting": "night"
+ },
+ {
+  "number": 12,
+  "folder": "012-kaziranga-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Assam",
+  "master": "vibrant-preview.png",
+  "place": "Kaziranga National Park",
+  "lighting": "sunset"
+ },
+ {
+  "number": 13,
+  "folder": "013-majuli-island",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Assam",
+  "master": "vibrant-preview.png",
+  "place": "Majuli Island",
+  "lighting": "day"
+ },
+ {
+  "number": 14,
+  "folder": "014-sivasagar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Assam",
+  "master": "vibrant-preview.png",
+  "place": "Sivasagar",
+  "lighting": "night"
+ },
+ {
+  "number": 15,
+  "folder": "015-manas-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Assam",
+  "master": "vibrant-preview.png",
+  "place": "Manas National Park",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 16,
+  "folder": "016-bodh-gaya-mahabodhi-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Bihar",
+  "master": "vibrant-preview.png",
+  "place": "Bodh Gaya – Mahabodhi Temple",
+  "lighting": "day"
+ },
+ {
+  "number": 17,
+  "folder": "017-nalanda-ruins",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Bihar",
+  "master": "vibrant-preview.png",
+  "place": "Nalanda Ruins",
+  "lighting": "night"
+ },
+ {
+  "number": 18,
+  "folder": "018-rajgir",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Bihar",
+  "master": "vibrant-preview.png",
+  "place": "Rajgir",
+  "lighting": "sunset"
+ },
+ {
+  "number": 19,
+  "folder": "019-patna-golghar-takht-sri-patna-sahib",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Bihar",
+  "master": "vibrant-preview.png",
+  "place": "Patna – Golghar/Takht Sri Patna Sahib",
+  "lighting": "day"
+ },
+ {
+  "number": 20,
+  "folder": "020-vaishali",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Bihar",
+  "master": "vibrant-preview.png",
+  "place": "Vaishali",
+  "lighting": "night"
+ },
+ {
+  "number": 21,
+  "folder": "021-chitrakote-falls",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Chhattisgarh",
+  "master": "vibrant-preview.png",
+  "place": "Chitrakote Falls",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 22,
+  "folder": "022-tirathgarh-falls",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Chhattisgarh",
+  "master": "vibrant-preview.png",
+  "place": "Tirathgarh Falls",
+  "lighting": "day"
+ },
+ {
+  "number": 23,
+  "folder": "023-kanger-valley-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Chhattisgarh",
+  "master": "vibrant-preview.png",
+  "place": "Kanger Valley National Park",
+  "lighting": "night"
+ },
+ {
+  "number": 24,
+  "folder": "024-sirpur",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Chhattisgarh",
+  "master": "vibrant-preview.png",
+  "place": "Sirpur",
+  "lighting": "sunset"
+ },
+ {
+  "number": 25,
+  "folder": "025-mainpat",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Chhattisgarh",
+  "master": "vibrant-preview.png",
+  "place": "Mainpat",
+  "lighting": "day"
+ },
+ {
+  "number": 26,
+  "folder": "026-calangute-baga-beach",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Goa",
+  "master": "vibrant-preview.png",
+  "place": "Calangute/Baga Beach",
+  "lighting": "night"
+ },
+ {
+  "number": 27,
+  "folder": "027-basilica-of-bom-jesus",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Goa",
+  "master": "vibrant-preview.png",
+  "place": "Basilica of Bom Jesus",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 28,
+  "folder": "028-dudhsagar-falls",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Goa",
+  "master": "vibrant-preview.png",
+  "place": "Dudhsagar Falls",
+  "lighting": "day"
+ },
+ {
+  "number": 29,
+  "folder": "029-panaji-fontainhas",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Goa",
+  "master": "vibrant-preview.png",
+  "place": "Panaji & Fontainhas",
+  "lighting": "night"
+ },
+ {
+  "number": 30,
+  "folder": "030-palolem-beach",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Goa",
+  "master": "vibrant-preview.png",
+  "place": "Palolem Beach",
+  "lighting": "sunset"
+ },
+ {
+  "number": 31,
+  "folder": "031-statue-of-unity",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Gujarat",
+  "master": "vibrant-preview.png",
+  "place": "Statue of Unity",
+  "lighting": "day"
+ },
+ {
+  "number": 32,
+  "folder": "032-rann-of-kutch",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Gujarat",
+  "master": "vibrant-preview.png",
+  "place": "Rann of Kutch",
+  "lighting": "night"
+ },
+ {
+  "number": 33,
+  "folder": "033-somnath-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Gujarat",
+  "master": "vibrant-preview.png",
+  "place": "Somnath Temple",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 34,
+  "folder": "034-dwarka",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Gujarat",
+  "master": "vibrant-preview.png",
+  "place": "Dwarka",
+  "lighting": "day"
+ },
+ {
+  "number": 35,
+  "folder": "035-gir-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Gujarat",
+  "master": "vibrant-preview.png",
+  "place": "Gir National Park",
+  "lighting": "night"
+ },
+ {
+  "number": 36,
+  "folder": "036-kurukshetra",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Haryana",
+  "master": "vibrant-preview.png",
+  "place": "Kurukshetra",
+  "lighting": "sunset"
+ },
+ {
+  "number": 37,
+  "folder": "037-morni-hills",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Haryana",
+  "master": "vibrant-preview.png",
+  "place": "Morni Hills",
+  "lighting": "day"
+ },
+ {
+  "number": 38,
+  "folder": "038-sultanpur-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Haryana",
+  "master": "vibrant-preview.png",
+  "place": "Sultanpur National Park",
+  "lighting": "night"
+ },
+ {
+  "number": 39,
+  "folder": "039-pinjore-gardens",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Haryana",
+  "master": "vibrant-preview.png",
+  "place": "Pinjore Gardens",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 40,
+  "folder": "040-surajkund",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Haryana",
+  "master": "vibrant-preview.png",
+  "place": "Surajkund",
+  "lighting": "day"
+ },
+ {
+  "number": 41,
+  "folder": "041-shimla",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Himachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Shimla",
+  "lighting": "night"
+ },
+ {
+  "number": 42,
+  "folder": "042-manali",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Himachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Manali",
+  "lighting": "sunset"
+ },
+ {
+  "number": 43,
+  "folder": "043-dharamshala",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Himachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Dharamshala",
+  "lighting": "day"
+ },
+ {
+  "number": 44,
+  "folder": "044-spiti-valley",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Himachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Spiti Valley",
+  "lighting": "night"
+ },
+ {
+  "number": 45,
+  "folder": "045-dalhousie-khajjiar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Himachal Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Dalhousie/Khajjiar",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 46,
+  "folder": "046-ranchi-dassam-hundru-falls",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Jharkhand",
+  "master": "vibrant-preview.png",
+  "place": "Ranchi – Dassam/Hundru Falls",
+  "lighting": "day"
+ },
+ {
+  "number": 47,
+  "folder": "047-deoghar-baidyanath-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Jharkhand",
+  "master": "vibrant-preview.png",
+  "place": "Deoghar – Baidyanath Temple",
+  "lighting": "night"
+ },
+ {
+  "number": 48,
+  "folder": "048-betla-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Jharkhand",
+  "master": "vibrant-preview.png",
+  "place": "Betla National Park",
+  "lighting": "sunset"
+ },
+ {
+  "number": 49,
+  "folder": "049-netarhat",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Jharkhand",
+  "master": "vibrant-preview.png",
+  "place": "Netarhat",
+  "lighting": "day"
+ },
+ {
+  "number": 50,
+  "folder": "050-patratu-valley",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Jharkhand",
+  "master": "vibrant-preview.png",
+  "place": "Patratu Valley",
+  "lighting": "night"
+ },
+ {
+  "number": 51,
+  "folder": "051-bengaluru-vidhana-soudha",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Karnataka",
+  "master": "vibrant-preview.png",
+  "place": "Bengaluru – Vidhana Soudha",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 52,
+  "folder": "052-mysuru-palace",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Karnataka",
+  "master": "vibrant-preview.png",
+  "place": "Mysuru Palace",
+  "lighting": "day"
+ },
+ {
+  "number": 53,
+  "folder": "053-hampi",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Karnataka",
+  "master": "vibrant-preview.png",
+  "place": "Hampi",
+  "lighting": "night"
+ },
+ {
+  "number": 54,
+  "folder": "054-coorg",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Karnataka",
+  "master": "vibrant-preview.png",
+  "place": "Coorg",
+  "lighting": "sunset"
+ },
+ {
+  "number": 55,
+  "folder": "055-gokarna",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Karnataka",
+  "master": "vibrant-preview.png",
+  "place": "Gokarna",
+  "lighting": "day"
+ },
+ {
+  "number": 56,
+  "folder": "056-munnar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Kerala",
+  "master": "vibrant-preview.png",
+  "place": "Munnar",
+  "lighting": "night"
+ },
+ {
+  "number": 57,
+  "folder": "057-alappuzha-backwaters",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Kerala",
+  "master": "vibrant-preview.png",
+  "place": "Alappuzha Backwaters",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 58,
+  "folder": "058-kochi-fort-kochi",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Kerala",
+  "master": "vibrant-preview.png",
+  "place": "Kochi – Fort Kochi",
+  "lighting": "day"
+ },
+ {
+  "number": 59,
+  "folder": "059-thekkady-periyar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Kerala",
+  "master": "vibrant-preview.png",
+  "place": "Thekkady/Periyar",
+  "lighting": "night"
+ },
+ {
+  "number": 60,
+  "folder": "060-varkala",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Kerala",
+  "master": "vibrant-preview.png",
+  "place": "Varkala",
+  "lighting": "sunset"
+ },
+ {
+  "number": 61,
+  "folder": "061-khajuraho",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Madhya Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Khajuraho",
+  "lighting": "day"
+ },
+ {
+  "number": 62,
+  "folder": "062-sanchi-stupa",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Madhya Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Sanchi Stupa",
+  "lighting": "night"
+ },
+ {
+  "number": 63,
+  "folder": "063-ujjain-mahakaleshwar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Madhya Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Ujjain – Mahakaleshwar",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 64,
+  "folder": "064-gwalior-fort",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Madhya Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Gwalior Fort",
+  "lighting": "day"
+ },
+ {
+  "number": 65,
+  "folder": "065-kanha-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Madhya Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Kanha National Park",
+  "lighting": "night"
+ },
+ {
+  "number": 66,
+  "folder": "066-mumbai-gateway-of-india",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Maharashtra",
+  "master": "vibrant-preview.png",
+  "place": "Mumbai – Gateway of India",
+  "lighting": "sunset"
+ },
+ {
+  "number": 67,
+  "folder": "067-ajanta-ellora-caves",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Maharashtra",
+  "master": "vibrant-preview.png",
+  "place": "Ajanta & Ellora Caves",
+  "lighting": "day"
+ },
+ {
+  "number": 68,
+  "folder": "068-mahabaleshwar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Maharashtra",
+  "master": "vibrant-preview.png",
+  "place": "Mahabaleshwar",
+  "lighting": "night"
+ },
+ {
+  "number": 69,
+  "folder": "069-pune-shaniwar-wada",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Maharashtra",
+  "master": "vibrant-preview.png",
+  "place": "Pune – Shaniwar Wada",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 70,
+  "folder": "070-lonavala",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Maharashtra",
+  "master": "vibrant-preview.png",
+  "place": "Lonavala",
+  "lighting": "day"
+ },
+ {
+  "number": 71,
+  "folder": "071-imphal-kangla-fort",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Manipur",
+  "master": "vibrant-preview.png",
+  "place": "Imphal – Kangla Fort",
+  "lighting": "night"
+ },
+ {
+  "number": 72,
+  "folder": "072-loktak-lake",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Manipur",
+  "master": "vibrant-preview.png",
+  "place": "Loktak Lake",
+  "lighting": "sunset"
+ },
+ {
+  "number": 73,
+  "folder": "073-keibul-lamjao-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Manipur",
+  "master": "vibrant-preview.png",
+  "place": "Keibul Lamjao National Park",
+  "lighting": "day"
+ },
+ {
+  "number": 74,
+  "folder": "074-ukhrul",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Manipur",
+  "master": "vibrant-preview.png",
+  "place": "Ukhrul",
+  "lighting": "night"
+ },
+ {
+  "number": 75,
+  "folder": "075-andro-village",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Manipur",
+  "master": "vibrant-preview.png",
+  "place": "Andro Village",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 76,
+  "folder": "076-shillong",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Meghalaya",
+  "master": "vibrant-preview.png",
+  "place": "Shillong",
+  "lighting": "day"
+ },
+ {
+  "number": 77,
+  "folder": "077-cherrapunji-sohra",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Meghalaya",
+  "master": "vibrant-preview.png",
+  "place": "Cherrapunji/Sohra",
+  "lighting": "night"
+ },
+ {
+  "number": 78,
+  "folder": "078-dawki-umngot-river",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Meghalaya",
+  "master": "vibrant-preview.png",
+  "place": "Dawki & Umngot River",
+  "lighting": "sunset"
+ },
+ {
+  "number": 79,
+  "folder": "079-mawlynnong",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Meghalaya",
+  "master": "vibrant-preview.png",
+  "place": "Mawlynnong",
+  "lighting": "day"
+ },
+ {
+  "number": 80,
+  "folder": "080-nongriat-living-root-bridges",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Meghalaya",
+  "master": "vibrant-preview.png",
+  "place": "Nongriat Living Root Bridges",
+  "lighting": "night"
+ },
+ {
+  "number": 81,
+  "folder": "081-aizawl",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Mizoram",
+  "master": "vibrant-preview.png",
+  "place": "Aizawl",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 82,
+  "folder": "082-reiek",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Mizoram",
+  "master": "vibrant-preview.png",
+  "place": "Reiek",
+  "lighting": "day"
+ },
+ {
+  "number": 83,
+  "folder": "083-vantawng-falls",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Mizoram",
+  "master": "vibrant-preview.png",
+  "place": "Vantawng Falls",
+  "lighting": "night"
+ },
+ {
+  "number": 84,
+  "folder": "084-phawngpui-blue-mountain",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Mizoram",
+  "master": "vibrant-preview.png",
+  "place": "Phawngpui Blue Mountain",
+  "lighting": "sunset"
+ },
+ {
+  "number": 85,
+  "folder": "085-champhai",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Mizoram",
+  "master": "vibrant-preview.png",
+  "place": "Champhai",
+  "lighting": "day"
+ },
+ {
+  "number": 86,
+  "folder": "086-kohima",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Nagaland",
+  "master": "vibrant-preview.png",
+  "place": "Kohima",
+  "lighting": "night"
+ },
+ {
+  "number": 87,
+  "folder": "087-dzukou-valley",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Nagaland",
+  "master": "vibrant-preview.png",
+  "place": "Dzukou Valley",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 88,
+  "folder": "088-khonoma-village",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Nagaland",
+  "master": "vibrant-preview.png",
+  "place": "Khonoma Village",
+  "lighting": "day"
+ },
+ {
+  "number": 89,
+  "folder": "089-kisama-heritage-village",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Nagaland",
+  "master": "vibrant-preview.png",
+  "place": "Kisama Heritage Village",
+  "lighting": "night"
+ },
+ {
+  "number": 90,
+  "folder": "090-mokokchung",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Nagaland",
+  "master": "vibrant-preview.png",
+  "place": "Mokokchung",
+  "lighting": "sunset"
+ },
+ {
+  "number": 91,
+  "folder": "091-puri-jagannath-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Odisha",
+  "master": "vibrant-preview.png",
+  "place": "Puri – Jagannath Temple",
+  "lighting": "day"
+ },
+ {
+  "number": 92,
+  "folder": "092-konark-sun-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Odisha",
+  "master": "vibrant-preview.png",
+  "place": "Konark Sun Temple",
+  "lighting": "night"
+ },
+ {
+  "number": 93,
+  "folder": "093-bhubaneswar-lingaraj-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Odisha",
+  "master": "vibrant-preview.png",
+  "place": "Bhubaneswar – Lingaraj Temple",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 94,
+  "folder": "094-chilika-lake",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Odisha",
+  "master": "vibrant-preview.png",
+  "place": "Chilika Lake",
+  "lighting": "day"
+ },
+ {
+  "number": 95,
+  "folder": "095-similipal-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Odisha",
+  "master": "vibrant-preview.png",
+  "place": "Similipal National Park",
+  "lighting": "night"
+ },
+ {
+  "number": 96,
+  "folder": "096-amritsar-golden-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Punjab",
+  "master": "vibrant-preview.png",
+  "place": "Amritsar – Golden Temple",
+  "lighting": "sunset"
+ },
+ {
+  "number": 97,
+  "folder": "097-attari-wagah-border",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Punjab",
+  "master": "vibrant-preview.png",
+  "place": "Attari-Wagah Border",
+  "lighting": "day"
+ },
+ {
+  "number": 98,
+  "folder": "098-jallianwala-bagh",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Punjab",
+  "master": "vibrant-preview.png",
+  "place": "Jallianwala Bagh",
+  "lighting": "night"
+ },
+ {
+  "number": 99,
+  "folder": "099-anandpur-sahib",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Punjab",
+  "master": "vibrant-preview.png",
+  "place": "Anandpur Sahib",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 100,
+  "folder": "100-patiala",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Punjab",
+  "master": "vibrant-preview.png",
+  "place": "Patiala",
+  "lighting": "day"
+ },
+ {
+  "number": 101,
+  "folder": "101-jaipur",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Rajasthan",
+  "master": "vibrant-preview.png",
+  "place": "Jaipur",
+  "lighting": "night"
+ },
+ {
+  "number": 102,
+  "folder": "102-jodhpur",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Rajasthan",
+  "master": "vibrant-preview.png",
+  "place": "Jodhpur",
+  "lighting": "sunset"
+ },
+ {
+  "number": 103,
+  "folder": "103-jaisalmer",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Rajasthan",
+  "master": "vibrant-preview.png",
+  "place": "Jaisalmer",
+  "lighting": "day"
+ },
+ {
+  "number": 104,
+  "folder": "104-udaipur",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Rajasthan",
+  "master": "vibrant-preview.png",
+  "place": "Udaipur",
+  "lighting": "night"
+ },
+ {
+  "number": 105,
+  "folder": "105-pushkar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Rajasthan",
+  "master": "vibrant-preview.png",
+  "place": "Pushkar",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 106,
+  "folder": "106-gangtok",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Sikkim",
+  "master": "vibrant-preview.png",
+  "place": "Gangtok",
+  "lighting": "day"
+ },
+ {
+  "number": 107,
+  "folder": "107-tsomgo-lake",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Sikkim",
+  "master": "vibrant-preview.png",
+  "place": "Tsomgo Lake",
+  "lighting": "night"
+ },
+ {
+  "number": 108,
+  "folder": "108-nathula-pass",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Sikkim",
+  "master": "vibrant-preview.png",
+  "place": "Nathula Pass",
+  "lighting": "sunset"
+ },
+ {
+  "number": 109,
+  "folder": "109-pelling",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Sikkim",
+  "master": "vibrant-preview.png",
+  "place": "Pelling",
+  "lighting": "day"
+ },
+ {
+  "number": 110,
+  "folder": "110-yumthang-valley",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Sikkim",
+  "master": "vibrant-preview.png",
+  "place": "Yumthang Valley",
+  "lighting": "night"
+ },
+ {
+  "number": 111,
+  "folder": "111-chennai-marina-beach",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tamil Nadu",
+  "master": "vibrant-preview.png",
+  "place": "Chennai – Marina Beach",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 112,
+  "folder": "112-mahabalipuram",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tamil Nadu",
+  "master": "vibrant-preview.png",
+  "place": "Mahabalipuram",
+  "lighting": "day"
+ },
+ {
+  "number": 113,
+  "folder": "113-ooty",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tamil Nadu",
+  "master": "vibrant-preview.png",
+  "place": "Ooty",
+  "lighting": "night"
+ },
+ {
+  "number": 114,
+  "folder": "114-kanyakumari",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tamil Nadu",
+  "master": "vibrant-preview.png",
+  "place": "Kanyakumari",
+  "lighting": "sunset"
+ },
+ {
+  "number": 115,
+  "folder": "115-madurai-meenakshi-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tamil Nadu",
+  "master": "vibrant-preview.png",
+  "place": "Madurai – Meenakshi Temple",
+  "lighting": "day"
+ },
+ {
+  "number": 116,
+  "folder": "116-hyderabad-charminar",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Telangana",
+  "master": "vibrant-preview.png",
+  "place": "Hyderabad – Charminar",
+  "lighting": "night"
+ },
+ {
+  "number": 117,
+  "folder": "117-golconda-fort",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Telangana",
+  "master": "vibrant-preview.png",
+  "place": "Golconda Fort",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 118,
+  "folder": "118-ramappa-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Telangana",
+  "master": "vibrant-preview.png",
+  "place": "Ramappa Temple",
+  "lighting": "day"
+ },
+ {
+  "number": 119,
+  "folder": "119-warangal-fort",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Telangana",
+  "master": "vibrant-preview.png",
+  "place": "Warangal Fort",
+  "lighting": "night"
+ },
+ {
+  "number": 120,
+  "folder": "120-ananthagiri-hills",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Telangana",
+  "master": "vibrant-preview.png",
+  "place": "Ananthagiri Hills",
+  "lighting": "sunset"
+ },
+ {
+  "number": 121,
+  "folder": "121-agartala-ujjayanta-palace",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tripura",
+  "master": "vibrant-preview.png",
+  "place": "Agartala – Ujjayanta Palace",
+  "lighting": "day"
+ },
+ {
+  "number": 122,
+  "folder": "122-neermahal",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tripura",
+  "master": "vibrant-preview.png",
+  "place": "Neermahal",
+  "lighting": "night"
+ },
+ {
+  "number": 123,
+  "folder": "123-unakoti",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tripura",
+  "master": "vibrant-preview.png",
+  "place": "Unakoti",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 124,
+  "folder": "124-tripura-sundari-temple",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tripura",
+  "master": "vibrant-preview.png",
+  "place": "Tripura Sundari Temple",
+  "lighting": "day"
+ },
+ {
+  "number": 125,
+  "folder": "125-jampui-hills",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Tripura",
+  "master": "vibrant-preview.png",
+  "place": "Jampui Hills",
+  "lighting": "night"
+ },
+ {
+  "number": 126,
+  "folder": "126-agra-taj-mahal",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttar Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Agra – Taj Mahal",
+  "lighting": "sunset"
+ },
+ {
+  "number": 127,
+  "folder": "127-varanasi-ganga-ghats",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttar Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Varanasi – Ganga Ghats",
+  "lighting": "day"
+ },
+ {
+  "number": 128,
+  "folder": "128-sarnath-dhamek-stupa",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttar Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Sarnath – Dhamek Stupa",
+  "lighting": "night"
+ },
+ {
+  "number": 129,
+  "folder": "129-prayagraj-triveni-sangam",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttar Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Prayagraj – Triveni Sangam",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 130,
+  "folder": "130-lucknow-bara-imambara",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttar Pradesh",
+  "master": "vibrant-preview.png",
+  "place": "Lucknow – Bara Imambara",
+  "lighting": "day"
+ },
+ {
+  "number": 131,
+  "folder": "131-rishikesh",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttarakhand",
+  "master": "vibrant-preview.png",
+  "place": "Rishikesh",
+  "lighting": "night"
+ },
+ {
+  "number": 132,
+  "folder": "132-nainital",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttarakhand",
+  "master": "vibrant-preview.png",
+  "place": "Nainital",
+  "lighting": "sunset"
+ },
+ {
+  "number": 133,
+  "folder": "133-mussoorie",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttarakhand",
+  "master": "vibrant-preview.png",
+  "place": "Mussoorie",
+  "lighting": "day"
+ },
+ {
+  "number": 134,
+  "folder": "134-kedarnath",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttarakhand",
+  "master": "vibrant-preview.png",
+  "place": "Kedarnath",
+  "lighting": "night"
+ },
+ {
+  "number": 135,
+  "folder": "135-jim-corbett-national-park",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "Uttarakhand",
+  "master": "vibrant-preview.png",
+  "place": "Jim Corbett National Park",
+  "lighting": "sunrise"
+ },
+ {
+  "number": 136,
+  "folder": "136-kolkata-victoria-memorial",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "West Bengal",
+  "master": "vibrant-preview.png",
+  "place": "Kolkata – Victoria Memorial",
+  "lighting": "day"
+ },
+ {
+  "number": 137,
+  "folder": "137-darjeeling",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "West Bengal",
+  "master": "vibrant-preview.png",
+  "place": "Darjeeling",
+  "lighting": "night"
+ },
+ {
+  "number": 138,
+  "folder": "138-sundarbans",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "West Bengal",
+  "master": "vibrant-preview.png",
+  "place": "Sundarbans",
+  "lighting": "sunset"
+ },
+ {
+  "number": 139,
+  "folder": "139-digha",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "West Bengal",
+  "master": "vibrant-preview.png",
+  "place": "Digha",
+  "lighting": "day"
+ },
+ {
+  "number": 140,
+  "folder": "140-kalimpong",
+  "layers": [
+   "01-sky.png",
+   "02-distant-setting.png",
+   "03-main-landmark.png",
+   "04-near-environment.png",
+   "05-foreground.png"
+  ],
+  "state": "West Bengal",
+  "master": "vibrant-preview.png",
+  "place": "Kalimpong",
+  "lighting": "night"
+ }
+]

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: KL_M02_alappuzha
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 2cf70eccb7c8484a95d4d0b80a968a92, type: 2}
+  missionID: KL_M02
+  chapterID: KL
+  missionNumber: 2
+  missionName: Backwater Glide
+  description: 
+  storyText: Backwater Glide! Lakeside route finish karo.
+  gameplaySceneName: BKS_KL_M02_Alappuzha
+  primaryObjectiveText: Backwater Glide! Lakeside route finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: KL_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Kerala
+  placeName: Alappuzha
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: d1429f01fd0a26e4bbe55669a01b3832, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Pothole/Mud Patch
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Pothole/Mud Patch: steady
+    momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Boat Token
+  memoryTokenSprite: {fileID: 21300000, guid: db0dbad1037245c419643f361c3b355b, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: b2c54cc1507f3bd4c9a354855636bb83, type: 3}
+  draftSceneName: BKS_KL_M02_Alappuzha
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272233077180524cb03c9e97dafbd1f, type: 3}
+  m_Name: Punjab_ChapterData
+  m_EditorClassIdentifier: 
+  chapterID: PB
+  stateName: Punjab
+  chapterTitle: Land of Five Rivers
+  subtitle: 
+  description: "Golden fields, the Golden Temple and the spirit of Punjab \u2014
+    this journey is coming soon."
+  mainImage: {fileID: 0}
+  landmarkImages: []
+  chapterAvailable: 1
+  unlockedByDefault: 0
+  unlockCost: 1500
+  chapterSceneName: BKS_MissionSelect
+  missionSelectBackground: {fileID: 21300000, guid: 46a8d62a4c813fc4785c03947701969d,
+    type: 3}
+  headerImage: {fileID: 219051864, guid: 4410cb1904bc5164cb3b05e415c435ed, type: 3}
+  mapHighlightSprite: {fileID: 0}
+  chapterColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  missions:
+  - {fileID: 11400000, guid: ac6dfc3e535383741a58a063756b1c14, type: 2}
+  - {fileID: 11400000, guid: 2c634fef74c2ba84eb48c13705e78157, type: 2}
+  - {fileID: 11400000, guid: 87d0ee34de7f59a44a4c5e0e03e5956b, type: 2}
+  - {fileID: 11400000, guid: 762d89ad33e611f4db72ca87e5b4fe4e, type: 2}
+  - {fileID: 11400000, guid: 7c0e2fdc4b7c207489f23f0dbb3b964f, type: 2}
+  monuments: []
+  safarStarsRequired: 0
+  requiredPreviousChapterID: 

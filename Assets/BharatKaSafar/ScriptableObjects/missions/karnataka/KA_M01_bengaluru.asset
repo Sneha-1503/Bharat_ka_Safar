@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: KA_M01_bengaluru
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: b2ba84f0ad47443d8997681a9af89925, type: 2}
+  missionID: KA_M01
+  chapterID: KA
+  missionNumber: 1
+  missionName: City Zigzag
+  description: 
+  storyText: City Zigzag! Checkpoint tak pahucho.
+  gameplaySceneName: BKS_KA_M01_Bengaluru
+  primaryObjectiveText: City Zigzag! Checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: KA_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Karnataka
+  placeName: Bengaluru
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 4b4751ebe714c3d439fe3afdd0ebf507, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Cart
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Cart: slow down, horn
+    do, clear gap se niklo.'
+  memoryTokenName: Bengaluru Badge
+  memoryTokenSprite: {fileID: 21300000, guid: accf75c0a36300845a68c258c33352c8, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 994fb2a21aedd9645803b5973181618e, type: 3}
+  draftSceneName: BKS_KA_M01_Bengaluru
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bb145068aa6fa448a7d59adc74e732, type: 3}
+  m_Name: 1_CoastalRise
+  m_EditorClassIdentifier:
+  difficulty: 1
+  length: 120
+  slopeDegrees: 20
+  hills: 1
+  valley: 1
+  referencePrefab: {fileID: 1232565565083754144, guid: b08c68b499332a24188ee8a6c5a8827a, type: 3}
+  designNotes: Smooth grounded section. Reference prefab is retained for regional visual reuse. Vehicle playtest required.

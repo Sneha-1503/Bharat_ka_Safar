@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: CG_M02_tirathgarh
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: ad18e8efd368448295320968feab2560, type: 2}
+  missionID: CG_M02
+  chapterID: CG
+  missionNumber: 2
+  missionName: Drop Hunt
+  description: 
+  storyText: Drop Hunt! 5 water drops lekar finish karo.
+  gameplaySceneName: BKS_CG_M02_Tirathgarh
+  primaryObjectiveText: Drop Hunt! 5 water drops lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: CG_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Chhattisgarh
+  placeName: Tirathgarh
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 779c09535ed4e9749b6ad49645ae5f9e, type: 3}
+  collectibleName: Water Drop
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 031c1dfa8a4594048bf62cc42391b2b9, type: 3}
+  obstaclesText: Rock, Log
+  howToDealText: 'Rock: slow down, steer around.
+
+    Log: brake, steer around.'
+  memoryTokenName: Nature Token
+  memoryTokenSprite: {fileID: 21300000, guid: a15cc0de75d8bb9419a61844ad0ebea7, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 8cc17e4613dd4454fb478504e92b58f9, type: 3}
+  draftSceneName: BKS_CG_M02_Tirathgarh
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: MZ_M05_champhai
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 6913c5f1bd9442d0b8a5cf5edf0a1443, type: 2}
+  missionID: MZ_M05
+  chapterID: MZ
+  missionNumber: 5
+  missionName: Grape Escape
+  description: 
+  storyText: Grape Escape! 5 grapes lekar finish karo.
+  gameplaySceneName: BKS_MZ_M05_Champhai
+  primaryObjectiveText: Grape Escape! 5 grapes lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Mizoram
+  placeName: Champhai
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: f50deef238a43104b8a3b184ec3319e4, type: 3}
+  collectibleName: Grape Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 60867f2c4e6bd914caa663b1d0a19bd3, type: 3}
+  obstaclesText: Cart, Crate
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Crate: slow
+    down, steer around.'
+  memoryTokenName: Grape Basket
+  memoryTokenSprite: {fileID: 21300000, guid: 171355d533b99924db6e72aa30e8164d, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: ab57058908bf226429bd0ad4b845a2d1, type: 3}
+  draftSceneName: BKS_MZ_M05_Champhai
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

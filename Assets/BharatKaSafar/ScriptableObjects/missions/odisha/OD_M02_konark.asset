@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: OD_M02_konark
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: a281de04d3e444bcaf7b9bea02e0c12a, type: 2}
+  missionID: OD_M02
+  chapterID: OD
+  missionNumber: 2
+  missionName: Sun Hunt
+  description: 
+  storyText: Sun Hunt! 5 sun wheels lekar finish karo.
+  gameplaySceneName: BKS_OD_M02_Konark
+  primaryObjectiveText: Sun Hunt! 5 sun wheels lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: OD_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Odisha
+  placeName: Konark
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: ffa5f65bd89b64742975c30c99d0873e, type: 3}
+  collectibleName: Sun Wheel Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 4c3858108f2456548a6f0d3c6d89aec8, type: 3}
+  obstaclesText: Rock, Crate
+  howToDealText: 'Rock: slow down, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Sun Wheel
+  memoryTokenSprite: {fileID: 21300000, guid: d58b7c503747e5f4a9e9d5df7c68308a, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 2f45c7231a45ad243bb603c7be03648c, type: 3}
+  draftSceneName: BKS_OD_M02_Konark
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

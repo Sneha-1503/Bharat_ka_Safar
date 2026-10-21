@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: BR_M05_vaishali
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 3e87e06744e34fa0b69f2868ccce8b63, type: 2}
+  missionID: BR_M05
+  chapterID: BR
+  missionNumber: 5
+  missionName: Pillar Dash
+  description: 
+  storyText: Pillar Dash! Ashoka Pillar checkpoint pahucho.
+  gameplaySceneName: BKS_BR_M05_Vaishali
+  primaryObjectiveText: Pillar Dash! Ashoka Pillar checkpoint pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Bihar
+  placeName: Vaishali
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 5eaaec7fecbe3de4abdde6028f8b6d55, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Cart, Animal Crossing (optional)
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Animal: brake,
+    horn do, raasta clear hone par chalo.'
+  memoryTokenName: Ashoka Pillar Token
+  memoryTokenSprite: {fileID: 21300000, guid: bdb8e5798ae27904ea3559d40784b42e, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 1c6cd70811f1c9245bbf5a58d41cb6a6, type: 3}
+  draftSceneName: BKS_BR_M05_Vaishali
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272233077180524cb03c9e97dafbd1f, type: 3}
+  m_Name: TN_ChapterData
+  m_EditorClassIdentifier: 
+  chapterID: TN
+  stateName: Tamil Nadu
+  chapterTitle: Tamil Nadu
+  subtitle: Temples, Trails & Tamil Tales
+  description: "Ancient temples, coastal highways and misty mountain roads \u2014
+    from Chennai to Kanyakumari."
+  mainImage: {fileID: 0}
+  landmarkImages: []
+  chapterAvailable: 1
+  unlockedByDefault: 1
+  unlockCost: 0
+  chapterSceneName: BKS_MissionSelect
+  missionSelectBackground: {fileID: 21300000, guid: 38e1d8f59ea48834b95215f4a8af42f8,
+    type: 3}
+  headerImage: {fileID: 1468196457, guid: cdac5b0e58d0d3b45bdf443a109d49f0, type: 3}
+  mapHighlightSprite: {fileID: 0}
+  chapterColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  missions:
+  - {fileID: 11400000, guid: d275a4ff289dd1d4ab5a24054a73cfa6, type: 2}
+  - {fileID: 11400000, guid: 63a36df51399a0b4782f928b67686fe2, type: 2}
+  - {fileID: 11400000, guid: bcd8df794bac7a24d9ac5859e0aec2a5, type: 2}
+  - {fileID: 11400000, guid: c48cdb6151470d54f84ae742ae42c402, type: 2}
+  - {fileID: 11400000, guid: 20f806950d59aca4f87106bba74a630b, type: 2}
+  monuments: []
+  safarStarsRequired: 0
+  requiredPreviousChapterID: 

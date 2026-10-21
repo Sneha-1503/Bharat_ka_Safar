@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: HR_M03_sultanpur
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 04d8b76badcd4fd1bea744936bb25ab2, type: 2}
+  missionID: HR_M03
+  chapterID: HR
+  missionNumber: 3
+  missionName: Bird Quest
+  description: 
+  storyText: Bird Quest! 5 bird tokens lekar finish karo.
+  gameplaySceneName: BKS_HR_M03_Sultanpur
+  primaryObjectiveText: Bird Quest! 5 bird tokens lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: HR_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Haryana
+  placeName: Sultanpur
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: e9c27f242da25c141a4f55b29eb90566, type: 3}
+  collectibleName: Bird Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: eb9bd73e56cc8fe4789d9912ed0e4e78, type: 3}
+  obstaclesText: Log, Crate
+  howToDealText: 'Log: brake, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Bird Badge
+  memoryTokenSprite: {fileID: 21300000, guid: df5861842767af643931ea41bee3689c, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: cd85c4af64d1c6c45a619d7d4d0f6b70, type: 3}
+  draftSceneName: BKS_HR_M03_Sultanpur
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

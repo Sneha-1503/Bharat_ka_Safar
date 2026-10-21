@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: UK_M01_rishikesh
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 107ab1ec8fd94067b4b1c9d00760f5b9, type: 2}
+  missionID: UK_M01
+  chapterID: UK
+  missionNumber: 1
+  missionName: Lotus Trail
+  description: 
+  storyText: Lotus Trail! 5 lotus tokens lekar finish karo.
+  gameplaySceneName: BKS_UK_M01_Rishikesh
+  primaryObjectiveText: Lotus Trail! 5 lotus tokens lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: UK_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Uttarakhand
+  placeName: Rishikesh
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: c684870f2b11fb046b4f33bacc40b0ea, type: 3}
+  collectibleName: Lotus Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 8db597a82b7fa264ca3ededa503101f6, type: 3}
+  obstaclesText: Cart, Pothole/Mud Patch
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Pothole/Mud
+    Patch: steady momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Rishikesh Lotus
+  memoryTokenSprite: {fileID: 21300000, guid: 9c725d2d32c9c3549b3d040674712d3c, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 3dabd92c0a395154d8102a51e8baceb5, type: 3}
+  draftSceneName: BKS_UK_M01_Rishikesh
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

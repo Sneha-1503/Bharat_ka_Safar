@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: UK_M05_jim-corbett
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 7122690b38a04f36aad9fa186ed7a58c, type: 2}
+  missionID: UK_M05
+  chapterID: UK
+  missionNumber: 5
+  missionName: Wild Quest
+  description: 
+  storyText: Wild Quest! 5 wildlife badges lekar finish karo.
+  gameplaySceneName: BKS_UK_M05_JimCorbett
+  primaryObjectiveText: Wild Quest! 5 wildlife badges lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Uttarakhand
+  placeName: Jim Corbett
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 3b6b98b30e2e55d4ca811908d2b61fb5, type: 3}
+  collectibleName: Wildlife Badge
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 3a03fbdca9f8f1c459c56d398a907264, type: 3}
+  obstaclesText: Log, Animal Crossing (optional)
+  howToDealText: 'Log: brake, steer around.
+
+    Animal: brake, horn do, raasta clear
+    hone par chalo.'
+  memoryTokenName: Tiger Paw
+  memoryTokenSprite: {fileID: 21300000, guid: b6e80137bf4da9149b2daa654ee9815b, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 00dda6db0ab9c164c907b93d732c898a, type: 3}
+  draftSceneName: BKS_UK_M05_JimCorbett
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

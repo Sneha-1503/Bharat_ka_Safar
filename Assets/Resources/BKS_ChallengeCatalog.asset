@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50d0c2b0ebb93843968cce3ed359b00, type: 3}
+  m_Name: BKS_ChallengeCatalog
+  m_EditorClassIdentifier: 
+  dailyCount: 4
+  weeklyCount: 4
+  dailyPool:
+  - id: d_coins300
+    title: Collect 300 coins while driving
+    stat: 0
+    target: 300
+    rewardCoins: 100
+    rewardBoosts: 0
+  - id: d_coins500
+    title: Collect 500 coins while driving
+    stat: 0
+    target: 500
+    rewardCoins: 150
+    rewardBoosts: 0
+  - id: d_missions2
+    title: Complete 2 missions
+    stat: 2
+    target: 2
+    rewardCoins: 150
+    rewardBoosts: 0
+  - id: d_missions3
+    title: Complete 3 missions
+    stat: 2
+    target: 3
+    rewardCoins: 200
+    rewardBoosts: 0
+  - id: d_horn3
+    title: Clear 3 animals with the horn
+    stat: 6
+    target: 3
+    rewardCoins: 150
+    rewardBoosts: 0
+  - id: d_items10
+    title: Pick up 10 mission items
+    stat: 5
+    target: 10
+    rewardCoins: 150
+    rewardBoosts: 0
+  - id: d_3star1
+    title: Get 3 stars in a mission
+    stat: 3
+    target: 1
+    rewardCoins: 200
+    rewardBoosts: 0
+  - id: d_boost1
+    title: Use a 2X boost
+    stat: 9
+    target: 1
+    rewardCoins: 100
+    rewardBoosts: 0
+  - id: d_drive1000
+    title: Drive 1,000 m
+    stat: 11
+    target: 1000
+    rewardCoins: 120
+    rewardBoosts: 0
+  - id: d_stars2
+    title: Earn 2 Safar Stars
+    stat: 12
+    target: 2
+    rewardCoins: 150
+    rewardBoosts: 0
+  - id: d_token1
+    title: Finish a mission with its memory token
+    stat: 13
+    target: 1
+    rewardCoins: 150
+    rewardBoosts: 0
+  - id: d_horn5
+    title: Clear 5 animals with the horn
+    stat: 6
+    target: 5
+    rewardCoins: 200
+    rewardBoosts: 0
+  weeklyPool:
+  - id: w_missions10
+    title: Complete 10 missions
+    stat: 2
+    target: 10
+    rewardCoins: 1000
+    rewardBoosts: 0
+  - id: w_3star5
+    title: Get 3 stars in 5 missions
+    stat: 3
+    target: 5
+    rewardCoins: 0
+    rewardBoosts: 2
+  - id: w_items50
+    title: Pick up 50 mission items
+    stat: 5
+    target: 50
+    rewardCoins: 800
+    rewardBoosts: 0
+  - id: w_coins3000
+    title: Collect 3,000 coins while driving
+    stat: 0
+    target: 3000
+    rewardCoins: 0
+    rewardBoosts: 3
+  - id: w_horn15
+    title: Clear 15 animals with the horn
+    stat: 6
+    target: 15
+    rewardCoins: 0
+    rewardBoosts: 1
+  - id: w_upgrade2
+    title: Buy 2 upgrades
+    stat: 8
+    target: 2
+    rewardCoins: 600
+    rewardBoosts: 0
+  - id: w_drive10000
+    title: Drive 10,000 m
+    stat: 11
+    target: 10000
+    rewardCoins: 800
+    rewardBoosts: 0
+  - id: w_stars15
+    title: Earn 15 Safar Stars
+    stat: 12
+    target: 15
+    rewardCoins: 700
+    rewardBoosts: 0
+  - id: w_tokens5
+    title: Collect 5 memory tokens
+    stat: 13
+    target: 5
+    rewardCoins: 600
+    rewardBoosts: 0
+  - id: w_boost3
+    title: Use 3 2X boosts
+    stat: 9
+    target: 3
+    rewardCoins: 500
+    rewardBoosts: 0
+  - id: w_missions15
+    title: Complete 15 missions
+    stat: 2
+    target: 15
+    rewardCoins: 900
+    rewardBoosts: 1
+  overall:
+  - id: o_chapter1
+    title: Complete your first chapter
+    stat: 4
+    target: 1
+    rewardCoins: 2000
+    rewardBoosts: 0
+  - id: o_chapter5
+    title: Complete 5 chapters
+    stat: 4
+    target: 5
+    rewardCoins: 10000
+    rewardBoosts: 5
+  - id: o_missions25
+    title: Complete 25 missions
+    stat: 2
+    target: 25
+    rewardCoins: 3000
+    rewardBoosts: 0
+  - id: o_missions50
+    title: Complete 50 missions
+    stat: 2
+    target: 50
+    rewardCoins: 6000
+    rewardBoosts: 0
+  - id: o_missions100
+    title: Complete 100 missions
+    stat: 2
+    target: 100
+    rewardCoins: 15000
+    rewardBoosts: 10
+  - id: o_vehicles5
+    title: Buy 5 vehicles
+    stat: 7
+    target: 5
+    rewardCoins: 5000
+    rewardBoosts: 0
+  - id: o_earn100k
+    title: Earn 1,00,000 coins
+    stat: 1
+    target: 100000
+    rewardCoins: 10000
+    rewardBoosts: 0
+  - id: o_3star50
+    title: Get 3 stars in 50 missions
+    stat: 3
+    target: 50
+    rewardCoins: 8000
+    rewardBoosts: 5
+  - id: o_drive100k
+    title: Drive 1,00,000 m
+    stat: 11
+    target: 100000
+    rewardCoins: 8000
+    rewardBoosts: 3
+  - id: o_stars100
+    title: Earn 100 Safar Stars
+    stat: 12
+    target: 100
+    rewardCoins: 6000
+    rewardBoosts: 0
+  - id: o_tokens50
+    title: Collect 50 memory tokens
+    stat: 13
+    target: 50
+    rewardCoins: 7000
+    rewardBoosts: 0
+  - id: o_tokens140
+    title: Collect all 140 memory tokens
+    stat: 13
+    target: 140
+    rewardCoins: 20000
+    rewardBoosts: 10
+  - id: o_upgrades10
+    title: Buy 10 upgrades
+    stat: 8
+    target: 10
+    rewardCoins: 3000
+    rewardBoosts: 0

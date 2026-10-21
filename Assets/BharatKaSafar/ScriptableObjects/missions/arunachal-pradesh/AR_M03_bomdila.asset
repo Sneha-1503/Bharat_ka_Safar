@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: AR_M03_bomdila
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: a2f21192510446ebbf7f6ccb1e5a854e, type: 2}
+  missionID: AR_M03
+  chapterID: AR
+  missionNumber: 3
+  missionName: Monastery Dash
+  description: 
+  storyText: Monastery Dash! Checkpoint tak pahucho.
+  gameplaySceneName: BKS_AR_M03_Bomdila
+  primaryObjectiveText: Monastery Dash! Checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: AR_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Arunachal Pradesh
+  placeName: Bomdila
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 0c1da9e4cefeff842819800fd647eb94, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Barricade
+  howToDealText: 'Rock: slow down, steer around.
+
+    Barricade: brake, open gap
+    se niklo.'
+  memoryTokenName: Monastery Bell
+  memoryTokenSprite: {fileID: 21300000, guid: 4c36f34941856734bbac2d13ad5f205a, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: c8cf662af00439c469017f500b9cde47, type: 3}
+  draftSceneName: BKS_AR_M03_Bomdila
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

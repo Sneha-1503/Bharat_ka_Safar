@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: KA_M02_mysuru
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: cea0b57601254d4597c222c84c37f974, type: 2}
+  missionID: KA_M02
+  chapterID: KA
+  missionNumber: 2
+  missionName: Royal Loot
+  description: 
+  storyText: Royal Loot! 5 crests lekar finish karo.
+  gameplaySceneName: BKS_KA_M02_Mysuru
+  primaryObjectiveText: Royal Loot! 5 crests lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: KA_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Karnataka
+  placeName: Mysuru
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 2d1c3ba5ba9059e48b5aa31e50a86d1e, type: 3}
+  collectibleName: Royal Crest
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: eadbec663aaff734fbab97eafa1f7771, type: 3}
+  obstaclesText: Cart, Crate
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Crate: slow
+    down, steer around.'
+  memoryTokenName: Mysuru Crest
+  memoryTokenSprite: {fileID: 21300000, guid: 8736df6c5350a174d8353d5ef4f32f17, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 63e0769240fdd67469a4f54a6112261b, type: 3}
+  draftSceneName: BKS_KA_M02_Mysuru
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: GA_M01_baga
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: a8cf38caddec4dd091a29e516b790d33, type: 2}
+  missionID: GA_M01
+  chapterID: GA
+  missionNumber: 1
+  missionName: Beach Loot
+  description: 
+  storyText: Beach Loot! 5 shells lekar finish karo.
+  gameplaySceneName: BKS_GA_M01_Baga
+  primaryObjectiveText: Beach Loot! 5 shells lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: GA_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Goa
+  placeName: Baga
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: e7e7059cd2849fe44bb98812be15d4c1, type: 3}
+  collectibleName: Seashell
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 3b7b9f305d5e24940893b28c872dec54, type: 3}
+  obstaclesText: Cart, Pothole/Mud Patch
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Pothole/Mud
+    Patch: steady momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Baga Shell
+  memoryTokenSprite: {fileID: 21300000, guid: 37105dabf7e7d1040b74159ffd71737d, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 073dbea33ae6742488a9662bba2c93a4, type: 3}
+  draftSceneName: BKS_GA_M01_Baga
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

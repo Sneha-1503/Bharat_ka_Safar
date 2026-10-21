@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: JH_M02_deoghar
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 98cc9e3ee16d438b9b3a1d3fd2678ac8, type: 2}
+  missionID: JH_M02
+  chapterID: JH
+  missionNumber: 2
+  missionName: Bell Dash
+  description: 
+  storyText: Bell Dash! Temple checkpoint tak pahucho.
+  gameplaySceneName: BKS_JH_M02_Deoghar
+  primaryObjectiveText: Bell Dash! Temple checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: JH_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Jharkhand
+  placeName: Deoghar
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: e68ff35a79ade0c4e889887914713435, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Cart
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Cart: slow down, horn
+    do, clear gap se niklo.'
+  memoryTokenName: Temple Bell
+  memoryTokenSprite: {fileID: 21300000, guid: 2bfdc824401d5134082e78c6a5f8a0fd, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: d2d5899ea4a764d46840e282a89cb15b, type: 3}
+  draftSceneName: BKS_JH_M02_Deoghar
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

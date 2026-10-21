@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: CG_M03_kanger-valley
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: a9a0f4da784f46ca8c9372515f98a81d, type: 2}
+  missionID: CG_M03
+  chapterID: CG
+  missionNumber: 3
+  missionName: Jungle Jugaad
+  description: 
+  storyText: Jungle Jugaad! Logs bachakar finish karo.
+  gameplaySceneName: BKS_CG_M03_KangerValley
+  primaryObjectiveText: Jungle Jugaad! Logs bachakar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: CG_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Chhattisgarh
+  placeName: Kanger Valley
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 53703ca6221d952479acb33cbb492725, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Log, Rock
+  howToDealText: 'Log: brake, steer around.
+
+    Rock: slow down, steer around.'
+  memoryTokenName: Forest Leaf
+  memoryTokenSprite: {fileID: 21300000, guid: baa70670cb9f853439f9852dc2e7919e, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: de7f4bf781bae4c47bfba38823695ff5, type: 3}
+  draftSceneName: BKS_CG_M03_KangerValley
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

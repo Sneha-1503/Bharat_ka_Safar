@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: SK_M05_yumthang
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 3a018080c60846e08730361b39896ad3, type: 2}
+  missionID: SK_M05
+  chapterID: SK
+  missionNumber: 5
+  missionName: Valley Finale
+  description: 
+  storyText: Valley Finale! Checkpoint tak pahucho.
+  gameplaySceneName: BKS_SK_M05_Yumthang
+  primaryObjectiveText: Valley Finale! Checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Sikkim
+  placeName: Yumthang
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 72b91b73aa145484480af63dfc131372, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Pothole/Mud Patch
+  howToDealText: 'Rock: slow down, steer around.
+
+    Pothole/Mud Patch: steady momentum
+    rakho, sudden brake mat karo.'
+  memoryTokenName: Valley Flower
+  memoryTokenSprite: {fileID: 21300000, guid: 2c41119898a7b7b43823e94dbb05cfee, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: c3e86217b01312e4dbfcf608cae0396a, type: 3}
+  draftSceneName: BKS_SK_M05_Yumthang
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: MH_M04_pune
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 60580b40816e4327ba355dfbb073e071, type: 2}
+  missionID: MH_M04
+  chapterID: MH
+  missionNumber: 4
+  missionName: Heritage Hustle
+  description: 
+  storyText: Heritage Hustle! Bina takkar route finish karo.
+  gameplaySceneName: BKS_MH_M04_Pune
+  primaryObjectiveText: Heritage Hustle! Bina takkar route finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: MH_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Maharashtra
+  placeName: Pune
+  missionType: 2
+  cardSprite: {fileID: 21300000, guid: 5e6bc5dc5cf4056428ef3c601222673a, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Cart
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Cart: slow down, horn
+    do, clear gap se niklo.'
+  memoryTokenName: Fort Badge
+  memoryTokenSprite: {fileID: 21300000, guid: 235a0919cd79e334d8d4c7b35098bfaa, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: cdc4a29a0a859834c899944cd2650f8b, type: 3}
+  draftSceneName: BKS_MH_M04_Pune
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

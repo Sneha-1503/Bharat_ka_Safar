@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: KL_M05_varkala
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 9f392a7d7c784204a3bfd8fb464ad9a3, type: 2}
+  missionID: KL_M05
+  chapterID: KL
+  missionNumber: 5
+  missionName: Beach Dash
+  description: 
+  storyText: Beach Dash! Coastal checkpoint tak pahucho.
+  gameplaySceneName: BKS_KL_M05_Varkala
+  primaryObjectiveText: Beach Dash! Coastal checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Kerala
+  placeName: Varkala
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 18580044cdfeeaf4aac3dee910b77f46, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Pothole/Mud Patch
+  howToDealText: 'Rock: slow down, steer around.
+
+    Pothole/Mud Patch: steady momentum
+    rakho, sudden brake mat karo.'
+  memoryTokenName: Varkala Shell
+  memoryTokenSprite: {fileID: 21300000, guid: 231f736777fb44c4c94ac573f8413630, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: d1399ccea72a18c4a93403b7b2d16fed, type: 3}
+  draftSceneName: BKS_KL_M05_Varkala
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

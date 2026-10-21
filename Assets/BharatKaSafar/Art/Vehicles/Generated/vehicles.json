@@ -1,0 +1,179 @@
+{
+ "BlueSedan": {
+  "name": "BlueSedan",
+  "kind": "set",
+  "files": {
+   "body": "BlueSedan_body.png",
+   "rear": "BlueSedan_tyre.png",
+   "dbody": "BlueSedan_driver_body.png",
+   "dhead": "BlueSedan_driver_head.png"
+  },
+  "bodyScale": 0.4613,
+  "rearPos": [
+   -2.062,
+   -1.1
+  ],
+  "frontPos": [
+   2.09,
+   -1.082
+  ],
+  "rearR": 0.528,
+  "frontR": 0.547,
+  "note": "",
+  "h": 535,
+  "w": 1409,
+  "driverBehind": true,
+  "torsoRatio": 0.12,
+  "headRatio": 0.074,
+  "torsoPos": [
+   0.326,
+   0.143
+  ],
+  "headPos": [
+   0.153,
+   0.671
+  ],
+  "seat": [
+   0.326,
+   -0.169
+  ],
+  "neck": [
+   0.175,
+   0.487
+  ]
+ },
+ "VintageRoadster": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/VintageRoadster/VintageRoadster_body.png'"
+ },
+ "RedMuscleCar": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/RedMuscleCar/RedMuscleCar_body.png'"
+ },
+ "BlueConvertible": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/BlueConvertible/BlueConvertible_body.png'"
+ },
+ "BeetleClassic": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/BeetleClassic/BeetleClassic_body.png'"
+ },
+ "RedMini": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/RedMini/RedMini_body.png'"
+ },
+ "VintageTourer": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/VintageTourer/VintageTourer_body.png'"
+ },
+ "IndianArmyJeep": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/IndianArmyJeep/IndianArmyJeep_body.png'"
+ },
+ "AutoRickshaw": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/AutoRickshaw/AutoRickshaw_body.png'"
+ },
+ "AdventureJeep": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/AdventureJeep/AdventureJeep_body.png'"
+ },
+ "TNJeep": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/TNJeep/TNJeep_body.png'"
+ },
+ "TealRickshaw": {
+  "error": "list index out of range"
+ },
+ "PoliceSUV": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/PoliceSUV/PoliceSUV_body.png'"
+ },
+ "DeliveryVan": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/DeliveryVan/DeliveryVan_body.png'"
+ },
+ "OrangePickup": {
+  "error": "[Errno 22] Invalid argument: 'C:/gAME PROJECT/Mad-Hill-Climbing/Assets/BharatKaSafar/Art/Vehicles/Generated/OrangePickup/OrangePickup_body.png'"
+ },
+ "GreenTractor": {
+  "name": "GreenTractor",
+  "kind": "sheet",
+  "files": {
+   "body": "GreenTractor_body.png",
+   "rear": "GreenTractor_tyre.png",
+   "front": "GreenTractor_tyre_front.png"
+  },
+  "bodyScale": 0.4902,
+  "rearPos": [
+   -1.885,
+   -1.117
+  ],
+  "frontPos": [
+   1.95,
+   -1.507
+  ],
+  "rearR": 1.105,
+  "frontR": 0.715,
+  "note": "wheel positions set manually",
+  "h": 800,
+  "w": 1326
+ },
+ "DuneBuggy": {
+  "name": "DuneBuggy",
+  "kind": "sheet",
+  "files": {
+   "body": "DuneBuggy_body.png",
+   "rear": "DuneBuggy_tyre.png",
+   "front": "DuneBuggy_tyre_front.png"
+  },
+  "bodyScale": 0.4847,
+  "rearPos": [
+   -2.145,
+   -1.418
+  ],
+  "frontPos": [
+   2.34,
+   -1.418
+  ],
+  "rearR": 0.845,
+  "frontR": 0.845,
+  "note": "wheel positions set manually",
+  "h": 729,
+  "w": 1341
+ },
+ "BlueHatchback": {
+  "name": "BlueHatchback",
+  "kind": "sheet",
+  "files": {
+   "body": "BlueHatchback_body.png",
+   "rear": "BlueHatchback_tyre.png",
+   "front": "BlueHatchback_tyre_front.png"
+  },
+  "bodyScale": 0.4523,
+  "rearPos": [
+   -2.155,
+   -1.166
+  ],
+  "frontPos": [
+   1.839,
+   -1.239
+  ],
+  "rearR": 0.624,
+  "frontR": 0.552,
+  "note": "",
+  "h": 678,
+  "w": 1437
+ },
+ "RedJeep": {
+  "name": "RedJeep",
+  "kind": "sheet",
+  "files": {
+   "body": "RedJeep_body.png",
+   "rear": "RedJeep_tyre.png",
+   "front": "RedJeep_tyre_front.png"
+  },
+  "bodyScale": 0.4603,
+  "rearPos": [
+   -1.722,
+   -1.237
+  ],
+  "frontPos": [
+   1.95,
+   -1.237
+  ],
+  "rearR": 0.78,
+  "frontR": 0.78,
+  "note": "wheel positions set manually",
+  "h": 674,
+  "w": 1412
+ }
+}

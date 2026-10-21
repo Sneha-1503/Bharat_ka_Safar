@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: HP_M01_shimla
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 2f9142fd7b664b42b4b0dc00d3a16d5f, type: 2}
+  missionID: HP_M01
+  chapterID: HP
+  missionNumber: 1
+  missionName: Shimla Sprint
+  description: 
+  storyText: Shimla Sprint! Hill checkpoint tak pahucho.
+  gameplaySceneName: BKS_HP_M01_Shimla
+  primaryObjectiveText: Shimla Sprint! Hill checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: HP_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Himachal Pradesh
+  placeName: Shimla
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 2009c33f4877ddd44a2d81bb3c5d4ea3, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Barricade
+  howToDealText: 'Rock: slow down, steer around.
+
+    Barricade: brake, open gap
+    se niklo.'
+  memoryTokenName: Shimla Badge
+  memoryTokenSprite: {fileID: 21300000, guid: f6c882652ab46474ea5438787178cc33, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 0144dc19b9a8e4240b476c0d911aafa1, type: 3}
+  draftSceneName: BKS_HP_M01_Shimla
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

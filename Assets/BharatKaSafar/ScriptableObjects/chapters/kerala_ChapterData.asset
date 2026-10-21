@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272233077180524cb03c9e97dafbd1f, type: 3}
+  m_Name: kerala_ChapterData
+  m_EditorClassIdentifier: 
+  chapterID: KL
+  stateName: Kerala
+  chapterTitle: Kerala
+  subtitle: 
+  description: God's Own Country - backwaters, green tea hills and palm-lined beaches.
+  mainImage: {fileID: 0}
+  landmarkImages: []
+  chapterAvailable: 1
+  unlockedByDefault: 0
+  unlockCost: 1500
+  chapterSceneName: BKS_MissionSelect
+  missionSelectBackground: {fileID: 21300000, guid: aff8f78b0e1fea94ab7534b7d878989c,
+    type: 3}
+  headerImage: {fileID: 2123545159, guid: 15d66abe07aff5b4d9e696bbcedd67cb, type: 3}
+  mapHighlightSprite: {fileID: 0}
+  chapterColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  missions:
+  - {fileID: 11400000, guid: 0447fdd8221d60d4da9bb9b28b4c391f, type: 2}
+  - {fileID: 11400000, guid: e92830b2186e6254bb26a79f41dde133, type: 2}
+  - {fileID: 11400000, guid: db20f751ef55f0849946978afee78b17, type: 2}
+  - {fileID: 11400000, guid: 0d73cc6e37f268c40b180cd46e87a819, type: 2}
+  - {fileID: 11400000, guid: 21d0f55d57bcd4144b7ebe198ec702e2, type: 2}
+  monuments: []
+  safarStarsRequired: 0
+  requiredPreviousChapterID: 

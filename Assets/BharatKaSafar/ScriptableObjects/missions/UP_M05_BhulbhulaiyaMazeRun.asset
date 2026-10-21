@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: UP_M05_BhulbhulaiyaMazeRun
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: a19b571098f1408fa1514fb547081132, type: 2}
+  missionID: UP_M05
+  chapterID: UttarPradesh
+  missionNumber: 5
+  missionName: Nawabi Ride
+  description: 
+  storyText: Drive through the legendary labyrinthine passages of Lucknow's Bhulbhulaiya.
+  gameplaySceneName: BKS_UP_M05_Bhulbhulaiya
+  primaryObjectiveText: Nawabi Ride! Imambara tak bina takkar pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 3
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 50
+  stateName: Uttar Pradesh
+  placeName: Lucknow
+  missionType: 2
+  cardSprite: {fileID: 21300000, guid: f38b67a4a5e9ade43a8f34b1e7b1346a, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Cart
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Cart: slow down, horn
+    do, clear gap se niklo.'
+  memoryTokenName: Imambara Token
+  memoryTokenSprite: {fileID: 21300000, guid: 36538d22b44a7de4da2a9d49fa3b1f55, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: c07f785b753e113419d89f7fc1f2d544, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

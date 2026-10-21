@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: UK_M03_mussoorie
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 74185845d0eb47f69c411ec59a7ec96d, type: 2}
+  missionID: UK_M03
+  chapterID: UK
+  missionNumber: 3
+  missionName: Hill Dodge
+  description: 
+  storyText: Hill Dodge! Rocks bachakar finish karo.
+  gameplaySceneName: BKS_UK_M03_Mussoorie
+  primaryObjectiveText: Hill Dodge! Rocks bachakar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: UK_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Uttarakhand
+  placeName: Mussoorie
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: f8bb1f892796f2c42ada9a63d73e4f0e, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Crate
+  howToDealText: 'Rock: slow down, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Mountain Badge
+  memoryTokenSprite: {fileID: 21300000, guid: 3a41ea2b98f0e6d4bb5c1bfbdb95b0b1, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 0b9bedaca9e97644881ab3f9dcd1c545, type: 3}
+  draftSceneName: BKS_UK_M03_Mussoorie
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

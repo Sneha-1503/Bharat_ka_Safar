@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: GA_M03_dudhsagar
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 63f9e39feb984a47916bc2b5db63be51, type: 2}
+  missionID: GA_M03
+  chapterID: GA
+  missionNumber: 3
+  missionName: Falls Dash
+  description: 
+  storyText: Falls Dash! Waterfall checkpoint pahucho.
+  gameplaySceneName: BKS_GA_M03_Dudhsagar
+  primaryObjectiveText: Falls Dash! Waterfall checkpoint pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: GA_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Goa
+  placeName: Dudhsagar
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 1e14b48e82866a4429b01ece9a562999, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Pothole/Mud Patch
+  howToDealText: 'Rock: slow down, steer around.
+
+    Pothole/Mud Patch: steady momentum
+    rakho, sudden brake mat karo.'
+  memoryTokenName: Waterfall Badge
+  memoryTokenSprite: {fileID: 21300000, guid: 42d2a4ec585f254418c0371c684d493f, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: c76d5a6e0a1a1b44ca908eb331468af2, type: 3}
+  draftSceneName: BKS_GA_M03_Dudhsagar
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

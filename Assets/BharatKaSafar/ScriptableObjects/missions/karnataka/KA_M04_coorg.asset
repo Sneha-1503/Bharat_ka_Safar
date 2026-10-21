@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: KA_M04_coorg
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 9460418e225d4a299a7590bccb81b36c, type: 2}
+  missionID: KA_M04
+  chapterID: KA
+  missionNumber: 4
+  missionName: Coffee Chase
+  description: 
+  storyText: Coffee Chase! 5 beans lekar finish karo.
+  gameplaySceneName: BKS_KA_M04_Coorg
+  primaryObjectiveText: Coffee Chase! 5 beans lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: KA_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Karnataka
+  placeName: Coorg
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 7ec61ff9720779a4bb14806702ab0851, type: 3}
+  collectibleName: Coffee Bean
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: adebee553c389134eb4fb17b32f9999f, type: 3}
+  obstaclesText: Log, Pothole/Mud Patch
+  howToDealText: 'Log: brake, steer around.
+
+    Pothole/Mud Patch: steady momentum
+    rakho, sudden brake mat karo.'
+  memoryTokenName: Coorg Coffee
+  memoryTokenSprite: {fileID: 21300000, guid: 4ed8d17a0cf991f40968eb12fc08bcb8, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: c1e241c405de81c429f43c484bf64754, type: 3}
+  draftSceneName: BKS_KA_M04_Coorg
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7e54b4b76825e42a58580d3327520d, type: 3}
+  m_Name: 135_uttarakhand_M05
+  m_EditorClassIdentifier:
+  stateOrder: 27
+  stateName: "Uttarakhand"
+  missionNumber: 5
+  mission: {fileID: 11400000, guid: dcadfdf1bba94ba4884368503dd610a6, type: 2}
+  difficulty: 3
+  groundMaterial: {fileID: 2100000, guid: 809b8df1c7f7f2844a4fddfa61d9fe73, type: 2}
+  safeStartLength: 220
+  safeFinishLength: 100
+  recoveryLength: 100
+  sections:
+  - {fileID: 11400000, guid: 0d9bab3019884c4cb66a042fd1ff5de3, type: 2}
+  - {fileID: 11400000, guid: 26c1fb21192441bb8eaefcf04e35df6f, type: 2}
+  - {fileID: 11400000, guid: 151d8118cfb94a35a237e769fbcf08fe, type: 2}
+  - {fileID: 11400000, guid: 746615e51b74433890558fa0e6c70aa9, type: 2}
+  - {fileID: 11400000, guid: 0f6ff8f822b240a088b5cfd1a10bc563, type: 2}
+  - {fileID: 11400000, guid: 26c1fb21192441bb8eaefcf04e35df6f, type: 2}
+  playtested: 0
+  testNotes: Generated baseline. Validate with the default vehicle before release.

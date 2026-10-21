@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: CG_M04_sirpur
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 430bf11de2a941c5962c56620b90375f, type: 2}
+  missionID: CG_M04
+  chapterID: CG
+  missionNumber: 4
+  missionName: Relic Rush
+  description: 
+  storyText: Relic Rush! 5 relics lekar finish karo.
+  gameplaySceneName: BKS_CG_M04_Sirpur
+  primaryObjectiveText: Relic Rush! 5 relics lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: CG_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Chhattisgarh
+  placeName: Sirpur
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: fde8de15dfa337140b70c7cc99b91461, type: 3}
+  collectibleName: Relic Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 78445e84ae4b6c4419a76d735d13dbcb, type: 3}
+  obstaclesText: Rock, Crate
+  howToDealText: 'Rock: slow down, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Sirpur Relic
+  memoryTokenSprite: {fileID: 21300000, guid: b2ba61fe2740d2b4aa539c42b82581f0, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 4d7c3d328a2d56744a44ff849db1f042, type: 3}
+  draftSceneName: BKS_CG_M04_Sirpur
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

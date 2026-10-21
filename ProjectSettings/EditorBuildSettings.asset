@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Home/BKS_Splash.unity
+    guid: d0341ba344b049deb62ec27367d6da24
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Home/Home.unity
+    guid: 7dce6c53860824f4ba3a5056f2007c51
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Home/BKS_StateMap.unity
+    guid: 6caa8fd3359e491ebdd138125f6cc7f5
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/BKS_MissionResult.unity
+    guid: 09097a6183e819e4db59ca73238d6e8c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/BKS_Garage.unity
+    guid: a6382d9c6b260c14bb2e308f4c26a97c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Rajasthan/BKS_Rajasthan_MissionSelect.unity
+    guid: b7a0be29ff05ad140a4d9dd898664df4
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Rajasthan/BKS_Rajasthan_M01_Jaipur.unity
+    guid: 9117bc270c7d9c745b3bd3bd2f888b6b
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Rajasthan/BKS_Rajasthan_M02_Jodhpur.unity
+    guid: 398e0f4709d639f4abe3149dbd15efdb
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Rajasthan/BKS_Rajasthan_M03_Jaisalmer.unity
+    guid: 3e5a303adb9cc0e48a6e204f024d2c85
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Rajasthan/BKS_Rajasthan_M04_Udaipur.unity
+    guid: c821fde6bf61372449762bf754677ba8
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Rajasthan/BKS_Rajasthan_M05_Pushkar.unity
+    guid: 8ed01afba79809e428631f7590b8af15
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M01_Agra.unity
+    guid: 16bcac37863fbb043a2aaab25858ec88
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M02_Varanasi.unity
+    guid: 6e68fc3aeeb491e48b045dc312c44469
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M03_Sarnath.unity
+    guid: e0a04ec27ab2d3f41b013b847389bf22
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M04_Prayagraj.unity
+    guid: ab239ac1646bb1a4c88f265d86616188
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M05_Bhulbhulaiya.unity
+    guid: 95dbec5130335c74eb0b44b138e6540a
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_M01_Madurai.unity
+    guid: ce6c78aa803ca3542a48eaf50a218cb0
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_M02_Chennai.unity
+    guid: 40489ec564a76534888ddbf1e17eea5c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_M03_Mahabalipuram.unity
+    guid: 1365a7721698c4e40ba80be7f0ff6916
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_M04_Ooty.unity
+    guid: 85f5c96a1f0f5c640ae86d2807dfd9a8
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_M05_Kanyakumari.unity
+    guid: 35bb701cada9103459aa9a1f4c5b95e9
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/BKS_MissionSelect.unity
+    guid: 96fb0abdf283087499c18ee96244d5f5
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/BKS_Store.unity
+    guid: 942bebf50ce0f574a8e859b77eae5b81
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Andhra Pradesh/BKS_AP_M01_Visakhapatnam.unity
+    guid: 52396a71b6298b5438c3976a840ebf2f
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/BKS_SafarDiary.unity
+    guid: 1a1376d15fe8033459cc6d5d90ed4dfe
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/BKS_Challenges.unity
+    guid: 3b16fc4efa7caa44da80b7b20ea0b94b
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Andhra Pradesh/BKS_AP_M02_Tirupati.unity
+    guid: 5612c865c975f26469b8e5069661713a
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Andhra Pradesh/BKS_AP_M03_ArakuValley.unity
+    guid: 8dce430eda036bc4a8c7a8e5423c659d
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Andhra Pradesh/BKS_AP_M04_Vijayawada.unity
+    guid: ddb87f5eb6663da48b685f24e0b4f33b
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Andhra Pradesh/BKS_AP_M05_Gandikota.unity
+    guid: 08e3eb05788547f4ba04ad60e924aea6
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Arunachal Pradesh/BKS_AR_M01_Tawang.unity
+    guid: 5872e194a053bfd489ec28909ea534c0
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Arunachal Pradesh/BKS_AR_M02_ZiroValley.unity
+    guid: 0f8b5866266f2d9458915a5a3c754457
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Arunachal Pradesh/BKS_AR_M03_Bomdila.unity
+    guid: e642915b7c2732e4fbe681946c5193db
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Arunachal Pradesh/BKS_AR_M04_SelaPass.unity
+    guid: b2ae13a48c0e12e4fadaab95ad611441
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Arunachal Pradesh/BKS_AR_M05_Namdapha.unity
+    guid: e0ff403bfc317f9449ff63013bc20c25
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Assam/BKS_AS_M01_Guwahati.unity
+    guid: f840deef4ed43bd47b2ef7ef482eeb63
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Assam/BKS_AS_M02_Kaziranga.unity
+    guid: 7c2c05919562de24dae3007e93da356a
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Assam/BKS_AS_M03_Majuli.unity
+    guid: 0683709cd23867149b03dd83b9140947
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Assam/BKS_AS_M04_Sivasagar.unity
+    guid: dd2ec95297ab7194193bb3447500d6d0
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Assam/BKS_AS_M05_Manas.unity
+    guid: d6ae3fac3f44a194d9e698249413c70c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Bihar/BKS_BR_M01_BodhGaya.unity
+    guid: d01942ed47ebb3940a063003b0d29070
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Bihar/BKS_BR_M02_Nalanda.unity
+    guid: 8075e08993884fa4cbf52096e1a2cb62
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Bihar/BKS_BR_M03_Rajgir.unity
+    guid: 21ecf214692d89742aa1c7a2e4c930a9
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Bihar/BKS_BR_M04_Patna.unity
+    guid: e6b5e98750d7fec48bb8edac6da3fdbd
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Bihar/BKS_BR_M05_Vaishali.unity
+    guid: c2d2e8898a338334e9fb7d062d780b7c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/BKS_TN_MissionSelect.unity
+    guid: c7b70edb51235dc4fbb9f0ff82639dbd
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Chhattisgarh/BKS_CG_M01_Chitrakote.unity
+    guid: 24d35cb92d55b0f4c956555e0e720480
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Chhattisgarh/BKS_CG_M02_Tirathgarh.unity
+    guid: e1a4dacd6b9ad8545a2707085a19e362
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Chhattisgarh/BKS_CG_M03_KangerValley.unity
+    guid: 6e2d1dc8288ab8346be5d1540f6b796b
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Chhattisgarh/BKS_CG_M04_Sirpur.unity
+    guid: 5c9280b28031bcd40bffbf45421421b1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Chhattisgarh/BKS_CG_M05_Mainpat.unity
+    guid: 2f1ddb023f5aad648b239a9eacd6073f
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Goa/BKS_GA_M01_Baga.unity
+    guid: 141aa363758f6e1498e3f79100c0b1b2
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Goa/BKS_GA_M02_OldGoa.unity
+    guid: 11231dec92956eb4f84ab4b9b09f35c6
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Goa/BKS_GA_M03_Dudhsagar.unity
+    guid: 777922a48e1da214fb1d02fb512710c9
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Goa/BKS_GA_M04_Fontainhas.unity
+    guid: fa357263f2967c343bda8d8fe9d4852d
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Goa/BKS_GA_M05_Palolem.unity
+    guid: 9d79b4a790236084d970b461812ab11c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Gujarat/BKS_GJ_M01_StatueofUnity.unity
+    guid: af6d92020563f9d4b96f8320b1e7c697
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Gujarat/BKS_GJ_M02_RannofKutch.unity
+    guid: 71955b09e81527548afbf6b8f0710366
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Gujarat/BKS_GJ_M03_Somnath.unity
+    guid: 46d17689dd0273f4c82bd52b2e72cad1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Gujarat/BKS_GJ_M04_Dwarka.unity
+    guid: d2819aee2e5879e4585b99a951cc9cfc
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Gujarat/BKS_GJ_M05_Gir.unity
+    guid: 86b0374444601a14482cf0aa82c3230c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Haryana/BKS_HR_M01_Kurukshetra.unity
+    guid: 6a7e06ae2dd879f43afd524b280fb880
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Haryana/BKS_HR_M02_MorniHills.unity
+    guid: bf6c877b25b30f044aa0a6230fe94ceb
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Haryana/BKS_HR_M03_Sultanpur.unity
+    guid: a5e68ebe96c40044c9b81181d4ec0c55
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Haryana/BKS_HR_M04_PinjoreGardens.unity
+    guid: e3b8e229264bab54284fc29bca51ab06
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Haryana/BKS_HR_M05_Surajkund.unity
+    guid: 732b706fb75da0343bec174bef9befc9
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Himachal Pradesh/BKS_HP_M01_Shimla.unity
+    guid: 9ddd2fbf49c9c1c47966dac6ad1bbe2f
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Himachal Pradesh/BKS_HP_M02_Manali.unity
+    guid: da8bc5963c1285b4bbc19196202ac73b
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Himachal Pradesh/BKS_HP_M03_Dharamshala.unity
+    guid: 753abcb27ab08434f9d140a3ab2379a5
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Himachal Pradesh/BKS_HP_M04_SpitiValley.unity
+    guid: 67a763804484a0d47a2be07818e1c386
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Himachal Pradesh/BKS_HP_M05_Khajjiar.unity
+    guid: 1441c692c38115f42b0f42e2437e9f59
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Jharkhand/BKS_JH_M01_Ranchi.unity
+    guid: db8fbc902f2045843b26ac325e42ce36
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Jharkhand/BKS_JH_M02_Deoghar.unity
+    guid: 2f252b47159bcd241830433837234a0d
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Jharkhand/BKS_JH_M03_Betla.unity
+    guid: 13f2dd5efd6f5e044995d751d5615e41
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Jharkhand/BKS_JH_M04_Netarhat.unity
+    guid: bf74300b7547f7642929a229a0e2dbe3
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Jharkhand/BKS_JH_M05_Patratu.unity
+    guid: bee8b7d7ceb7c4f44a4dc031313b7220
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Karnataka/BKS_KA_M01_Bengaluru.unity
+    guid: c233087fe4844b44fb2da12d71b4c706
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Karnataka/BKS_KA_M02_Mysuru.unity
+    guid: 1c90bf10bf477b54384dade2005cc98a
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Karnataka/BKS_KA_M03_Hampi.unity
+    guid: 75bd544bb7a15614bab75e22233db0e2
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Karnataka/BKS_KA_M04_Coorg.unity
+    guid: af0b00cd78cbd83449307f13a58ca6ac
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Karnataka/BKS_KA_M05_Gokarna.unity
+    guid: 44f695313d9079f4ca6a3dd62b844fab
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Kerala/BKS_KL_M01_Kochi.unity
+    guid: 10f414a67f85071458e3047fca0cc431
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Kerala/BKS_KL_M02_Alappuzha.unity
+    guid: 00ba11dd02bae9e40a3673759c59a32c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Kerala/BKS_KL_M03_Munnar.unity
+    guid: a94eede78783f37408fd45f1cc03b131
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Kerala/BKS_KL_M04_Thekkady.unity
+    guid: 5a535969f629b06478291e8e3f70c63b
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Kerala/BKS_KL_M05_Varkala.unity
+    guid: 2ed89c9814e6745449c674feecd4ebfc
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Madhya Pradesh/BKS_MP_M01_Khajuraho.unity
+    guid: 5c9e58f3e39520f4c8aa787f8c94a826
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Madhya Pradesh/BKS_MP_M02_Sanchi.unity
+    guid: 1850789cc9759c24bae6333cf185f252
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Madhya Pradesh/BKS_MP_M03_Ujjain.unity
+    guid: 7ef6fe2831d30774ab5bc4cf0b530fa2
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Madhya Pradesh/BKS_MP_M04_Gwalior.unity
+    guid: 51372f73db33d6c4aa9f91ecd6a47b27
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Madhya Pradesh/BKS_MP_M05_Kanha.unity
+    guid: 3e590f1f0a9d7ff40b3b862e96b4bc44
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Maharashtra/BKS_MH_M01_Mumbai.unity
+    guid: 94693f178792b5042818db5bf36417c4
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Maharashtra/BKS_MH_M02_AjantaEllora.unity
+    guid: 5a44f5e869021aa4387418a12debd9e5
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Maharashtra/BKS_MH_M03_Mahabaleshwar.unity
+    guid: a25af981e30419047b96b6de1b44ff91
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Maharashtra/BKS_MH_M04_Pune.unity
+    guid: 2e8c2963825e64446876a75beb4f6bf3
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Maharashtra/BKS_MH_M05_Lonavala.unity
+    guid: 58d575d5da176284c927141dd1235c08
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Manipur/BKS_MN_M01_Imphal.unity
+    guid: 0b32e142ea8b24e428efbd144af52691
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Manipur/BKS_MN_M02_LoktakLake.unity
+    guid: 3bf9bbb331405ea42bdb9fc2206cf63c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Manipur/BKS_MN_M03_KeibulLamjao.unity
+    guid: 2afc95e7531dc394e81887c51934a6d2
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Manipur/BKS_MN_M04_Ukhrul.unity
+    guid: 47bf6e3566b181a45a5f35ba3a9e6318
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Manipur/BKS_MN_M05_AndroVillage.unity
+    guid: cb814eec35b58d643a4691ddb9427df1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Meghalaya/BKS_ML_M01_Shillong.unity
+    guid: e6116c282180726409c9b1cb6425c893
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Meghalaya/BKS_ML_M02_Cherrapunji.unity
+    guid: 618f2b9d44373fd47b8c453f0e166094
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Meghalaya/BKS_ML_M03_Dawki.unity
+    guid: db980601ddd11c34cb97775e95f1d682
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Meghalaya/BKS_ML_M04_Mawlynnong.unity
+    guid: a4b05cec1a561e34798351f0da9151c7
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Meghalaya/BKS_ML_M05_Nongriat.unity
+    guid: b74ecdc601cde7e489787c41d89106b6
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Mizoram/BKS_MZ_M01_Aizawl.unity
+    guid: 17e6b04eeb8cb5d459c5b4589f7f2c07
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Mizoram/BKS_MZ_M02_Reiek.unity
+    guid: 3c61d7ea89b62c5458053906ea8941f1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Mizoram/BKS_MZ_M03_Vantawng.unity
+    guid: c185c9d48a9f03a49939b7bd3d55655f
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Mizoram/BKS_MZ_M04_Phawngpui.unity
+    guid: 986c53a0b0e344b428094f3c65681c5e
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Mizoram/BKS_MZ_M05_Champhai.unity
+    guid: 91d7b15fafbcea64fac01facdee387b1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Nagaland/BKS_NL_M01_Kohima.unity
+    guid: ec5dd455960dead4bb05110189f746b5
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Nagaland/BKS_NL_M02_DzukouValley.unity
+    guid: e6dd15417a62e8946a97eaa6d8d6e217
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Nagaland/BKS_NL_M03_Khonoma.unity
+    guid: 8515caaa5b4df6e4aad965374599ff38
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Nagaland/BKS_NL_M04_Kisama.unity
+    guid: b1116eca013f9754186916697e20a6f1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Nagaland/BKS_NL_M05_Mokokchung.unity
+    guid: f3dc3a5b16165fd45a76db6e1ee5989a
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Odisha/BKS_OD_M01_Puri.unity
+    guid: e3dc7a6e2b3438d4cbeb9906971ee0a1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Odisha/BKS_OD_M02_Konark.unity
+    guid: 3cfca500cc0f94e4988a36f17a710194
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Odisha/BKS_OD_M03_Bhubaneswar.unity
+    guid: cc83c03a768f2bf49988d53c3708867e
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Odisha/BKS_OD_M04_Chilika.unity
+    guid: a73a00bd0dbb34444904176da3cd60b9
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Odisha/BKS_OD_M05_Similipal.unity
+    guid: b018fc3d95b802942956765751e395b1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Punjab/BKS_PB_M01_Amritsar.unity
+    guid: d9d831c012b987a4cb5a23a7402032e6
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Punjab/BKS_PB_M02_Attari.unity
+    guid: 6656ea720d2150e40aaa29497fa6fe73
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Punjab/BKS_PB_M03_JallianwalaBagh.unity
+    guid: 32675aacd2405464e87433c6b58859c9
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Punjab/BKS_PB_M04_AnandpurSahib.unity
+    guid: 767f03dbb968fcb4faa9f08e2381e932
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Punjab/BKS_PB_M05_Patiala.unity
+    guid: ec7f86468e6f6cb4fb2e8059ae5e54e5
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Sikkim/BKS_SK_M01_Gangtok.unity
+    guid: 9181cf7d33e14d9439eb40dd55d81ced
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Sikkim/BKS_SK_M02_TsomgoLake.unity
+    guid: d803c78aca122eb499cce69ab74a0f8e
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Sikkim/BKS_SK_M03_Nathula.unity
+    guid: 5480677280545a240ad4c8f6615a0049
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Sikkim/BKS_SK_M04_Pelling.unity
+    guid: 896422974e81c3941a937e2f8feb0a06
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Sikkim/BKS_SK_M05_Yumthang.unity
+    guid: 20db5671896b14a4c916272c8a53a441
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Telangana/BKS_TG_M01_Hyderabad.unity
+    guid: 29a002a2dc8861b4e83cc4e2de054cd6
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Telangana/BKS_TG_M02_Golconda.unity
+    guid: e464419ee07054c4281bf78bc557ef85
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Telangana/BKS_TG_M03_Ramappa.unity
+    guid: 23e9abfb60f287d44a8f140d46abd5bc
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Telangana/BKS_TG_M04_Warangal.unity
+    guid: 6e6c5dac4a0bf5f43b700e10c162289c
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Telangana/BKS_TG_M05_AnanthagiriHills.unity
+    guid: 9abccab694d72fe449e875f3963506f3
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tripura/BKS_TR_M01_Agartala.unity
+    guid: ff1e5dc72f6e7fb4bb500741302090ea
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tripura/BKS_TR_M02_Neermahal.unity
+    guid: 3b5ede3582c4b74408ab0a8ef6f0f3f6
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tripura/BKS_TR_M03_Unakoti.unity
+    guid: 253d3be5b2e43594b92a7b5ee9576cf5
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tripura/BKS_TR_M04_TripuraSundari.unity
+    guid: 565a8a168cacb3a46aabad98ce3787d1
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Tripura/BKS_TR_M05_JampuiHills.unity
+    guid: 27a795b3d560bb742b94175f19ff30a4
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Uttarakhand/BKS_UK_M01_Rishikesh.unity
+    guid: e6595a8029fd5ac48a9838e2f75c5049
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Uttarakhand/BKS_UK_M02_Nainital.unity
+    guid: 040d7cedfe044f54ab71ac0e8794b223
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Uttarakhand/BKS_UK_M03_Mussoorie.unity
+    guid: 839065d538c0a9b4e801152cf976b045
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Uttarakhand/BKS_UK_M04_Kedarnath.unity
+    guid: 1713e73374ce1c743bc335f3c550a06f
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/Uttarakhand/BKS_UK_M05_JimCorbett.unity
+    guid: ea95813825ad4204c97028e752e7b540
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/West Bengal/BKS_WB_M01_Kolkata.unity
+    guid: 652fcaeab132b0c4d8dae8f6faedc0aa
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/West Bengal/BKS_WB_M02_Darjeeling.unity
+    guid: aba1b67d599733646a180975c7e93e68
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/West Bengal/BKS_WB_M03_Sundarbans.unity
+    guid: 857751258e45a90438ed2dd8e38927ad
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/West Bengal/BKS_WB_M04_Digha.unity
+    guid: c02905f55b77b30418d4c41c8cd516bb
+  - enabled: 1
+    path: Assets/BharatKaSafar/Scenes/West Bengal/BKS_WB_M05_Kalimpong.unity
+    guid: 3c6e84f5d8ff1d34086c9f25ce0345d0
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

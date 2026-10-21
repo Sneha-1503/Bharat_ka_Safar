@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: SK_M03_nathula
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 78c33ca17b6f4183a613f2b4669776d6, type: 2}
+  missionID: SK_M03
+  chapterID: SK
+  missionNumber: 3
+  missionName: Pass Patrol
+  description: 
+  storyText: Pass Patrol! Bina takkar route finish karo.
+  gameplaySceneName: BKS_SK_M03_Nathula
+  primaryObjectiveText: Pass Patrol! Bina takkar route finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: SK_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Sikkim
+  placeName: Nathula
+  missionType: 2
+  cardSprite: {fileID: 21300000, guid: e7fd2b9b8e9b7de47af7618c04687dd3, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Barricade
+  howToDealText: 'Rock: slow down, steer around.
+
+    Barricade: brake, open gap
+    se niklo.'
+  memoryTokenName: Pass Token
+  memoryTokenSprite: {fileID: 21300000, guid: 1e451c35cfe7c7640b7c8166e6bbe4d2, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: dab5e24336f537245918827a846044d2, type: 3}
+  draftSceneName: BKS_SK_M03_Nathula
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

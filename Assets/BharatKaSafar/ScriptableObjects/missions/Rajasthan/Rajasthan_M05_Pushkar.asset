@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: Rajasthan_M05_Pushkar
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 325248fb742b44fbab828281dea93444, type: 2}
+  missionID: Raj_M05
+  chapterID: Rajasthan
+  missionNumber: 5
+  missionName: Pushkar Finale
+  description: 
+  storyText: "The Camel Fair is at its peak \u2014 thousands of people, animals,
+    and stalls packed into the streets. A key ritual begins at the temple soon, and
+    this is the only way through."
+  gameplaySceneName: BKS_Rajasthan_M05_Pushkar
+  primaryObjectiveText: Pushkar Finale! Ghats tak ride complete karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 100
+  stateName: Rajasthan
+  placeName: Pushkar
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 2d2c6ec549d1c7e488b2728a6f5e7670, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Cart
+  howToDealText: 'Rock: slow down, steer around.
+
+    Cart: slow down, horn do, clear
+    gap se niklo.'
+  memoryTokenName: Pushkar Lotus
+  memoryTokenSprite: {fileID: 21300000, guid: c3d4a71129545fc438fe266df375f73f, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 27d32a238a0267d44be40ab66d3d2753, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

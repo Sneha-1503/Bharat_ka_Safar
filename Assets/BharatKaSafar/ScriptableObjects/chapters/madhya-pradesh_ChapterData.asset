@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272233077180524cb03c9e97dafbd1f, type: 3}
+  m_Name: madhya-pradesh_ChapterData
+  m_EditorClassIdentifier: 
+  chapterID: MP
+  stateName: Madhya Pradesh
+  chapterTitle: Madhya Pradesh
+  subtitle: 
+  description: The heart of India - Khajuraho temples, Sanchi stupa and tiger forests.
+  mainImage: {fileID: 0}
+  landmarkImages: []
+  chapterAvailable: 1
+  unlockedByDefault: 0
+  unlockCost: 1500
+  chapterSceneName: BKS_MissionSelect
+  missionSelectBackground: {fileID: 21300000, guid: 99707febc05fab244ad4251c290efa81,
+    type: 3}
+  headerImage: {fileID: 628332336, guid: 15d66abe07aff5b4d9e696bbcedd67cb, type: 3}
+  mapHighlightSprite: {fileID: 0}
+  chapterColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  missions:
+  - {fileID: 11400000, guid: 629bfe9949326b7409ea8162c4c28bf7, type: 2}
+  - {fileID: 11400000, guid: bb2e6e62574695e41a6df24e12ce9879, type: 2}
+  - {fileID: 11400000, guid: 2988d300245988a439f0112fe82d4309, type: 2}
+  - {fileID: 11400000, guid: 78c7089b80ca0394194c9792c734e7a8, type: 2}
+  - {fileID: 11400000, guid: 9275b464d6732d44ebde3f4908e7a051, type: 2}
+  monuments: []
+  safarStarsRequired: 0
+  requiredPreviousChapterID: 

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: MN_M02_loktak-lake
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 397257ee39814c4989aba52dc58acd9f, type: 2}
+  missionID: MN_M02
+  chapterID: MN
+  missionNumber: 2
+  missionName: Lotus Loot
+  description: 
+  storyText: Lotus Loot! 5 lotus tokens lekar finish karo.
+  gameplaySceneName: BKS_MN_M02_LoktakLake
+  primaryObjectiveText: Lotus Loot! 5 lotus tokens lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: MN_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Manipur
+  placeName: Loktak Lake
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: aa03b329314d0304bb73c5a169144375, type: 3}
+  collectibleName: Lotus Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 8db597a82b7fa264ca3ededa503101f6, type: 3}
+  obstaclesText: Crate, Pothole/Mud Patch
+  howToDealText: 'Crate: slow down, steer around.
+
+    Pothole/Mud Patch: steady
+    momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Loktak Lotus
+  memoryTokenSprite: {fileID: 21300000, guid: 33282d5e8f3545641b1e3646d58a19c8, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: f02e1f0a50665a9488f188621b998f5e, type: 3}
+  draftSceneName: BKS_MN_M02_LoktakLake
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

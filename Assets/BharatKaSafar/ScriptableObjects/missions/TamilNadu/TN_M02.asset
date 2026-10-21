@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: TN_M02
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 046b21c3087c4127a5b363874cddd1c1, type: 2}
+  missionID: TN_M02
+  chapterID: TN
+  missionNumber: 1
+  missionName: Marina Cruise
+  description: 
+  storyText: Marina Beach ke coastal route par drive karo aur lighthouse checkpoint
+    tak pahucho!
+  gameplaySceneName: BKS_TN_M02_Chennai
+  primaryObjectiveText: Marina Cruise! Beach checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 600
+  maxSafarStars: 3
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: TN_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 100
+  stateName: Tamil Nadu
+  placeName: Chennai
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: ba6e957203f4cac47b5c49d91f97537f, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Pothole/Mud Patch
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Pothole/Mud Patch: steady
+    momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Marina Shell
+  memoryTokenSprite: {fileID: 21300000, guid: 10a155e3e23a0fb40ac069f702ee1f97, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 036b51da82f2ec2469a19962bfcdf1af, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

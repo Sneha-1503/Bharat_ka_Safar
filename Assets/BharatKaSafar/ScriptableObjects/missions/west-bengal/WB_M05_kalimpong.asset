@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: WB_M05_kalimpong
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 045df3807af149bd8b39153899854725, type: 2}
+  missionID: WB_M05
+  chapterID: WB
+  missionNumber: 5
+  missionName: Hill Finale
+  description: 
+  storyText: Hill Finale! Bina takkar route finish karo.
+  gameplaySceneName: BKS_WB_M05_Kalimpong
+  primaryObjectiveText: Hill Finale! Bina takkar route finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: West Bengal
+  placeName: Kalimpong
+  missionType: 2
+  cardSprite: {fileID: 21300000, guid: 4949438a641cf2b44acc2c8e353ed548, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Crate
+  howToDealText: 'Rock: slow down, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Hill Flower
+  memoryTokenSprite: {fileID: 21300000, guid: 462e337186f6e3f41b2b3ab0d2e3959b, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: f0bc87623cda6774985ad6f7b8756e77, type: 3}
+  draftSceneName: BKS_WB_M05_Kalimpong
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

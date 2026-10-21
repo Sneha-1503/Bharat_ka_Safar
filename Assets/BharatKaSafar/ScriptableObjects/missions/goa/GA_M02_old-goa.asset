@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: GA_M02_old-goa
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: fd67dc74c6c84d03a9fb64512ab0b252, type: 2}
+  missionID: GA_M02
+  chapterID: GA
+  missionNumber: 2
+  missionName: Heritage Cruise
+  description: 
+  storyText: Heritage Cruise! Basilica checkpoint pahucho.
+  gameplaySceneName: BKS_GA_M02_OldGoa
+  primaryObjectiveText: Heritage Cruise! Basilica checkpoint pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: GA_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Goa
+  placeName: Old Goa
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: bb683ed6966e0c64995e94c4a3a5cee0, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Cart
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Cart: slow down, horn
+    do, clear gap se niklo.'
+  memoryTokenName: Church Token
+  memoryTokenSprite: {fileID: 21300000, guid: ce04b80cec2d6f345b7be671aa55531b, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 1f85c29b06d69fb45862627ccb15fb3b, type: 3}
+  draftSceneName: BKS_GA_M02_OldGoa
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

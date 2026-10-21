@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: PB_M03_jallianwala-bagh
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: a9def7b4381d4f178c93d6302f901fe1, type: 2}
+  missionID: PB_M03
+  chapterID: PB
+  missionNumber: 3
+  missionName: Yaad Trail
+  description: 
+  storyText: Yaad Trail! 5 remembrance flowers collect karo.
+  gameplaySceneName: BKS_PB_M03_JallianwalaBagh
+  primaryObjectiveText: Yaad Trail! 5 remembrance flowers collect karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: PB_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Punjab
+  placeName: Jallianwala Bagh
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: a8c8089ee6746df4bbe376f9d81e37e8, type: 3}
+  collectibleName: Remembrance Flower
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: b290a6b3fbc7ec1439099130c5f6056b, type: 3}
+  obstaclesText: Crate, Barricade
+  howToDealText: 'Crate: slow down, steer around.
+
+    Barricade: brake, open gap
+    se niklo.'
+  memoryTokenName: Remembrance Flower
+  memoryTokenSprite: {fileID: 21300000, guid: 7285d91309a96724ea392eb2cfc56ffd, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: e7d7c54ec81e782419e8f36477eed175, type: 3}
+  draftSceneName: BKS_PB_M03_JallianwalaBagh
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

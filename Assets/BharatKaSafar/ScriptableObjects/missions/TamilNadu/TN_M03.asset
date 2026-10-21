@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: TN_M03
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 5fbeb787baba4f2d8cceee6386bfd92c, type: 2}
+  missionID: TN_M03
+  chapterID: TN
+  missionNumber: 2
+  missionName: Shore Sprint
+  description: 
+  storyText: Ancient monuments ke heritage route ko cross karke Shore Temple tak
+    pahucho.
+  gameplaySceneName: BKS_TN_M03_Mahabalipuram
+  primaryObjectiveText: Shore Sprint! Temple checkpoint tak pahucho.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 700
+  maxSafarStars: 3
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: TN_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 110
+  stateName: Tamil Nadu
+  placeName: Mahabalipuram
+  missionType: 0
+  cardSprite: {fileID: 21300000, guid: 89fd7619d3375884fbf8fc98504be2aa, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Rock, Barricade
+  howToDealText: 'Rock: slow down, steer around.
+
+    Barricade: brake, open gap
+    se niklo.'
+  memoryTokenName: Stone Carving
+  memoryTokenSprite: {fileID: 21300000, guid: 4938aa3fe0189714c9c6fbd120f42604, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 10f9747cc4ebc8247ab1dd63d24f0e8d, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

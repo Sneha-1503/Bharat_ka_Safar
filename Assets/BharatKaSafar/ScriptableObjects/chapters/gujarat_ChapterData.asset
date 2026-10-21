@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272233077180524cb03c9e97dafbd1f, type: 3}
+  m_Name: gujarat_ChapterData
+  m_EditorClassIdentifier: 
+  chapterID: GJ
+  stateName: Gujarat
+  chapterTitle: Gujarat
+  subtitle: 
+  description: From the Statue of Unity to the white desert of Kutch and the lions
+    of Gir.
+  mainImage: {fileID: 0}
+  landmarkImages: []
+  chapterAvailable: 1
+  unlockedByDefault: 0
+  unlockCost: 1500
+  chapterSceneName: BKS_MissionSelect
+  missionSelectBackground: {fileID: 21300000, guid: 2aa23d4b2ef064f4d80447914a16529f,
+    type: 3}
+  headerImage: {fileID: -1312023889, guid: 16d7af131df8be44295cc6824c891707, type: 3}
+  mapHighlightSprite: {fileID: 0}
+  chapterColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  missions:
+  - {fileID: 11400000, guid: e5770b8a9b3c34c4d9757bc29e25d3c9, type: 2}
+  - {fileID: 11400000, guid: 5f71d6f4151c3934d8db5d4a5c1e116b, type: 2}
+  - {fileID: 11400000, guid: eb64c0b7837014b43a4193fabfad0c02, type: 2}
+  - {fileID: 11400000, guid: 82532396040c4b7468add82be5ec1ed7, type: 2}
+  - {fileID: 11400000, guid: 9245434e87e36944ebeeee9221cdd15f, type: 2}
+  monuments: []
+  safarStarsRequired: 0
+  requiredPreviousChapterID: 

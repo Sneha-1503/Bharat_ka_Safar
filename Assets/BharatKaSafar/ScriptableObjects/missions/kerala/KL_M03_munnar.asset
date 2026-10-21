@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: KL_M03_munnar
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 09e60da2bb564e359640222ef92253c6, type: 2}
+  missionID: KL_M03
+  chapterID: KL
+  missionNumber: 3
+  missionName: Tea Trail
+  description: 
+  storyText: Tea Trail! 5 tea leaves lekar finish karo.
+  gameplaySceneName: BKS_KL_M03_Munnar
+  primaryObjectiveText: Tea Trail! 5 tea leaves lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: KL_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Kerala
+  placeName: Munnar
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 7b52a808818be234e958e6186ae53d6c, type: 3}
+  collectibleName: Tea Leaf
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: fddfdb792fa5e3048afecf41b36e2097, type: 3}
+  obstaclesText: Rock, Log
+  howToDealText: 'Rock: slow down, steer around.
+
+    Log: brake, steer around.'
+  memoryTokenName: Munnar Tea
+  memoryTokenSprite: {fileID: 21300000, guid: c8b6bd9bad5f5fe4f80fc9835f3ff6e6, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: c811210994cdcc048a4478acc1038a99, type: 3}
+  draftSceneName: BKS_KL_M03_Munnar
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

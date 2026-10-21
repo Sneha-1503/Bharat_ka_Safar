@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: AR_M01_tawang
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 27d2dce07f1b4c048b1b72d39c1d96f2, type: 2}
+  missionID: AR_M01
+  chapterID: AR
+  missionNumber: 1
+  missionName: Flag Quest
+  description: 
+  storyText: Flag Quest! 5 prayer flags lekar finish karo.
+  gameplaySceneName: BKS_AR_M01_Tawang
+  primaryObjectiveText: Flag Quest! 5 prayer flags lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: AR_M02
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Arunachal Pradesh
+  placeName: Tawang
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 456bc71c0ae202a4f88e07af3a31d223, type: 3}
+  collectibleName: Prayer Flag
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 752422a0b01f8f24a9aec02595dcb105, type: 3}
+  obstaclesText: Rock, Barricade
+  howToDealText: 'Rock: slow down, steer around.
+
+    Barricade: brake, open gap
+    se niklo.'
+  memoryTokenName: Tawang Prayer Flag
+  memoryTokenSprite: {fileID: 21300000, guid: 4fb85dd509281d94883043735083a096, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: c937f688122cc17419debb7461c4cc70, type: 3}
+  draftSceneName: BKS_AR_M01_Tawang
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

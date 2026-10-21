@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: OD_M03_bhubaneswar
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 5702e2ae7fae4794adc340e05da52964, type: 2}
+  missionID: OD_M03
+  chapterID: OD
+  missionNumber: 3
+  missionName: Heritage Ride
+  description: 
+  storyText: Heritage Ride! Bina takkar route finish karo.
+  gameplaySceneName: BKS_OD_M03_Bhubaneswar
+  primaryObjectiveText: Heritage Ride! Bina takkar route finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: OD_M04
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Odisha
+  placeName: Bhubaneswar
+  missionType: 2
+  cardSprite: {fileID: 21300000, guid: 14991fe71bcef2746a79c5a08c292b43, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Pothole/Mud Patch
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Pothole/Mud Patch: steady
+    momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Temple Stone
+  memoryTokenSprite: {fileID: 21300000, guid: ca592408514b1e64989c3e17d97fe436, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: bae9bac58d3f6d449ae314f0e3e9d906, type: 3}
+  draftSceneName: BKS_OD_M03_Bhubaneswar
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

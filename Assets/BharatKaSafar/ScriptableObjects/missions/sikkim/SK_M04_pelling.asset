@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: SK_M04_pelling
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 7487c3d93bcf45ecb64f438527aa3bf3, type: 2}
+  missionID: SK_M04
+  chapterID: SK
+  missionNumber: 4
+  missionName: Flag Quest
+  description: 
+  storyText: Flag Quest! 5 prayer flags lekar finish karo.
+  gameplaySceneName: BKS_SK_M04_Pelling
+  primaryObjectiveText: Flag Quest! 5 prayer flags lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: SK_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Sikkim
+  placeName: Pelling
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 9d21d0a70114f6346acf4c83ff34d21b, type: 3}
+  collectibleName: Prayer Flag
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 752422a0b01f8f24a9aec02595dcb105, type: 3}
+  obstaclesText: Rock, Log
+  howToDealText: 'Rock: slow down, steer around.
+
+    Log: brake, steer around.'
+  memoryTokenName: Pelling Prayer Flag
+  memoryTokenSprite: {fileID: 21300000, guid: 6d47fade711cccb409710bcf02f8b3ff, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 8477ae23acef5c94d9a3b56dc3930ea3, type: 3}
+  draftSceneName: BKS_SK_M04_Pelling
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

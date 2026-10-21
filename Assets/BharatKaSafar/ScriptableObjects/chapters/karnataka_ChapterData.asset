@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272233077180524cb03c9e97dafbd1f, type: 3}
+  m_Name: karnataka_ChapterData
+  m_EditorClassIdentifier: 
+  chapterID: KA
+  stateName: Karnataka
+  chapterTitle: Karnataka
+  subtitle: 
+  description: Royal Mysore palaces, the ruins of Hampi and the coffee hills of Coorg.
+  mainImage: {fileID: 0}
+  landmarkImages: []
+  chapterAvailable: 1
+  unlockedByDefault: 0
+  unlockCost: 1500
+  chapterSceneName: BKS_MissionSelect
+  missionSelectBackground: {fileID: 21300000, guid: 26bf834ca6510b44d88e759f2328d0f2,
+    type: 3}
+  headerImage: {fileID: 134296339, guid: 15d66abe07aff5b4d9e696bbcedd67cb, type: 3}
+  mapHighlightSprite: {fileID: 0}
+  chapterColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  missions:
+  - {fileID: 11400000, guid: fad269c7c2afbf6418b7a658604bcf0a, type: 2}
+  - {fileID: 11400000, guid: 8d3b6ce05ed46b344b00f48402f58226, type: 2}
+  - {fileID: 11400000, guid: fcf0933b7edd7874ca3c239cbfed144c, type: 2}
+  - {fileID: 11400000, guid: 8aae0a9e0c08301428fff1398350fdf2, type: 2}
+  - {fileID: 11400000, guid: d060eae9732c7b347aec5430e1b3dfad, type: 2}
+  monuments: []
+  safarStarsRequired: 0
+  requiredPreviousChapterID: 

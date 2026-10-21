@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: CG_M05_mainpat
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: de01c1cbc2354fd8984c0ccbbfcbeddf, type: 2}
+  missionID: CG_M05
+  chapterID: CG
+  missionNumber: 5
+  missionName: Hill Finale
+  description: 
+  storyText: Hill Finale! Bina takkar route finish karo.
+  gameplaySceneName: BKS_CG_M05_Mainpat
+  primaryObjectiveText: Hill Finale! Bina takkar route finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Chhattisgarh
+  placeName: Mainpat
+  missionType: 2
+  cardSprite: {fileID: 21300000, guid: 3468cfeab2645f543986222082f0ca44, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Barricade, Pothole/Mud Patch
+  howToDealText: 'Barricade: brake, open gap se niklo.
+
+    Pothole/Mud Patch: steady
+    momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Mainpat Hill Badge
+  memoryTokenSprite: {fileID: 21300000, guid: d2a39287456020b4ca53df9908221f60, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: d0d3e7b5435aca84588ba2a222f1a6b1, type: 3}
+  draftSceneName: BKS_CG_M05_Mainpat
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

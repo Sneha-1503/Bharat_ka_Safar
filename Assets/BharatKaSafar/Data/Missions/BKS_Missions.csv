@@ -1,0 +1,324 @@
+Index,State,MissionNo,Place,MissionName,Objective,Type,CollectibleName,CollectibleCount,CollectibleSprite,Obstacles,HowToDeal,SafarStar,MemoryToken,MemoryTokenSprite,CardSprite,StateBackground,Background
+1,Uttar Pradesh,1,Agra,Taj Dash,Taj Dash! Taj gate tak pahucho.,Destination,,0,,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Mini Taj,up-01-mini-taj.png,001-agra.png,26-uttar-pradesh.png,001-agra.jpg
+2,Uttar Pradesh,2,Varanasi,Ghat Rush,Ghat Rush! 5 diyas lekar ghat pahucho.,Collectible,Diya,5,diya.png,"Cart, Animal Crossing","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Ganga Diya,up-02-ganga-diya.png,002-varanasi.png,26-uttar-pradesh.png,002-varanasi.jpg
+3,Uttar Pradesh,3,Sarnath,Dharma Trail,Dharma Trail! 8 wheels lekar stupa pahucho.,Collectible,Dharma Wheel,8,dharma-wheel.png,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Sarnath Wheel,up-03-sarnath-wheel.png,003-sarnath.png,26-uttar-pradesh.png,003-sarnath.jpg
+4,Uttar Pradesh,4,Prayagraj,Sangam Sprint,Sangam Sprint! 5 flags lekar finish karo.,Collectible,Sangam Flag,5,flag.png,"Cart, Pothole, Mud Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Sangam Flag,up-04-sangam-flag.png,004-prayagraj.png,26-uttar-pradesh.png,004-prayagraj.jpg
+5,Uttar Pradesh,5,Lucknow,Nawabi Ride,Nawabi Ride! Imambara tak bina takkar pahucho.,ObstacleChallenge,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Imambara Token,up-05-imambara.png,005-lucknow.png,26-uttar-pradesh.png,005-lucknow.jpg
+6,Rajasthan,1,Jaipur,Royal Hunt,Royal Hunt! 5 gems lekar Hawa Mahal pahucho.,Collectible,Gem,5,gem.png,"Cart, Rock","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.",1 star on mission completion,Hawa Mahal Token,rajasthan-01-hawa-mahal-token.png,006-jaipur.png,21-rajasthan.png,006-jaipur.jpg
+7,Rajasthan,2,Jodhpur,Blue City Rush,Blue City Rush! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Crate, Barricade","Crate: horn do, crate gir kar raasta khol dega.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Royal Shield,rajasthan-02-royal-shield.png,007-jodhpur.png,21-rajasthan.png,007-jodhpur.jpg
+8,Rajasthan,3,Jaisalmer,Desert Dash,Desert Dash! Fort gate tak pahucho.,Destination,,0,,"Rock, Animal Crossing","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Camel Token,rajasthan-03-camel-token.png,008-jaisalmer.png,21-rajasthan.png,008-jaisalmer.jpg
+9,Rajasthan,4,Udaipur,Lake Loot,Lake Loot! 5 royal coins lekar finish karo.,Collectible,Royal Coin,5,coin.png,"Cart, Pothole, Sand Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Sand patch: accelerator dabaye rakho, ret mein ruke to phas jaoge.",1 star on mission completion,Lake Boat,rajasthan-04-lake-boat.png,009-udaipur.png,21-rajasthan.png,009-udaipur.jpg
+10,Rajasthan,5,Pushkar,Pushkar Finale,Pushkar Finale! Ghats tak ride complete karo.,Destination,,0,,"Rock, Cart","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Pushkar Lotus,rajasthan-05-pushkar-lotus.png,010-pushkar.png,21-rajasthan.png,010-pushkar.jpg
+11,Tamil Nadu,1,Chennai,Marina Cruise,Marina Cruise! Beach checkpoint tak pahucho.,Destination,,0,,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Marina Shell,tamil-nadu-01-marina-shell.png,011-chennai.png,23-tamil-nadu.png,011-chennai.jpg
+12,Tamil Nadu,2,Mahabalipuram,Shore Sprint,Shore Sprint! Temple checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Stone Carving,tamil-nadu-02-stone-carving.png,012-mahabalipuram.png,23-tamil-nadu.png,012-mahabalipuram.jpg
+13,Tamil Nadu,3,Ooty,Tea Time,Tea Time! 5 tea leaves lekar finish karo.,Collectible,Tea Leaf,5,tea-leaf.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Ooty Tea Leaf,tamil-nadu-03-ooty-tea-leaf.png,013-ooty.png,23-tamil-nadu.png,013-ooty.jpg
+14,Tamil Nadu,4,Kanyakumari,Sunset Dash,Sunset Dash! Coastal checkpoint tak pahucho.,Destination,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Sunset Token,tamil-nadu-04-sunset-token.png,014-kanyakumari.png,23-tamil-nadu.png,014-kanyakumari.jpg
+15,Tamil Nadu,5,Madurai,Gopuram Hunt,Gopuram Hunt! 5 temple tokens lekar finish karo.,Collectible,Temple Token,5,temple-token.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Temple Gopuram,tamil-nadu-05-temple-gopuram.png,015-madurai.png,23-tamil-nadu.png,015-madurai.jpg
+16,Andhra Pradesh,1,Visakhapatnam,Shell Sprint,Shell Sprint! 10 shells lekar beach finish karo.,Collectible,Seashell,10,shell.png,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Vizag Shell,andhra-pradesh-01-vizag-shell.png,016-visakhapatnam.png,01-andhra-pradesh.png,016-visakhapatnam.jpg
+17,Andhra Pradesh,2,Tirupati,Temple Climb,Temple Climb! Hill checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Temple Bell,andhra-pradesh-02-temple-bell.png,017-tirupati.png,01-andhra-pradesh.png,017-tirupati.jpg
+18,Andhra Pradesh,3,Araku Valley,Coffee Run,Coffee Run! 5 coffee baskets lekar finish karo.,Collectible,Coffee Basket,5,coffee-basket.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Araku Coffee Basket,andhra-pradesh-03-araku-coffee-basket.png,018-araku-valley.png,01-andhra-pradesh.png,018-araku-valley.jpg
+19,Andhra Pradesh,4,Vijayawada,City Zigzag,City Zigzag! Barricades bachakar finish karo.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Durga Token,andhra-pradesh-04-durga-token.png,019-vijayawada.png,01-andhra-pradesh.png,019-vijayawada.jpg
+20,Andhra Pradesh,5,Gandikota,Canyon Dash,Canyon Dash! Viewpoint checkpoint tak pahucho.,Destination,,0,,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Canyon Badge,andhra-pradesh-05-canyon-badge.png,020-gandikota.png,01-andhra-pradesh.png,020-gandikota.jpg
+21,Arunachal Pradesh,1,Tawang,Flag Quest,Flag Quest! 5 prayer flags lekar finish karo.,Collectible,Prayer Flag,5,prayer-flags.png,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Tawang Prayer Flag,arunachal-pradesh-01-tawang-prayer-flag.png,021-tawang.png,02-arunachal-pradesh.png,021-tawang.jpg
+22,Arunachal Pradesh,2,Ziro Valley,Ziro Hero,Ziro Hero! Bina takkar valley route finish karo.,ObstacleChallenge,,0,,"Log, Pothole, Mud Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Valley Flower,arunachal-pradesh-02-valley-flower.png,022-ziro-valley.png,02-arunachal-pradesh.png,022-ziro-valley.jpg
+23,Arunachal Pradesh,3,Bomdila,Monastery Dash,Monastery Dash! Checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Monastery Bell,arunachal-pradesh-03-monastery-bell.png,023-bomdila.png,02-arunachal-pradesh.png,023-bomdila.jpg
+24,Arunachal Pradesh,4,Sela Pass,Snow Hunt,Snow Hunt! 5 snow tokens lekar finish karo.,Collectible,Snow Token,5,snowflake.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Sela Snowflake,arunachal-pradesh-04-sela-snowflake.png,024-sela-pass.png,02-arunachal-pradesh.png,024-sela-pass.jpg
+25,Arunachal Pradesh,5,Namdapha,Jungle Exit,Jungle Exit! Forest checkpoint tak pahucho.,Destination,,0,,"Log, Animal Crossing","Log: horn do, log lurhak kar raasta saaf karega.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Jungle Leaf,arunachal-pradesh-05-jungle-leaf.png,025-namdapha.png,02-arunachal-pradesh.png,025-namdapha.jpg
+26,Assam,1,Guwahati,Hill Hustle,Hill Hustle! Kamakhya checkpoint tak pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Temple Token,assam-01-temple-token.png,026-guwahati.png,03-assam.png,026-guwahati.jpg
+27,Assam,2,Kaziranga,Wild Ride,Wild Ride! Bina takkar safari finish karo.,ObstacleChallenge,,0,,"Rock, Animal Crossing","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Rhino Badge,assam-02-rhino-badge.png,027-kaziranga.png,03-assam.png,027-kaziranga.jpg
+28,Assam,3,Majuli,Mask Hunt,Mask Hunt! 8 masks lekar finish karo.,Collectible,Mask,8,mask.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Majuli Mask,assam-03-majuli-mask.png,028-majuli.png,03-assam.png,028-majuli.jpg
+29,Assam,4,Sivasagar,Ahom Quest,Ahom Quest! 5 heritage coins lekar finish karo.,Collectible,Heritage Coin,5,coin.png,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Ahom Coin,assam-04-ahom-coin.png,029-sivasagar.png,03-assam.png,029-sivasagar.jpg
+30,Assam,5,Manas,Forest Finale,Forest Finale! Jungle route finish karo.,Destination,,0,,"Log, Pothole, Mud Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Forest Badge,assam-05-forest-badge.png,030-manas.png,03-assam.png,030-manas.jpg
+31,Bihar,1,Bodh Gaya,Lotus Run,Lotus Run! 5 lotus lekar temple pahucho.,Collectible,Lotus Token,5,lotus.png,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Bodh Gaya Lotus,bihar-01-bodh-gaya-lotus.png,031-bodh-gaya.png,04-bihar.png,031-bodh-gaya.jpg
+32,Bihar,2,Nalanda,Scroll Patrol,Scroll Patrol! 5 scrolls lekar finish karo.,Collectible,Scroll,5,scroll.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Nalanda Scroll,bihar-02-nalanda-scroll.png,032-nalanda.png,04-bihar.png,032-nalanda.jpg
+33,Bihar,3,Rajgir,Hill Hero,Hill Hero! Bina takkar hill route finish karo.,ObstacleChallenge,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Rajgir Hill Badge,bihar-03-rajgir-hill-badge.png,033-rajgir.png,04-bihar.png,033-rajgir.jpg
+34,Bihar,4,Patna,Patna Pace,Patna Pace! City checkpoint tak pahucho.,Destination,,0,,"Cart, Pothole, Mud Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Heritage Coin,bihar-04-heritage-coin.png,034-patna.png,04-bihar.png,034-patna.jpg
+35,Bihar,5,Vaishali,Pillar Dash,Pillar Dash! Ashoka Pillar checkpoint pahucho.,Destination,,0,,"Cart, Animal Crossing","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Ashoka Pillar Token,bihar-05-ashoka-pillar-token.png,035-vaishali.png,04-bihar.png,035-vaishali.jpg
+36,Chhattisgarh,1,Chitrakote,Waterfall Dash,Waterfall Dash! Viewpoint tak pahucho.,Destination,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Waterfall Drop,chhattisgarh-01-waterfall-drop.png,036-chitrakote.png,05-chhattisgarh.png,036-chitrakote.jpg
+37,Chhattisgarh,2,Tirathgarh,Drop Hunt,Drop Hunt! 5 water drops lekar finish karo.,Collectible,Water Drop,5,water-drop.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Nature Token,chhattisgarh-02-nature-token.png,037-tirathgarh.png,05-chhattisgarh.png,037-tirathgarh.jpg
+38,Chhattisgarh,3,Kanger Valley,Jungle Jugaad,Jungle Jugaad! Logs bachakar finish karo.,Destination,,0,,"Log, Rock","Log: horn do, log lurhak kar raasta saaf karega.
+Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.",1 star on mission completion,Forest Leaf,chhattisgarh-03-forest-leaf.png,038-kanger-valley.png,05-chhattisgarh.png,038-kanger-valley.jpg
+39,Chhattisgarh,4,Sirpur,Relic Rush,Relic Rush! 5 relics lekar finish karo.,Collectible,Relic Token,5,relic-token.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Sirpur Relic,chhattisgarh-04-sirpur-relic.png,039-sirpur.png,05-chhattisgarh.png,039-sirpur.jpg
+40,Chhattisgarh,5,Mainpat,Hill Finale,Hill Finale! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Mainpat Hill Badge,chhattisgarh-05-mainpat-hill-badge.png,040-mainpat.png,05-chhattisgarh.png,040-mainpat.jpg
+41,Goa,1,Baga,Beach Loot,Beach Loot! 5 shells lekar finish karo.,Collectible,Seashell,5,shell.png,"Cart, Pothole, Mud Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Baga Shell,goa-01-baga-shell.png,041-baga.png,06-goa.png,041-baga.jpg
+42,Goa,2,Old Goa,Heritage Cruise,Heritage Cruise! Basilica checkpoint pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Church Token,goa-02-church-token.png,042-old-goa.png,06-goa.png,042-old-goa.jpg
+43,Goa,3,Dudhsagar,Falls Dash,Falls Dash! Waterfall checkpoint pahucho.,Destination,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Waterfall Badge,goa-03-waterfall-badge.png,043-dudhsagar.png,06-goa.png,043-dudhsagar.jpg
+44,Goa,4,Fontainhas,Colour Quest,Colour Quest! 5 postcards lekar finish karo.,Collectible,Postcard,5,postcard.png,"Crate, Cart","Crate: horn do, crate gir kar raasta khol dega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Goa Postcard,goa-04-goa-postcard.png,044-fontainhas.png,06-goa.png,044-fontainhas.jpg
+45,Goa,5,Palolem,Palm Finale,Palm Finale! Beach route finish karo.,Destination,,0,,"Crate, Pothole, Mud Patch","Crate: horn do, crate gir kar raasta khol dega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Coconut Token,goa-05-coconut-token.png,045-palolem.png,06-goa.png,045-palolem.jpg
+46,Gujarat,1,Statue of Unity,Unity Run,Unity Run! Statue checkpoint tak pahucho.,Destination,,0,,"Barricade, Pothole, Sand Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Sand patch: accelerator dabaye rakho, ret mein ruke to phas jaoge.",1 star on mission completion,Unity Token,gujarat-01-unity-token.png,046-statue-of-unity.png,07-gujarat.png,046-statue-of-unity.jpg
+47,Gujarat,2,Rann of Kutch,Craft Quest,Craft Quest! 5 craft tokens lekar finish karo.,Collectible,Craft Token,5,craft-token.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Kutch Patch,gujarat-02-kutch-patch.png,047-rann-of-kutch.png,07-gujarat.png,047-rann-of-kutch.jpg
+48,Gujarat,3,Somnath,Coastal Dash,Coastal Dash! Temple checkpoint tak pahucho.,Destination,,0,,"Barricade, Rock","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.",1 star on mission completion,Somnath Bell,gujarat-03-somnath-bell.png,048-somnath.png,07-gujarat.png,048-somnath.jpg
+49,Gujarat,4,Dwarka,Conch Hunt,Conch Hunt! 5 conchs lekar finish karo.,Collectible,Conch Token,5,shell.png,"Cart, Pothole, Sand Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Sand patch: accelerator dabaye rakho, ret mein ruke to phas jaoge.",1 star on mission completion,Dwarka Conch,gujarat-04-dwarka-conch.png,049-dwarka.png,07-gujarat.png,049-dwarka.jpg
+50,Gujarat,5,Gir,Wild Finale,Wild Finale! Bina takkar forest finish karo.,ObstacleChallenge,,0,,"Log, Animal Crossing","Log: horn do, log lurhak kar raasta saaf karega.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Lion Badge,gujarat-05-lion-badge.png,050-gir.png,07-gujarat.png,050-gir.jpg
+51,Haryana,1,Kurukshetra,Flag Rush,Flag Rush! 5 heritage flags lekar finish karo.,Collectible,Heritage Flag,5,flag.png,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Kurukshetra Flag,haryana-01-kurukshetra-flag.png,051-kurukshetra.png,08-haryana.png,051-kurukshetra.jpg
+52,Haryana,2,Morni Hills,Morni Master,Morni Master! Bina takkar hill ride finish karo.,ObstacleChallenge,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Morni Badge,haryana-02-morni-badge.png,052-morni-hills.png,08-haryana.png,052-morni-hills.jpg
+53,Haryana,3,Sultanpur,Bird Quest,Bird Quest! 5 bird tokens lekar finish karo.,Collectible,Bird Token,5,bird-token.png,"Log, Crate","Log: horn do, log lurhak kar raasta saaf karega.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Bird Badge,haryana-03-bird-badge.png,053-sultanpur.png,08-haryana.png,053-sultanpur.jpg
+54,Haryana,4,Pinjore Gardens,Garden Glide,Garden Glide! Garden checkpoint pahucho.,Destination,,0,,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Garden Flower,haryana-04-garden-flower.png,054-pinjore-gardens.png,08-haryana.png,054-pinjore-gardens.jpg
+55,Haryana,5,Surajkund,Mela Loot,Mela Loot! 5 craft pots lekar finish karo.,Collectible,Craft Pot,5,craft-pot.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Surajkund Pot,haryana-05-surajkund-pot.png,055-surajkund.png,08-haryana.png,055-surajkund.jpg
+56,Himachal Pradesh,1,Shimla,Shimla Sprint,Shimla Sprint! Hill checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Shimla Badge,himachal-pradesh-01-shimla-badge.png,056-shimla.png,09-himachal-pradesh.png,056-shimla.jpg
+57,Himachal Pradesh,2,Manali,Apple Hunt,Apple Hunt! 5 apples lekar finish karo.,Collectible,Apple Token,5,apple.png,"Log, Crate","Log: horn do, log lurhak kar raasta saaf karega.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Manali Apple,himachal-pradesh-02-manali-apple.png,057-manali.png,09-himachal-pradesh.png,057-manali.jpg
+58,Himachal Pradesh,3,Dharamshala,Flag Trail,Flag Trail! 5 prayer flags lekar finish karo.,Collectible,Prayer Flag,5,prayer-flags.png,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Dharamshala Flag,himachal-pradesh-03-dharamshala-flag.png,058-dharamshala.png,09-himachal-pradesh.png,058-dharamshala.jpg
+59,Himachal Pradesh,4,Spiti Valley,Spiti Steer,Spiti Steer! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Spiti Rock,himachal-pradesh-04-spiti-rock.png,059-spiti-valley.png,09-himachal-pradesh.png,059-spiti-valley.jpg
+60,Himachal Pradesh,5,Khajjiar,Pine Finale,Pine Finale! Forest checkpoint tak pahucho.,Destination,,0,,"Log, Pothole, Snow Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Snow patch: dheere aur lagatar accelerator do, barf par grip kam hai.",1 star on mission completion,Pine Cone,himachal-pradesh-05-pine-cone.png,060-khajjiar.png,09-himachal-pradesh.png,060-khajjiar.jpg
+61,Jharkhand,1,Ranchi,Water Quest,Water Quest! 5 drops lekar finish karo.,Collectible,Water Drop,5,water-drop.png,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Ranchi Drop,jharkhand-01-ranchi-drop.png,061-ranchi.png,10-jharkhand.png,061-ranchi.jpg
+62,Jharkhand,2,Deoghar,Bell Dash,Bell Dash! Temple checkpoint tak pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Temple Bell,jharkhand-02-temple-bell.png,062-deoghar.png,10-jharkhand.png,062-deoghar.jpg
+63,Jharkhand,3,Betla,Forest Dodge,Forest Dodge! Bina takkar jungle finish karo.,ObstacleChallenge,,0,,"Log, Animal Crossing","Log: horn do, log lurhak kar raasta saaf karega.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Forest Token,jharkhand-03-forest-token.png,063-betla.png,10-jharkhand.png,063-betla.jpg
+64,Jharkhand,4,Netarhat,Sunrise Hunt,Sunrise Hunt! 5 sunrise tokens lekar finish karo.,Collectible,Sunrise Token,5,sunrise-token.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Sunrise Badge,jharkhand-04-sunrise-badge.png,064-netarhat.png,10-jharkhand.png,064-netarhat.jpg
+65,Jharkhand,5,Patratu,Valley Vroom,Valley Vroom! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Valley Badge,jharkhand-05-valley-badge.png,065-patratu.png,10-jharkhand.png,065-patratu.jpg
+66,Karnataka,1,Bengaluru,City Zigzag,City Zigzag! Checkpoint tak pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Bengaluru Badge,karnataka-01-bengaluru-badge.png,066-bengaluru.png,11-karnataka.png,066-bengaluru.jpg
+67,Karnataka,2,Mysuru,Royal Loot,Royal Loot! 5 crests lekar finish karo.,Collectible,Royal Crest,5,royal-crest.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Mysuru Crest,karnataka-02-mysuru-crest.png,067-mysuru.png,11-karnataka.png,067-mysuru.jpg
+68,Karnataka,3,Hampi,Stone Sprint,Stone Sprint! Ruins checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Hampi Stone,karnataka-03-hampi-stone.png,068-hampi.png,11-karnataka.png,068-hampi.jpg
+69,Karnataka,4,Coorg,Coffee Chase,Coffee Chase! 5 beans lekar finish karo.,Collectible,Coffee Bean,5,coffee-bean.png,"Log, Pothole, Mud Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Coorg Coffee,karnataka-04-coorg-coffee.png,069-coorg.png,11-karnataka.png,069-coorg.jpg
+70,Karnataka,5,Gokarna,Coastal Finale,Coastal Finale! Beach checkpoint pahucho.,Destination,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Gokarna Shell,karnataka-05-gokarna-shell.png,070-gokarna.png,11-karnataka.png,070-gokarna.jpg
+71,Kerala,1,Kochi,Spice Sprint,Spice Sprint! 5 spice tokens lekar finish karo.,Collectible,Spice Token,5,spice-token.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Spice Box,kerala-01-spice-box.png,071-kochi.png,12-kerala.png,071-kochi.jpg
+72,Kerala,2,Alappuzha,Backwater Glide,Backwater Glide! Lakeside route finish karo.,Destination,,0,,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Boat Token,kerala-02-boat-token.png,072-alappuzha.png,12-kerala.png,072-alappuzha.jpg
+73,Kerala,3,Munnar,Tea Trail,Tea Trail! 5 tea leaves lekar finish karo.,Collectible,Tea Leaf,5,tea-leaf.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Munnar Tea,kerala-03-munnar-tea.png,073-munnar.png,12-kerala.png,073-munnar.jpg
+74,Kerala,4,Thekkady,Jungle Cruise,Jungle Cruise! Bina takkar forest finish karo.,ObstacleChallenge,,0,,"Log, Animal Crossing","Log: horn do, log lurhak kar raasta saaf karega.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Elephant Badge,kerala-04-elephant-badge.png,074-thekkady.png,12-kerala.png,074-thekkady.jpg
+75,Kerala,5,Varkala,Beach Dash,Beach Dash! Coastal checkpoint tak pahucho.,Destination,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Varkala Shell,kerala-05-varkala-shell.png,075-varkala.png,12-kerala.png,075-varkala.jpg
+76,Madhya Pradesh,1,Khajuraho,Carving Quest,Carving Quest! 5 carving tokens lekar finish karo.,Collectible,Carving Token,5,carving-token.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Khajuraho Carving,madhya-pradesh-01-khajuraho-carving.png,076-khajuraho.png,13-madhya-pradesh.png,076-khajuraho.jpg
+77,Madhya Pradesh,2,Sanchi,Peace Ride,Peace Ride! Bina takkar stupa pahucho.,ObstacleChallenge,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Sanchi Stupa,madhya-pradesh-02-sanchi-stupa.png,077-sanchi.png,13-madhya-pradesh.png,077-sanchi.jpg
+78,Madhya Pradesh,3,Ujjain,Temple Rush,Temple Rush! Temple checkpoint tak pahucho.,Destination,,0,,"Cart, Barricade","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Mahakal Token,madhya-pradesh-03-mahakal-token.png,078-ujjain.png,13-madhya-pradesh.png,078-ujjain.jpg
+79,Madhya Pradesh,4,Gwalior,Shield Hunt,Shield Hunt! 5 shields lekar finish karo.,Collectible,Shield Token,5,shield.png,"Crate, Barricade","Crate: horn do, crate gir kar raasta khol dega.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Gwalior Shield,madhya-pradesh-04-gwalior-shield.png,079-gwalior.png,13-madhya-pradesh.png,079-gwalior.jpg
+80,Madhya Pradesh,5,Kanha,Wild Finale,Wild Finale! Bina takkar safari finish karo.,ObstacleChallenge,,0,,"Log, Animal Crossing","Log: horn do, log lurhak kar raasta saaf karega.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Tiger Badge,madhya-pradesh-05-tiger-badge.png,080-kanha.png,13-madhya-pradesh.png,080-kanha.jpg
+81,Maharashtra,1,Mumbai,Mumbai Rush,Mumbai Rush! Gateway checkpoint pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Gateway Token,maharashtra-01-gateway-token.png,081-mumbai.png,14-maharashtra.png,081-mumbai.jpg
+82,Maharashtra,2,Ajanta-Ellora,Art Hunt,Art Hunt! 5 art fragments lekar finish karo.,Collectible,Art Fragment,5,art-fragment.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Cave Art,maharashtra-02-cave-art.png,082-ajanta-ellora.png,14-maharashtra.png,082-ajanta-ellora.jpg
+83,Maharashtra,3,Mahabaleshwar,Berry Blast,Berry Blast! 5 strawberries lekar finish karo.,Collectible,Strawberry Token,5,strawberry.png,"Log, Pothole, Mud Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Strawberry Token,maharashtra-03-strawberry-token.png,083-mahabaleshwar.png,14-maharashtra.png,083-mahabaleshwar.jpg
+84,Maharashtra,4,Pune,Heritage Hustle,Heritage Hustle! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Fort Badge,maharashtra-04-fort-badge.png,084-pune.png,14-maharashtra.png,084-pune.jpg
+85,Maharashtra,5,Lonavala,Monsoon Run,Monsoon Run! Hill checkpoint tak pahucho.,Destination,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Rain Cloud,maharashtra-05-rain-cloud.png,085-lonavala.png,14-maharashtra.png,085-lonavala.jpg
+86,Manipur,1,Imphal,Fort Dash,Fort Dash! Bina takkar Kangla pahucho.,ObstacleChallenge,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Kangla Badge,manipur-01-kangla-badge.png,086-imphal.png,15-manipur.png,086-imphal.jpg
+87,Manipur,2,Loktak Lake,Lotus Loot,Lotus Loot! 5 lotus tokens lekar finish karo.,Collectible,Lotus Token,5,lotus.png,"Crate, Pothole, Mud Patch","Crate: horn do, crate gir kar raasta khol dega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Loktak Lotus,manipur-02-loktak-lotus.png,087-loktak-lake.png,15-manipur.png,087-loktak-lake.jpg
+88,Manipur,3,Keibul Lamjao,Wetland Ride,Wetland Ride! Forest checkpoint tak pahucho.,Destination,,0,,"Pothole, Mud Patch, Animal Crossing","Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Deer Token,manipur-03-deer-token.png,088-keibul-lamjao.png,15-manipur.png,088-keibul-lamjao.jpg
+89,Manipur,4,Ukhrul,Lily Hunt,Lily Hunt! 5 lily tokens lekar finish karo.,Collectible,Shirui Lily Token,5,shirui-lily.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Shirui Lily,manipur-04-shirui-lily.png,089-ukhrul.png,15-manipur.png,089-ukhrul.jpg
+90,Manipur,5,Andro Village,Village Finale,Village Finale! Checkpoint tak pahucho.,Destination,,0,,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Clay Pot,manipur-05-clay-pot.png,090-andro-village.png,15-manipur.png,090-andro-village.jpg
+91,Meghalaya,1,Shillong,Hill Cruise,Hill Cruise! Bina takkar city route finish karo.,ObstacleChallenge,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Shillong Badge,meghalaya-01-shillong-badge.png,091-shillong.png,16-meghalaya.png,091-shillong.jpg
+92,Meghalaya,2,Cherrapunji,Rain Rush,"Rain Rush! Route finish karo, control rakho.",Destination,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Rain Drop,meghalaya-02-rain-drop.png,092-cherrapunji.png,16-meghalaya.png,092-cherrapunji.jpg
+93,Meghalaya,3,Dawki,Crystal Quest,Crystal Quest! 5 gems lekar finish karo.,Collectible,Crystal Token,5,gem.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Dawki Crystal,meghalaya-03-dawki-crystal.png,093-dawki.png,16-meghalaya.png,093-dawki.jpg
+94,Meghalaya,4,Mawlynnong,Eco Hunt,Eco Hunt! 5 leaf tokens lekar finish karo.,Collectible,Leaf Token,5,leaf.png,"Log, Crate","Log: horn do, log lurhak kar raasta saaf karega.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Leaf Badge,meghalaya-04-leaf-badge.png,094-mawlynnong.png,16-meghalaya.png,094-mawlynnong.jpg
+95,Meghalaya,5,Nongriat,Root Trail,Root Trail! Forest checkpoint tak pahucho.,Destination,,0,,"Log, Pothole, Mud Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Root Bridge Token,meghalaya-05-root-bridge-token.png,095-nongriat.png,16-meghalaya.png,095-nongriat.jpg
+96,Mizoram,1,Aizawl,Bend Boss,Bend Boss! Bina takkar city route finish karo.,ObstacleChallenge,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,City Hill Badge,mizoram-01-city-hill-badge.png,096-aizawl.png,17-mizoram.png,096-aizawl.jpg
+97,Mizoram,2,Reiek,Peak Dash,Peak Dash! Hill checkpoint tak pahucho.,Destination,,0,,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Mountain Token,mizoram-02-mountain-token.png,097-reiek.png,17-mizoram.png,097-reiek.jpg
+98,Mizoram,3,Vantawng,Drop Dash,Drop Dash! 5 water drops lekar finish karo.,Collectible,Water Drop,5,water-drop.png,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Waterfall Drop,mizoram-03-waterfall-drop.png,098-vantawng.png,17-mizoram.png,098-vantawng.jpg
+99,Mizoram,4,Phawngpui,Blue Peak,Blue Peak! Rocks bachakar finish karo.,Destination,,0,,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Blue Mountain Badge,mizoram-04-blue-mountain-badge.png,099-phawngpui.png,17-mizoram.png,099-phawngpui.jpg
+100,Mizoram,5,Champhai,Grape Escape,Grape Escape! 5 grapes lekar finish karo.,Collectible,Grape Token,5,grape-token.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Grape Basket,mizoram-05-grape-basket.png,100-champhai.png,17-mizoram.png,100-champhai.jpg
+101,Nagaland,1,Kohima,Kohima Cruise,Kohima Cruise! Hill checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Kohima Badge,nagaland-01-kohima-badge.png,101-kohima.png,18-nagaland.png,101-kohima.jpg
+102,Nagaland,2,Dzukou Valley,Flower Quest,Flower Quest! 5 flower tokens lekar finish karo.,Collectible,Flower Token,5,flower.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Valley Flower,nagaland-02-valley-flower.png,102-dzukou-valley.png,18-nagaland.png,102-dzukou-valley.jpg
+103,Nagaland,3,Khonoma,Village Dodge,Village Dodge! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Village Token,nagaland-03-village-token.png,103-khonoma.png,18-nagaland.png,103-khonoma.jpg
+104,Nagaland,4,Kisama,Culture Hunt,Culture Hunt! 5 culture tokens lekar finish karo.,Collectible,Culture Token,5,culture-token.png,"Crate, Barricade","Crate: horn do, crate gir kar raasta khol dega.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Cultural Shield,nagaland-04-cultural-shield.png,104-kisama.png,18-nagaland.png,104-kisama.jpg
+105,Nagaland,5,Mokokchung,Curve Finale,Curve Finale! Bina takkar hill ride finish karo.,ObstacleChallenge,,0,,"Rock, Pothole, Mud Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Hill Coin,nagaland-05-hill-coin.png,105-mokokchung.png,18-nagaland.png,105-mokokchung.jpg
+106,Odisha,1,Puri,Puri Dash,Puri Dash! Temple checkpoint tak pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Temple Flag,odisha-01-temple-flag.png,106-puri.png,19-odisha.png,106-puri.jpg
+107,Odisha,2,Konark,Sun Hunt,Sun Hunt! 5 sun wheels lekar finish karo.,Collectible,Sun Wheel Token,5,sun-wheel.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Sun Wheel,odisha-02-sun-wheel.png,107-konark.png,19-odisha.png,107-konark.jpg
+108,Odisha,3,Bhubaneswar,Heritage Ride,Heritage Ride! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Temple Stone,odisha-03-temple-stone.png,108-bhubaneswar.png,19-odisha.png,108-bhubaneswar.jpg
+109,Odisha,4,Chilika,Dolphin Quest,Dolphin Quest! 5 badges lekar finish karo.,Collectible,Dolphin Badge,5,dolphin-badge.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Dolphin Token,odisha-04-dolphin-token.png,109-chilika.png,19-odisha.png,109-chilika.jpg
+110,Odisha,5,Similipal,Forest Finale,Forest Finale! Jungle checkpoint tak pahucho.,Destination,,0,,"Log, Pothole, Mud Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Tiger Paw,odisha-05-tiger-paw.png,110-similipal.png,19-odisha.png,110-similipal.jpg
+111,Punjab,1,Amritsar,Golden Ride,Golden Ride! Temple checkpoint tak pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Golden Temple Token,punjab-01-golden-temple-token.png,111-amritsar.png,20-punjab.png,111-amritsar.jpg
+112,Punjab,2,Attari,Border Dash,Border Dash! Barricades bachakar finish karo.,Destination,,0,,"Barricade, Crate","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Border Badge,punjab-02-border-badge.png,112-attari.png,20-punjab.png,112-attari.jpg
+113,Punjab,3,Jallianwala Bagh,Yaad Trail,Yaad Trail! 5 remembrance flowers collect karo.,Collectible,Remembrance Flower,5,flower.png,"Crate, Barricade","Crate: horn do, crate gir kar raasta khol dega.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Remembrance Flower,punjab-03-remembrance-flower.png,113-jallianwala-bagh.png,20-punjab.png,113-jallianwala-bagh.jpg
+114,Punjab,4,Anandpur Sahib,Country Cruise,Country Cruise! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Cart, Pothole, Mud Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Khanda Token,punjab-04-khanda-token.png,114-anandpur-sahib.png,20-punjab.png,114-anandpur-sahib.jpg
+115,Punjab,5,Patiala,Phulkari Hunt,Phulkari Hunt! 5 patches lekar finish karo.,Collectible,Phulkari Token,5,phulkari-patch.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Phulkari Patch,punjab-05-phulkari-patch.png,115-patiala.png,20-punjab.png,115-patiala.jpg
+116,Sikkim,1,Gangtok,Hill Hustle,Hill Hustle! City checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Mountain Badge,sikkim-01-mountain-badge.png,116-gangtok.png,22-sikkim.png,116-gangtok.jpg
+117,Sikkim,2,Tsomgo Lake,Snow Hunt,Snow Hunt! 5 snowflakes lekar finish karo.,Collectible,Snowflake Token,5,snowflake.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Tsomgo Snowflake,sikkim-02-tsomgo-snowflake.png,117-tsomgo-lake.png,22-sikkim.png,117-tsomgo-lake.jpg
+118,Sikkim,3,Nathula,Pass Patrol,Pass Patrol! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Pass Token,sikkim-03-pass-token.png,118-nathula.png,22-sikkim.png,118-nathula.jpg
+119,Sikkim,4,Pelling,Flag Quest,Flag Quest! 5 prayer flags lekar finish karo.,Collectible,Prayer Flag,5,prayer-flags.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Pelling Prayer Flag,sikkim-04-pelling-prayer-flag.png,119-pelling.png,22-sikkim.png,119-pelling.jpg
+120,Sikkim,5,Yumthang,Valley Finale,Valley Finale! Checkpoint tak pahucho.,Destination,,0,,"Rock, Pothole, Snow Patch","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Snow patch: dheere aur lagatar accelerator do, barf par grip kam hai.",1 star on mission completion,Valley Flower,sikkim-05-valley-flower.png,120-yumthang.png,22-sikkim.png,120-yumthang.jpg
+121,Telangana,1,Hyderabad,Pearl Hunt,Pearl Hunt! 5 pearls lekar Charminar pahucho.,Collectible,Pearl Token,5,pearl.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Pearl Token,telangana-01-pearl-token.png,121-hyderabad.png,24-telangana.png,121-hyderabad.jpg
+122,Telangana,2,Golconda,Fort Dash,Fort Dash! Fort checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Fort Token,telangana-02-fort-token.png,122-golconda.png,24-telangana.png,122-golconda.jpg
+123,Telangana,3,Ramappa,Temple Cruise,Temple Cruise! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Barricade, Pothole, Mud Patch","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Temple Badge,telangana-03-temple-badge.png,123-ramappa.png,24-telangana.png,123-ramappa.jpg
+124,Telangana,4,Warangal,Gate Quest,Gate Quest! 5 gate tokens lekar finish karo.,Collectible,Kakatiya Token,5,kakatiya-token.png,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Kakatiya Gate,telangana-04-kakatiya-gate.png,124-warangal.png,24-telangana.png,124-warangal.jpg
+125,Telangana,5,Ananthagiri Hills,Forest Finale,Forest Finale! Hill checkpoint tak pahucho.,Destination,,0,,"Log, Pothole, Mud Patch","Log: horn do, log lurhak kar raasta saaf karega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Forest Leaf,telangana-05-forest-leaf.png,125-ananthagiri-hills.png,24-telangana.png,125-ananthagiri-hills.jpg
+126,Tripura,1,Agartala,Palace Dash,Palace Dash! Palace checkpoint tak pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Palace Badge,tripura-01-palace-badge.png,126-agartala.png,25-tripura.png,126-agartala.jpg
+127,Tripura,2,Neermahal,Royal Loot,Royal Loot! 5 crowns lekar finish karo.,Collectible,Crown Token,5,crown-token.png,"Crate, Pothole, Mud Patch","Crate: horn do, crate gir kar raasta khol dega.
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Lake Crown,tripura-02-lake-crown.png,127-neermahal.png,25-tripura.png,127-neermahal.jpg
+128,Tripura,3,Unakoti,Rock Dodge,Rock Dodge! Heritage checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Rock Face Token,tripura-03-rock-face-token.png,128-unakoti.png,25-tripura.png,128-unakoti.jpg
+129,Tripura,4,Tripura Sundari,Flower Trail,Flower Trail! 5 flower tokens lekar finish karo.,Collectible,Flower Token,5,flower.png,"Cart, Crate","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Flower Token,tripura-04-flower-token.png,129-tripura-sundari.png,25-tripura.png,129-tripura-sundari.jpg
+130,Tripura,5,Jampui Hills,Orange Finale,Orange Finale! 5 oranges lekar finish karo.,Collectible,Orange Token,5,orange.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Jampui Orange,tripura-05-jampui-orange.png,130-jampui-hills.png,25-tripura.png,130-jampui-hills.jpg
+131,Uttarakhand,1,Rishikesh,Lotus Trail,Lotus Trail! 5 lotus tokens lekar finish karo.,Collectible,Lotus Token,5,lotus.png,"Cart, Pothole, Snow Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Snow patch: dheere aur lagatar accelerator do, barf par grip kam hai.",1 star on mission completion,Rishikesh Lotus,uttarakhand-01-rishikesh-lotus.png,131-rishikesh.png,27-uttarakhand.png,131-rishikesh.jpg
+132,Uttarakhand,2,Nainital,Lake Glide,Lake Glide! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Lake Token,uttarakhand-02-lake-token.png,132-nainital.png,27-uttarakhand.png,132-nainital.jpg
+133,Uttarakhand,3,Mussoorie,Hill Dodge,Hill Dodge! Rocks bachakar finish karo.,Destination,,0,,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Mountain Badge,uttarakhand-03-mountain-badge.png,133-mussoorie.png,27-uttarakhand.png,133-mussoorie.jpg
+134,Uttarakhand,4,Kedarnath,Mountain Dash,Mountain Dash! Route checkpoint tak pahucho.,Destination,,0,,"Rock, Barricade","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.",1 star on mission completion,Kedarnath Bell,uttarakhand-04-kedarnath-bell.png,134-kedarnath.png,27-uttarakhand.png,134-kedarnath.jpg
+135,Uttarakhand,5,Jim Corbett,Wild Quest,Wild Quest! 5 wildlife badges lekar finish karo.,Collectible,Wildlife Badge,5,wildlife-badge.png,"Log, Animal Crossing","Log: horn do, log lurhak kar raasta saaf karega.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Tiger Paw,uttarakhand-05-tiger-paw.png,135-jim-corbett.png,27-uttarakhand.png,135-jim-corbett.jpg
+136,West Bengal,1,Kolkata,Heritage Dash,Heritage Dash! Victoria checkpoint pahucho.,Destination,,0,,"Barricade, Cart","Barricade: dheere aao aur sahi doori par horn do, barricade side ho jayega.
+Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Victoria Token,west-bengal-01-victoria-token.png,136-kolkata.png,28-west-bengal.png,136-kolkata.jpg
+137,West Bengal,2,Darjeeling,Tea Hunt,Tea Hunt! 5 tea leaves lekar finish karo.,Collectible,Tea Leaf,5,tea-leaf.png,"Rock, Log","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Log: horn do, log lurhak kar raasta saaf karega.",1 star on mission completion,Darjeeling Tea Leaf,west-bengal-02-darjeeling-tea-leaf.png,137-darjeeling.png,28-west-bengal.png,137-darjeeling.jpg
+138,West Bengal,3,Sundarbans,Mangrove Run,Mangrove Run! Forest checkpoint tak pahucho.,Destination,,0,,"Pothole, Mud Patch, Animal Crossing","Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.
+Animal crossing: brake karo, jaanwar ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).",1 star on mission completion,Mangrove Badge,west-bengal-03-mangrove-badge.png,138-sundarbans.png,28-west-bengal.png,138-sundarbans.jpg
+139,West Bengal,4,Digha,Shell Loot,Shell Loot! 5 shells lekar finish karo.,Collectible,Seashell,5,shell.png,"Cart, Pothole, Mud Patch","Cart crossing: brake karo, cart ke paar hone ka intezaar karo, phir chalo (horn se jaldi hatega).
+Pothole: brake karke dheere paar karo, tez gaye to gaadi uchhlegi.
+Mud patch: accelerator dabaye rakho, momentum mat todo.",1 star on mission completion,Digha Shell,west-bengal-04-digha-shell.png,139-digha.png,28-west-bengal.png,139-digha.jpg
+140,West Bengal,5,Kalimpong,Hill Finale,Hill Finale! Bina takkar route finish karo.,ObstacleChallenge,,0,,"Rock, Crate","Rock pile: horn do, patthar bikhar kar raasta saaf kar denge.
+Crate: horn do, crate gir kar raasta khol dega.",1 star on mission completion,Hill Flower,west-bengal-05-hill-flower.png,140-kalimpong.png,28-west-bengal.png,140-kalimpong.jpg

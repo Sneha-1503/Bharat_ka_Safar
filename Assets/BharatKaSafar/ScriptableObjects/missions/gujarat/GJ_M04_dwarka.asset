@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: GJ_M04_dwarka
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 268500e3ddc44a8da9da1861db133671, type: 2}
+  missionID: GJ_M04
+  chapterID: GJ
+  missionNumber: 4
+  missionName: Conch Hunt
+  description: 
+  storyText: Conch Hunt! 5 conchs lekar finish karo.
+  gameplaySceneName: BKS_GJ_M04_Dwarka
+  primaryObjectiveText: Conch Hunt! 5 conchs lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: GJ_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Gujarat
+  placeName: Dwarka
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: fac48ec9ac965744c84f80b6f8e6cced, type: 3}
+  collectibleName: Conch Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 3b7b9f305d5e24940893b28c872dec54, type: 3}
+  obstaclesText: Cart, Pothole/Mud Patch
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Pothole/Mud
+    Patch: steady momentum rakho, sudden brake mat karo.'
+  memoryTokenName: Dwarka Conch
+  memoryTokenSprite: {fileID: 21300000, guid: 46c7c4c45afef134fab8471976908cbf, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 36ded85df7d63654e8d96ec24896092c, type: 3}
+  draftSceneName: BKS_GJ_M04_Dwarka
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

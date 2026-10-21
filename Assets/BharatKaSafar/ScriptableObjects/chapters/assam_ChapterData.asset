@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272233077180524cb03c9e97dafbd1f, type: 3}
+  m_Name: assam_ChapterData
+  m_EditorClassIdentifier: 
+  chapterID: AS
+  stateName: Assam
+  chapterTitle: Assam
+  subtitle: 
+  description: Tea gardens, the one-horned rhinos of Kaziranga and the mighty Brahmaputra
+    river.
+  mainImage: {fileID: 0}
+  landmarkImages: []
+  chapterAvailable: 1
+  unlockedByDefault: 0
+  unlockCost: 1500
+  chapterSceneName: BKS_MissionSelect
+  missionSelectBackground: {fileID: 21300000, guid: 4ce38b4a9d7db7e40a25b2d65803001a,
+    type: 3}
+  headerImage: {fileID: -1593115252, guid: 98d1ec541fad4cb47bec830888f0e22a, type: 3}
+  mapHighlightSprite: {fileID: 0}
+  chapterColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  missions:
+  - {fileID: 11400000, guid: 5d3532d61229bce419d35e89dfafd7e2, type: 2}
+  - {fileID: 11400000, guid: 18fc4873a5636c54a940bd6d3f5c8ed6, type: 2}
+  - {fileID: 11400000, guid: b2e3076097efc294eb3918ef9d2bb6c8, type: 2}
+  - {fileID: 11400000, guid: fd1ba2a0bcc32fd4da012d12e561ca32, type: 2}
+  - {fileID: 11400000, guid: 64ef022ec47cfd74399c4c203b0ad5ad, type: 2}
+  monuments: []
+  safarStarsRequired: 0
+  requiredPreviousChapterID: 

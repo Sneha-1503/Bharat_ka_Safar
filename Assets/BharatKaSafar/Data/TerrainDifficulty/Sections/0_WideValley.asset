@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bb145068aa6fa448a7d59adc74e732, type: 3}
+  m_Name: 0_WideValley
+  m_EditorClassIdentifier:
+  difficulty: 0
+  length: 100
+  slopeDegrees: 8
+  hills: 1
+  valley: 0
+  referencePrefab: {fileID: 2779260548214865366, guid: 58d38b252a9f70b409f3324388e4dbd6, type: 3}
+  designNotes: Smooth grounded section. Reference prefab is retained for regional visual reuse. Vehicle playtest required.

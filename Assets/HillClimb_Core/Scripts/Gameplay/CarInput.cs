@@ -1,0 +1,29 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class CarInput : MonoBehaviour {
+
+
+	[HideInInspector]public CarController carController;
+
+	IEnumerator Start ()
+	{
+		yield return new WaitForSeconds (.3f);
+		carController = GameObject.FindFirstObjectByType<CarController> ();
+	}
+
+	public void Gas ()
+	{
+		carController.Acceleration ();
+	}
+
+	public void Brake ()
+	{
+		carController.Brake ();
+	}
+
+	public void ReleaseGasBrake ()
+	{
+		carController.GasBrakeRelease ();
+	}
+}

@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: f880b6d5b669f9a4e92bd3047c595cc9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Futuristic Racing UI Button Set_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 255
+        width: 734
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a23f72e68a98d4db9f20e073c472b0
+      internalID: 1573905652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Racing UI Button Set_21
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 619
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c687f63b62db541b6df51eb179125a
+      internalID: 1426370984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Racing UI Button Set_25
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 605
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b99f868452bb24eaa31d4e2668d2b5
+      internalID: -452123633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Racing UI Button Set_38
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 137
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56034c939d8ee2440bf5636f1e371583
+      internalID: 1925255785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Racing UI Button Set_44
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 104
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffa435aa4388ca4d84d7a4bda5003a3
+      internalID: 380760580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Racing UI Button Set_55
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 255
+        width: 719
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d2b575d1b234b4bafd64e475de9806
+      internalID: 1195705511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Racing UI Button Set_56
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 260
+        width: 714
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5802d0a9d9e98ab4780c1959b2cf5a20
+      internalID: -1216285180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb3154c1bbe90264aa81109a2d6b4400
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Futuristic Racing UI Button Set_0: 793759582
+      Futuristic Racing UI Button Set_1: 247651751
+      Futuristic Racing UI Button Set_10: 375856697
+      Futuristic Racing UI Button Set_11: -1215237882
+      Futuristic Racing UI Button Set_12: 1832090752
+      Futuristic Racing UI Button Set_13: 1184141356
+      Futuristic Racing UI Button Set_14: 1357630107
+      Futuristic Racing UI Button Set_15: -1580402039
+      Futuristic Racing UI Button Set_16: 836291243
+      Futuristic Racing UI Button Set_17: 464004469
+      Futuristic Racing UI Button Set_18: 1573905652
+      Futuristic Racing UI Button Set_19: -353014393
+      Futuristic Racing UI Button Set_2: 1956533848
+      Futuristic Racing UI Button Set_20: 1833397349
+      Futuristic Racing UI Button Set_21: 1426370984
+      Futuristic Racing UI Button Set_22: 1841295388
+      Futuristic Racing UI Button Set_23: 566804853
+      Futuristic Racing UI Button Set_24: 2015334444
+      Futuristic Racing UI Button Set_25: -452123633
+      Futuristic Racing UI Button Set_26: 1083523638
+      Futuristic Racing UI Button Set_27: -2086566424
+      Futuristic Racing UI Button Set_28: -1521187748
+      Futuristic Racing UI Button Set_29: -2100693310
+      Futuristic Racing UI Button Set_3: 1255109245
+      Futuristic Racing UI Button Set_30: 184162091
+      Futuristic Racing UI Button Set_31: -489246002
+      Futuristic Racing UI Button Set_32: -1868735037
+      Futuristic Racing UI Button Set_33: 190644938
+      Futuristic Racing UI Button Set_34: 1232080441
+      Futuristic Racing UI Button Set_35: 1449344715
+      Futuristic Racing UI Button Set_36: -525436664
+      Futuristic Racing UI Button Set_37: -1955686934
+      Futuristic Racing UI Button Set_38: 1925255785
+      Futuristic Racing UI Button Set_39: -569255162
+      Futuristic Racing UI Button Set_4: -1366297269
+      Futuristic Racing UI Button Set_40: 451241626
+      Futuristic Racing UI Button Set_41: -1722676650
+      Futuristic Racing UI Button Set_42: 2006872309
+      Futuristic Racing UI Button Set_43: 1993728138
+      Futuristic Racing UI Button Set_44: 380760580
+      Futuristic Racing UI Button Set_45: 278117718
+      Futuristic Racing UI Button Set_46: 1442511458
+      Futuristic Racing UI Button Set_47: -1487085686
+      Futuristic Racing UI Button Set_48: 780903612
+      Futuristic Racing UI Button Set_49: -55941015
+      Futuristic Racing UI Button Set_5: -664614408
+      Futuristic Racing UI Button Set_50: 1283761814
+      Futuristic Racing UI Button Set_51: 2106635388
+      Futuristic Racing UI Button Set_52: 1422050365
+      Futuristic Racing UI Button Set_53: 597653507
+      Futuristic Racing UI Button Set_54: 917258607
+      Futuristic Racing UI Button Set_55: 1195705511
+      Futuristic Racing UI Button Set_56: -1216285180
+      Futuristic Racing UI Button Set_6: -895839289
+      Futuristic Racing UI Button Set_7: -126502795
+      Futuristic Racing UI Button Set_8: -606513400
+      Futuristic Racing UI Button Set_9: -1607628471
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: HP_M02_manali
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 71f53cd388b940fdb5558c876f230eb5, type: 2}
+  missionID: HP_M02
+  chapterID: HP
+  missionNumber: 2
+  missionName: Apple Hunt
+  description: 
+  storyText: Apple Hunt! 5 apples lekar finish karo.
+  gameplaySceneName: BKS_HP_M02_Manali
+  primaryObjectiveText: Apple Hunt! 5 apples lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: HP_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Himachal Pradesh
+  placeName: Manali
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: a0207d5a04f55d149a081382c779f3b1, type: 3}
+  collectibleName: Apple Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 8ade1358857191a40832068646e945c2, type: 3}
+  obstaclesText: Log, Crate
+  howToDealText: 'Log: brake, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Manali Apple
+  memoryTokenSprite: {fileID: 21300000, guid: 26e14f12794e5b942aef71d78a0c0ac2, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 94ada9f27a6e29f428f10c194a8ad563, type: 3}
+  draftSceneName: BKS_HP_M02_Manali
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

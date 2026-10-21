@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: TN_M01
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 8eb54f209f374e49a67904f7085b4e37, type: 2}
+  missionID: TN_M01
+  chapterID: TN
+  missionNumber: 5
+  missionName: Gopuram Hunt
+  description: 
+  storyText: Meenakshi Temple tak pahuchna hai. Sheher ki busy galiyon se safely
+    nikal kar temple entrance tak jao!
+  gameplaySceneName: BKS_TN_M01_Madurai
+  primaryObjectiveText: Gopuram Hunt! 5 temple tokens lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 3
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: 
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 90
+  stateName: Tamil Nadu
+  placeName: Madurai
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: 196972a9be6c80948b425f5399deedfc, type: 3}
+  collectibleName: Temple Token
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 5c1a5dcab462bc248bbca6bd4df1316e, type: 3}
+  obstaclesText: Cart, Crate
+  howToDealText: 'Cart: slow down, horn do, clear gap se niklo.
+
+    Crate: slow
+    down, steer around.'
+  memoryTokenName: Temple Gopuram
+  memoryTokenSprite: {fileID: 21300000, guid: b98ba99a44b58ee41bf2f3e42133975d, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 2717ae6feb7db134cbd7110862ae80bc, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

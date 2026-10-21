@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6dff29474f44ac8bc7dc2f5d4db92b, type: 3}
+  m_Name: BlueSedan_Recipe
+  m_EditorClassIdentifier: 
+  vehicleName: BKS_BlueSedan
+  bodySprite: {fileID: 21300000, guid: dd3b21da291a45f4084976f6bbd435fb, type: 3}
+  rearTyreSprite: {fileID: 21300000, guid: 4a25454807bc5134089996de31002b73, type: 3}
+  frontTyreSprite: {fileID: 21300000, guid: 4a25454807bc5134089996de31002b73, type: 3}
+  bodyScale: {x: 0.4613, y: 0.4613}
+  bodyMass: 10.4
+  bodyCollider: 0
+  boxSize: {x: 4, y: 1.2}
+  boxOffset: {x: 0, y: 0}
+  centreOfMass: {x: 0.013999939, y: -0.832}
+  rearWheelPosition: {x: -2.062, y: -1.1}
+  frontWheelPosition: {x: 2.09, y: -1.082}
+  rearWheelRadius: 0.528
+  frontWheelRadius: 0.547
+  wheelMass: 2
+  suspensionFrequency: 9
+  suspensionDamping: 0.6
+  tyreMaterial: {fileID: 6200000, guid: a28eb88f27ae0944e983cd6bbdcb617d, type: 2}
+  allWheelDrive: 0
+  forwardSpeed: 14
+  reverseSpeed: 5
+  motorTorque: 6000
+  brakingTorque: 8000
+  reverseEngageSpeed: 0.25
+  airRotationTorque: 140
+  mobileOnlyInput: 0
+  engineClip: {fileID: 8300000, guid: c7dd03a42b795574fa95ba44ed63d3b1, type: 3}
+  driverMode: 2
+  playerBodySprite: {fileID: 21300000, guid: fc932af37ad16984a80c0ea4eb8af04d, type: 3}
+  playerHeadSprite: {fileID: 21300000, guid: b02f6a01f7013b8458250ecebfad9bf0, type: 3}
+  autoFitDriver: 1
+  torsoHeightToVehicleWidth: 0.12
+  headHeightToVehicleWidth: 0.074
+  playerBodyPosition: {x: 0.326, y: 0.143}
+  playerHeadPosition: {x: 0.153, y: 0.671}
+  playerBodyScale: 1
+  playerHeadScale: 1
+  seatAnchor: {x: 0.326, y: -0.169}
+  neckAnchor: {x: 0.175, y: 0.487}
+  torsoLimits: {x: -6, y: 6}
+  neckLimits: {x: -12, y: 12}
+  torsoMass: 0.5
+  headMass: 0.2
+  headColliderRadius: 0.16835
+  addHorn: 1
+  addHeadCrashSensor: 1
+  cameraDistance: 18
+  outputFolder: Assets/BharatKaSafar/Prefabs/Vehicles

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: KL_M04_thekkady
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: ff506d4ab3df449b875b16287cf96018, type: 2}
+  missionID: KL_M04
+  chapterID: KL
+  missionNumber: 4
+  missionName: Jungle Cruise
+  description: 
+  storyText: Jungle Cruise! Bina takkar forest finish karo.
+  gameplaySceneName: BKS_KL_M04_Thekkady
+  primaryObjectiveText: Jungle Cruise! Bina takkar forest finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: KL_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Kerala
+  placeName: Thekkady
+  missionType: 2
+  cardSprite: {fileID: 21300000, guid: 51701aaad1cc44148b3dcb53d7491c07, type: 3}
+  collectibleName: 
+  collectibleCount: 0
+  collectibleSprite: {fileID: 0}
+  obstaclesText: Log, Animal Crossing (optional)
+  howToDealText: 'Log: brake, steer around.
+
+    Animal: brake, horn do, raasta clear
+    hone par chalo.'
+  memoryTokenName: Elephant Badge
+  memoryTokenSprite: {fileID: 21300000, guid: 9e4c25f163cdf374d828d97df7be1bf6, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 58db3a98cc0391d409f66e2696dec92d, type: 3}
+  draftSceneName: BKS_KL_M04_Thekkady
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: TN_M04
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 5d1ec4ed270e43659f0cc7f36d99c8fb, type: 2}
+  missionID: TN_M04
+  chapterID: TN
+  missionNumber: 3
+  missionName: Tea Time
+  description: 
+  storyText: Ab plains khatam! Ooty ke Nilgiri hills shuru ho rahe hain.
+  gameplaySceneName: BKS_TN_M04_Ooty
+  primaryObjectiveText: Tea Time! 5 tea leaves lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 800
+  maxSafarStars: 3
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: TN_M05
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 120
+  stateName: Tamil Nadu
+  placeName: Ooty
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: e4be8248ed141174e8112ae9af17e235, type: 3}
+  collectibleName: Tea Leaf
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: fddfdb792fa5e3048afecf41b36e2097, type: 3}
+  obstaclesText: Rock, Log
+  howToDealText: 'Rock: slow down, steer around.
+
+    Log: brake, steer around.'
+  memoryTokenName: Ooty Tea Leaf
+  memoryTokenSprite: {fileID: 21300000, guid: 4a8344ee18294654cb3207b79546703a, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 761debc2e0bc6b148b1461fba058a47c, type: 3}
+  draftSceneName: 
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150

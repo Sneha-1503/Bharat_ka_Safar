@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76866046591c05c4b98f2fa158c994c0, type: 3}
+  m_Name: BR_M02_nalanda
+  m_EditorClassIdentifier: 
+  terrainPlan: {fileID: 11400000, guid: 967315d0deb541739032667feca69017, type: 2}
+  missionID: BR_M02
+  chapterID: BR
+  missionNumber: 2
+  missionName: Scroll Patrol
+  description: 
+  storyText: Scroll Patrol! 5 scrolls lekar finish karo.
+  gameplaySceneName: BKS_BR_M02_Nalanda
+  primaryObjectiveText: Scroll Patrol! 5 scrolls lekar finish karo.
+  hasTimeLimit: 0
+  timeLimitSeconds: 0
+  coinReward: 500
+  maxSafarStars: 10
+  twoStarStarRatio: 0.6
+  threeStarStarRatio: 0.8
+  threeStarHealthRatio: 0.5
+  nextMissionID: BR_M03
+  thumbnailSprite: {fileID: 0}
+  recommendedPower: 80
+  stateName: Bihar
+  placeName: Nalanda
+  missionType: 1
+  cardSprite: {fileID: 21300000, guid: bc0146861397c7742a00846110437584, type: 3}
+  collectibleName: Scroll
+  collectibleCount: 5
+  collectibleSprite: {fileID: 21300000, guid: 410e0aa9f1cdc6d4d9ae92322f8fde50, type: 3}
+  obstaclesText: Rock, Crate
+  howToDealText: 'Rock: slow down, steer around.
+
+    Crate: slow down, steer around.'
+  memoryTokenName: Nalanda Scroll
+  memoryTokenSprite: {fileID: 21300000, guid: 4d5913d34a1f9984186421172baeb163, type: 3}
+  placeFact: 
+  backgroundSprite: {fileID: 21300000, guid: 660e3673cd4f56e4394eb002a800cf50, type: 3}
+  draftSceneName: BKS_BR_M02_Nalanda
+  objectiveHitLimit: -1
+  bonusType: 0
+  bonusTimeSeconds: 150
