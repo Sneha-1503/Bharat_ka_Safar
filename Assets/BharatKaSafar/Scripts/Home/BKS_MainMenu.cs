@@ -70,7 +70,7 @@ namespace BharatKaSafar.Home
         public void ShowHome()
         {
             ShowPage(homePage);
-            if (coinsLabel != null) coinsLabel.text = "Coins: " + PlayerPrefs.GetInt("Coins", 0);
+            if (coinsLabel != null) coinsLabel.text = PlayerPrefs.GetInt("Coins", 0).ToString("N0");
         }
         public void StartJourney() => Load(BKS_SceneLoader.SCENE_INDIA_MAP);
         public void GoHome() => Load(BKS_SceneLoader.SCENE_HOME);

@@ -219,13 +219,18 @@ namespace BharatKaSafar.Missions
 
         private void ShowResultPopup()
         {
-            var popup = Resources.Load<GameObject>("BKS_MissionResultPopup");
+            // separate popups for complete / failed (built by Bharat Ka Safar > UI > Build Result Popups); old shared one as fallback
+            bool completed = BKS_MissionResultStore.HasResult && BKS_MissionResultStore.LastResult.MissionCompleted;
+            var popup = Resources.Load<GameObject>(completed ? "BKS_MissionCompletePopup" : "BKS_MissionFailPopup");
+            if (popup == null) popup = Resources.Load<GameObject>("BKS_MissionResultPopup");
             if (popup == null)
             {
                 Debug.LogError("[BKS_MissionResult] Missing BKS_MissionResultPopup prefab.");
                 return;
             }
+            // the prefab exactly as designed (own canvas, sorting 32000) — nothing is changed at runtime
             Instantiate(popup);
+            BharatKaSafar.UI.BKS_StageBanner.HideNow(); // no stage banner left showing over it
         }
 
         // ── Reference Resolution ──────────────────────────────────────────────────

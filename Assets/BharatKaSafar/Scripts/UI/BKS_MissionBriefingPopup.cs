@@ -41,18 +41,30 @@ namespace BharatKaSafar.UI
 
         private Action<MissionData> onStart;
         private MissionData mission;
+        private bool starting;
+        private bool practiseControls;
+        [Header("Practice and mission goals")]
+        [SerializeField] private Button practiceButton;
+        [SerializeField] private TMP_Text practiceButtonLabel;
+        [SerializeField] private ScrollRect rulesScroll;
+        public bool IsOpen => root != null && root.activeSelf;
 
         private void Awake()
         {
-            if (startButton != null) startButton.onClick.AddListener(() => { if (mission != null && mission.IsPlayable) onStart?.Invoke(mission); });
+            if (startButton != null) startButton.onClick.AddListener(BeginMission);
+            if (practiceButton != null) practiceButton.onClick.AddListener(TogglePractice);
             if (closeButton != null) closeButton.onClick.AddListener(Hide);
             if (root != null) root.SetActive(false);
         }
 
         public void Show(MissionData m, Action<MissionData> startAction)
         {
+            if (m == null) return;
+            starting = false;
             mission = m;
             onStart = startAction;
+            practiseControls = BKS_DrivingTutorial.NeedsIntroduction;
+            RefreshPracticeLabel();
             Set(titleText, m.MissionName);
             Set(placeText, string.IsNullOrEmpty(m.StateName) ? m.PlaceName : $"{m.PlaceName}, {m.StateName}");
             Set(objectiveText, string.IsNullOrEmpty(m.StoryText) ? m.PrimaryObjectiveText : m.StoryText);
@@ -69,8 +81,8 @@ namespace BharatKaSafar.UI
 
             string challenges = string.IsNullOrEmpty(m.HowToDealText) ? m.ObstaclesText : m.HowToDealText;
             string stars = m.UsesPlannerRating
-                ? $"<b>Stars:</b>  1 = Finish   |   2 = {m.ObjectiveRuleText}   |   3 = {m.BonusRuleText}\n"
-                : "";
+                ? $"<b>1 STAR</b>  Reach the finish\n<b>2 STARS</b>  Finish + {m.ObjectiveRuleText}\n<b>3 STARS</b>  Both above + {m.BonusRuleText}\n\n"
+                : $"<b>1 STAR</b>  Reach the finish\n<b>2 STARS</b>  Collect {m.TwoStarStarRatio:P0} of Safar Stars\n<b>3 STARS</b>  Collect {m.ThreeStarStarRatio:P0} + keep {m.ThreeStarHealthRatio:P0} health\n\n";
             Set(challengesText, stars + (string.IsNullOrEmpty(challenges) ? "" : "Challenges:\n" + challenges));
             Set(rewardsText, string.Format(rewardsFormat, m.CoinReward, string.IsNullOrEmpty(m.MemoryTokenName) ? "—" : m.MemoryTokenName));
             if (memoryTokenIcon != null)
@@ -84,11 +96,40 @@ namespace BharatKaSafar.UI
 
             if (root != null) root.SetActive(true);
             if (panel != null) { StopAllCoroutines(); StartCoroutine(Pop()); }
+            Canvas.ForceUpdateCanvases();
+            if (rulesScroll != null) rulesScroll.verticalNormalizedPosition = 1f;
         }
 
         public void Hide()
         {
+            StopAllCoroutines();
+            if (panel != null) panel.localScale = Vector3.one;
             if (root != null) root.SetActive(false);
+        }
+
+        private void Update()
+        {
+            if (IsOpen && Input.GetKeyDown(KeyCode.Escape)) Hide();
+        }
+
+        private void BeginMission()
+        {
+            if (starting || mission == null || !mission.IsPlayable || onStart == null) return;
+            starting = true;
+            if (startButton != null) startButton.interactable = false;
+            BKS_DrivingTutorial.RequestReplay(practiseControls);
+            onStart.Invoke(mission);
+        }
+
+        private void TogglePractice()
+        {
+            practiseControls = !practiseControls;
+            RefreshPracticeLabel();
+        }
+
+        private void RefreshPracticeLabel()
+        {
+            Set(practiceButtonLabel, practiseControls ? "PRACTISE CONTROLS\nON" : "PRACTISE CONTROLS\nOFF");
         }
 
         private static void Set(TMP_Text t, string value)

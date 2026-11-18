@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 52d1707b3f3c1864fa7fa09bb2cbe0a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -739811857035508736
+    second: Bauheus 93_text3009_0
+  - first:
+      213: 1434974057610170083
+    second: Bauheus 93_text3009_1
+  - first:
+      213: 5539306583512284393
+    second: Bauheus 93_text3009_2
+  - first:
+      213: 3010418331537938973
+    second: Bauheus 93_text3009_3
+  - first:
+      213: 2215562235893908962
+    second: Bauheus 93_text3009_4
+  - first:
+      213: -2806294305700711218
+    second: Bauheus 93_text3009_5
+  - first:
+      213: 6962948283804733022
+    second: Bauheus 93_text3009_6
+  - first:
+      213: -5542278404092104106
+    second: Bauheus 93_text3009_7
+  - first:
+      213: 84847880199824382
+    second: Bauheus 93_text3009_8
+  - first:
+      213: -1228268845696651196
+    second: Bauheus 93_text3009_9
+  - first:
+      213: -4754250763437336169
+    second: Bauheus 93_text3009_10
+  - first:
+      213: 7219880316176150595
+    second: Bauheus 93_text3009_11
+  - first:
+      213: 2660522570284146653
+    second: Bauheus 93_text3009_12
+  - first:
+      213: -6896421001121653972
+    second: Bauheus 93_text3009_13
+  - first:
+      213: -2091938900303635080
+    second: Bauheus 93_text3009_14
+  - first:
+      213: -4978858651083847579
+    second: Bauheus 93_text3009_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004c6c42909abb5f0800000000000000
+      internalID: -739811857035508736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee41c57d4d0ae310800000000000000
+      internalID: 1434974057610170083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 43
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec7b3c3df19fdc40800000000000000
+      internalID: 5539306583512284393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 72
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a94acc58727c920800000000000000
+      internalID: 3010418331537938973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e50a307d124fbe10800000000000000
+      internalID: 2215562235893908962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4f185823a0e09d0800000000000000
+      internalID: -2806294305700711218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 72
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ec895a29c51a060800000000000000
+      internalID: 6962948283804733022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_7
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65275cdd72fd513b0800000000000000
+      internalID: -5542278404092104106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3614f82b07d2100800000000000000
+      internalID: 84847880199824382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44072931eff44fee0800000000000000
+      internalID: -1228268845696651196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_10
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 43
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7991038ae12850eb0800000000000000
+      internalID: -4754250763437336169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_11
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 72
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340b38e15ea223460800000000000000
+      internalID: 7219880316176150595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 0
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf12be7e231ce420800000000000000
+      internalID: 2660522570284146653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b999663adfa40a0800000000000000
+      internalID: -6896421001121653972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_14
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d949b57a0f7f2e0800000000000000
+      internalID: -2091938900303635080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bauheus 93_text3009_15
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568444b9f6a87eab0800000000000000
+      internalID: -4978858651083847579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bauheus 93_text3009_0: -739811857035508736
+      Bauheus 93_text3009_1: 1434974057610170083
+      Bauheus 93_text3009_10: -4754250763437336169
+      Bauheus 93_text3009_11: 7219880316176150595
+      Bauheus 93_text3009_12: 2660522570284146653
+      Bauheus 93_text3009_13: -6896421001121653972
+      Bauheus 93_text3009_14: -2091938900303635080
+      Bauheus 93_text3009_15: -4978858651083847579
+      Bauheus 93_text3009_2: 5539306583512284393
+      Bauheus 93_text3009_3: 3010418331537938973
+      Bauheus 93_text3009_4: 2215562235893908962
+      Bauheus 93_text3009_5: -2806294305700711218
+      Bauheus 93_text3009_6: 6962948283804733022
+      Bauheus 93_text3009_7: -5542278404092104106
+      Bauheus 93_text3009_8: 84847880199824382
+      Bauheus 93_text3009_9: -1228268845696651196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309671
+  packageName: Fun Mobile Casual UI - Pro
+  packageVersion: 1.0
+  assetPath: Assets/Gelzo Games/Fun Mobile Casual UI - Pro/Sprites/Text/Bauheus 93/Bauheus
+    93_text3009.png
+  uploadId: 729069

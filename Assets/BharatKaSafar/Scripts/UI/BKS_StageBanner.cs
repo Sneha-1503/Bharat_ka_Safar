@@ -45,6 +45,14 @@ namespace BharatKaSafar.UI
             Instance.StartCoroutine(Instance.Run(title, dialogue, duration));
         }
 
+        /// <summary>Hide the banner at once (e.g. when the mission result pops up).</summary>
+        public static void HideNow()
+        {
+            if (Instance == null) return;
+            Instance.StopAllCoroutines();
+            Instance.group.alpha = 0f;
+        }
+
         private IEnumerator Run(string title, string dialogue, float duration)
         {
             if (titleText != null) titleText.text = title;

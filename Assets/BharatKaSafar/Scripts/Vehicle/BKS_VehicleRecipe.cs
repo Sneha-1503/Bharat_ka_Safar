@@ -48,6 +48,7 @@ namespace BharatKaSafar.Vehicle
         [Range(0.05f, 0.6f)] public float torsoHeightToVehicleWidth = 0.24f;
         [Range(0.03f, 0.4f)] public float headHeightToVehicleWidth = 0.14f;
         public Vector2 playerBodyPosition = new Vector2(0, 0.6f);
+        public float playerBodyAngle;
         public Vector2 playerHeadPosition = new Vector2(0, 1.35f);
         [Min(0.01f)] public float playerBodyScale = 1f;
         [Min(0.01f)] public float playerHeadScale = 1f;

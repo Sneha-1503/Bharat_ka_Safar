@@ -16,6 +16,7 @@ namespace BharatKaSafar.Store
         private void Awake()
         {
             searchUntil = Time.time + 5f;
+            if (GetComponent<BKS_PedalFix>() == null) gameObject.AddComponent<BKS_PedalFix>(); // two-finger pedal handover
             var save = BKS_SaveManager.Instance;
             var catalog = BKS_StoreCatalog.Load();
             var start = FindFirstObjectByType<StartPoint>();

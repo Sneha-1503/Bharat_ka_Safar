@@ -5,7 +5,7 @@ using BharatKaSafar.Core;
 
 namespace BharatKaSafar.Missions
 {
-    public enum MissionState { None, Ready, Active, Completed, Failed }
+    public enum MissionState { None, Ready, Active, Completed, Failed, FailurePending }
 
     /// <summary>
     /// One per gameplay scene. Holds the current MissionData and its state.
@@ -21,6 +21,10 @@ namespace BharatKaSafar.Missions
     {
         [Header("Mission Asset (optional — auto-detected when launched from Mission Select)")]
         [SerializeField] private MissionData missionData;
+
+        [Tooltip("Seconds of ragdoll physics shown after a crash before the revive or result panel.")]
+        [SerializeField, Min(0f)] private float crashSettleSeconds = 0.45f;
+        private Vehicle.BKS_HeadCrash fallenDriver;
 
         public MissionData CurrentMission => missionData;
         public MissionState CurrentState { get; private set; } = MissionState.None;
@@ -119,6 +123,7 @@ namespace BharatKaSafar.Missions
             if (objectives == null) objectives = gameObject.AddComponent<BKS_MissionObjectiveTracker>();
             objectives.Begin(missionData);
 
+            UI.BKS_DrivingTutorial.TryBegin(this);
             OnMissionStarted?.Invoke(missionData);
             Debug.Log($"[MissionManager] Mission '{missionData.MissionName}' ({missionData.MissionID}) started.");
         }
@@ -139,15 +144,42 @@ namespace BharatKaSafar.Missions
         public void FailMission()
         {
             if (CurrentState != MissionState.Active) return;
-            // Offer "Continue Journey?" first; the revive popup calls FailMissionNow() if declined.
-            if (Gameplay.BKS_ReviveManager.TryOffer(this)) return;
-            FailMissionNow();
+            CurrentState = MissionState.FailurePending;
+            if (Integration.BKS_GameplayBridge.LastFailReason != "Fuel finished")
+            {
+                fallenDriver = FindFirstObjectByType<Vehicle.BKS_HeadCrash>();
+                if (fallenDriver != null && fallenDriver.ReleaseOnDeath() && crashSettleSeconds > 0f)
+                {
+                    StartCoroutine(ShowFailureAfterCrash());
+                    return;
+                }
+            }
+            OfferReviveOrFail();
+        }
+
+        private System.Collections.IEnumerator ShowFailureAfterCrash()
+        {
+            yield return new WaitForSeconds(crashSettleSeconds);
+            if (CurrentState == MissionState.FailurePending) OfferReviveOrFail();
+        }
+
+        private void OfferReviveOrFail()
+        {
+            if (!Gameplay.BKS_ReviveManager.TryOffer(this)) FailMissionNow();
+        }
+
+        public void ResumeAfterRevive()
+        {
+            if (CurrentState != MissionState.FailurePending) return;
+            if (fallenDriver != null) fallenDriver.RestoreAfterRevive();
+            fallenDriver = null;
+            CurrentState = MissionState.Active;
         }
 
         /// <summary>Fail without offering a revive.</summary>
         public void FailMissionNow()
         {
-            if (CurrentState != MissionState.Active) return;
+            if (CurrentState != MissionState.Active && CurrentState != MissionState.FailurePending) return;
             CurrentState = MissionState.Failed;
             if (BKS_MissionObjectiveTracker.Instance != null) BKS_MissionObjectiveTracker.Instance.Stop();
             OnMissionFailed?.Invoke(missionData);

@@ -14,10 +14,91 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/Home/BKS_StateMap.unity
     guid: 6caa8fd3359e491ebdd138125f6cc7f5
+  - enabled: 0
+    path: Assets/Hill Climb Template/Scenes/Level0.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Hill Climb Template/Scenes/Level1.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Hill Climb Template/Scenes/Level2.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Hill Climb Template/Scenes/Level3.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Hill Climb Template/Scenes/UnityAds.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/Home.unity
+    guid: f4f58fe1bc3654361a496b47571e0374
+  - enabled: 0
+    path: Assets/Scenes/Level0.unity
+    guid: d1bf50b05a9cb48f1801a6c98a4dd0e6
+  - enabled: 0
+    path: Assets/Scenes/Level1.unity
+    guid: 1c8bc14bfa7724ada99338853ac496ae
+  - enabled: 0
+    path: Assets/Scenes/Level2.unity
+    guid: f66a698c4a4504c228c45f8d48cba214
+  - enabled: 0
+    path: Assets/Scenes/Level3.unity
+    guid: 4b60ff402e399a44c8fcd2812eca2780
+  - enabled: 0
+    path: Assets/Scenes/Level4.unity
+    guid: df6bdc0740e43e04fb7c92e572c77d52
+  - enabled: 0
+    path: Assets/Scenes/Level5.unity
+    guid: d375ef05df68f264d83b5da2116e707c
+  - enabled: 0
+    path: Assets/Scenes/Level3 old.unity
+    guid: 77a9acc214aa14f8fa2a953ad2d6125e
+  - enabled: 0
+    path: Assets/Scenes/Level4 old.unity
+    guid: c296320ca7e8b4c9b9255c20e92a2191
+  - enabled: 0
+    path: Assets/Scenes/Level5 old.unity
+    guid: af2dc34de7a024effbed8eac3ab6a7c3
+  - enabled: 0
+    path: Assets/Scenes/Level6.unity
+    guid: 0ca70f52fb3e04b73993cfe812d6b03b
+  - enabled: 0
+    path: Assets/Scenes/Level7.unity
+    guid: e4771c9052e874d02852d3963ef7d8c2
+  - enabled: 0
+    path: Assets/Scenes/Level8.unity
+    guid: 52b16e938baa045b196dfc027b895ba1
+  - enabled: 0
+    path: Assets/Scenes/Level9.unity
+    guid: 13ceb6fc5fe0d47de98d8d366276477c
+  - enabled: 0
+    path: Assets/Scenes/Level10.unity
+    guid: 743f58be813324f0a8b26bfa785aabf7
+  - enabled: 0
+    path: Assets/Scenes/Level11.unity
+    guid: 8d963c8a83c6d44eaa58fd9c0b5846b6
+  - enabled: 0
+    path: Assets/Scenes/Level12.unity
+    guid: 129e3da9d55624080806c587728f144d
+  - enabled: 0
+    path: Assets/Scenes/Level13.unity
+    guid: bfac8e584e28740d28f45c2ccd68f3e3
+  - enabled: 0
+    path: Assets/Scenes/Level14.unity
+    guid: 4d5e75061ac3a4fb1a12ac455f3c6110
+  - enabled: 0
+    path: Assets/BharatKaSafar/Scenes/BKS_IndiaMap.unity
+    guid: eaf2724c0dc72b645ab0ef158fb838a2
+  - enabled: 0
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_MissionSelect.unity
+    guid: 1e2782e9c6f14f842931f61774cb6128
+  - enabled: 0
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M01_GaonKiRaah.unity
+    guid: 3ea7ec087474bc14d83da5f03eb3dfe4
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/BKS_MissionResult.unity
     guid: 09097a6183e819e4db59ca73238d6e8c
-  - enabled: 1
+  - enabled: 0
     path: Assets/BharatKaSafar/Scenes/BKS_Garage.unity
     guid: a6382d9c6b260c14bb2e308f4c26a97c
   - enabled: 1
@@ -38,6 +119,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/Rajasthan/BKS_Rajasthan_M05_Pushkar.unity
     guid: 8ed01afba79809e428631f7590b8af15
+  - enabled: 0
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_MonumentSelect.unity
+    guid: 8792c34f61ae3a548b1881d925be7bea
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M01_Agra.unity
     guid: 16bcac37863fbb043a2aaab25858ec88
@@ -53,6 +137,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_M05_Bhulbhulaiya.unity
     guid: 95dbec5130335c74eb0b44b138e6540a
+  - enabled: 0
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_TN_MissionSelect.unity
+    guid: dbb70997705bf944a8f9434d81cc90bc
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_M01_Madurai.unity
     guid: ce6c78aa803ca3542a48eaf50a218cb0
@@ -68,6 +155,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_M05_Kanyakumari.unity
     guid: 35bb701cada9103459aa9a1f4c5b95e9
+  - enabled: 0
+    path: Assets/BharatKaSafar/Scenes/UP/BKS_UP_MissionSelect 1.unity
+    guid: cba541e182265a348bb474f6d660e451
+  - enabled: 0
+    path: Assets/BharatKaSafar/Scenes/Tamil nadu/BKS_TN_MissionSelect 1.unity
+    guid: cb8453b86798843429e68c5cf864fd71
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/BKS_MissionSelect.unity
     guid: 96fb0abdf283087499c18ee96244d5f5
@@ -140,7 +233,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BharatKaSafar/Scenes/Bihar/BKS_BR_M05_Vaishali.unity
     guid: c2d2e8898a338334e9fb7d062d780b7c
-  - enabled: 1
+  - enabled: 0
     path: Assets/BharatKaSafar/Scenes/BKS_TN_MissionSelect.unity
     guid: c7b70edb51235dc4fbb9f0ff82639dbd
   - enabled: 1

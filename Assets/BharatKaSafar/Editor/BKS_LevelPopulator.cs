@@ -588,7 +588,7 @@ West Bengal|B1@420|B4@550|B5@630|B3@650|B4@500,1100";
         }
 
         // All floating pickups (coins, fuel, 2X, mission items) sit this far above the road
-        private const float PickupGap = 1.5f;
+        private const float PickupGap = 0.9f;
         private const float FuelEvery = 420f; // fuel can spacing (units)
         private const float CoinScale = 0.128f; // rupee sprite is 12.54 units -> ~1.6 units on screen
 

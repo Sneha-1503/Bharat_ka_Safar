@@ -129,8 +129,9 @@ namespace BharatKaSafar.UI
         private void OpenBriefing()
         {
             if (selected == null || !selected.Unlocked) return;
+            if (briefing == null) briefing = GetComponentInChildren<BKS_MissionBriefingPopup>(true);
             if (briefing != null) briefing.Show(selected.Mission, StartMission);
-            else StartMission(selected.Mission);
+            else Debug.LogError("[Mission Select] Mission briefing is missing. Restore it with Bharat Ka Safar > UI > Restore Mission Briefing Panel.", this);
         }
 
         private void StartMission(MissionData mission)
@@ -142,6 +143,7 @@ namespace BharatKaSafar.UI
         private void GoBack()
         {
             if (BKS_AudioSettingsPopup.BlocksNavigation) return;
+            if (briefing != null && briefing.IsOpen) { briefing.Hide(); return; }
             if (BKS_SceneLoader.Instance != null) BKS_SceneLoader.Instance.GoToIndiaMap();
             else UnityEngine.SceneManagement.SceneManager.LoadScene(BKS_SceneLoader.SCENE_INDIA_MAP);
         }

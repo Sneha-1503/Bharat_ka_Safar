@@ -56,6 +56,20 @@ namespace BharatKaSafar.Editor
                 var img = panel.GetComponent<Image>(); if (img == null) img = panel.gameObject.AddComponent<Image>();
                 img.sprite = Sprite("Teal and Gold Adventure Parchment Frame.png"); img.color = Color.white;
                 img.type = Image.Type.Simple; img.preserveAspect = true;
+                // fixed size in the middle of the popup's own 1920x1080 canvas → same on every device
+                var prt = (RectTransform)panel;
+                prt.anchorMin = prt.anchorMax = new Vector2(0.5f, 0.5f); prt.pivot = new Vector2(0.5f, 0.5f);
+                prt.sizeDelta = new Vector2(1140f, 760f); prt.anchoredPosition = Vector2.zero; prt.localScale = Vector3.one;
+            }
+            // "MISSION FAILED / Vehicle destroyed" inside the teal title band (shrinks instead of spilling out)
+            var status = Find(root, "ResultStatusText") as RectTransform;
+            if (status != null && panel != null)
+            {
+                status.SetParent(panel, false);
+                status.anchorMin = new Vector2(0.29f, 0.715f); status.anchorMax = new Vector2(0.71f, 0.865f);
+                status.offsetMin = status.offsetMax = Vector2.zero;
+                var st = status.GetComponent<TMP_Text>();
+                if (st != null) { st.enableWordWrapping = true; st.enableAutoSizing = true; st.fontSizeMin = 12f; st.fontSizeMax = 46f; st.alignment = TextAlignmentOptions.Center; st.overflowMode = TextOverflowModes.Truncate; }
             }
             ButtonArt(root, "MapButton", "india-map.png");
             ButtonArt(root, "RetryButton", "retry.png");
@@ -89,7 +103,8 @@ namespace BharatKaSafar.Editor
             var panel = Img("Panel", root.transform, Sprite("Teal and Gold Adventure Parchment Frame.png"));
             var prt = (RectTransform)panel.transform; prt.anchorMin = prt.anchorMax = new Vector2(0.5f, 0.5f); prt.sizeDelta = new Vector2(1140f, 760f);
 
-            Text("Title", panel.transform, "CONTINUE JOURNEY?", new Vector2(0.30f, 0.72f), new Vector2(0.70f, 0.86f), Color.white, 54f, font);
+            Text("Title", panel.transform, "CONTINUE JOURNEY?", new Vector2(0.29f, 0.725f), new Vector2(0.71f, 0.855f), Color.white, 50f, font);
+            var title = panel.transform.Find("Title").GetComponent<TMP_Text>(); title.enableWordWrapping = false; title.overflowMode = TextOverflowModes.Ellipsis;
             Text("Cost", panel.transform, "Revive for 100 Coins", new Vector2(0.14f, 0.52f), new Vector2(0.86f, 0.66f), new Color(0.32f, 0.18f, 0.05f), 58f, font);
             Text("Balance", panel.transform, "You have 0 coins", new Vector2(0.14f, 0.42f), new Vector2(0.86f, 0.52f), new Color(0.45f, 0.30f, 0.12f), 40f, font);
             Text("Countdown", panel.transform, "8", new Vector2(0.80f, 0.56f), new Vector2(0.92f, 0.70f), new Color(0.04f, 0.42f, 0.50f), 72f, font);

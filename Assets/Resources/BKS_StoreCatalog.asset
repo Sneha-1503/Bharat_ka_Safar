@@ -13,108 +13,72 @@ MonoBehaviour:
   m_Name: BKS_StoreCatalog
   m_EditorClassIdentifier: 
   vehicles:
-  - id: Default
-    displayName: Safar Jeep
-    prefab: {fileID: 268252796298528539, guid: 5d7078ccf556e0540bdd76781dfc6b38, type: 3}
-    icon: {fileID: 21300000, guid: f64b50421f8bd8d41baff00ff0390814, type: 3}
+  - id: new_01-jeep
+    displayName: Jeep
+    prefab: {fileID: 394180861636682852, guid: 11cb0aa3a4b832f44833a80652d97668, type: 3}
+    icon: {fileID: 21300000, guid: 5ea7d354f1458344a96e827594a9b073, type: 3}
     price: 0
     freeByDefault: 1
-  - id: BeetleClassic
-    displayName: Classic Beetle
-    prefab: {fileID: 5186619483795282812, guid: ceef118681e2cc649a8a9b9548941f51,
+  - id: new_02-scooter
+    displayName: Scooter
+    prefab: {fileID: 4395653172266834891, guid: 11b91b3cdf979e742b65e297a1c31400,
       type: 3}
-    icon: {fileID: 21300000, guid: 3354d5b79fe46804c956bd36e92f3ee6, type: 3}
-    price: 2000
+    icon: {fileID: 21300000, guid: 7924763da933ba849b15d268b428265b, type: 3}
+    price: 1500
     freeByDefault: 0
-  - id: BlueHatchback
-    displayName: City Hatchback
-    prefab: {fileID: 3946513586724083140, guid: e3b5c711eaea0134a8ab440e3f1cb995,
+  - id: new_01-dirt-bike
+    displayName: Dirt Bike
+    prefab: {fileID: 6822717071177936721, guid: f7ff24c88b68b184f8c79e1cc0a46ae5,
       type: 3}
-    icon: {fileID: 21300000, guid: b519e82bf78838046bfa1941a4bbe809, type: 3}
+    icon: {fileID: 21300000, guid: e04b8253c55d061478038a73a300af1d, type: 3}
     price: 3000
     freeByDefault: 0
-  - id: BlueSedan
-    displayName: Vintage Sedan
-    prefab: {fileID: 5712070766610477403, guid: b41a0ac3a04c06348bdeb3997b0d08b9,
+  - id: new_02-dune-buggy
+    displayName: Dune Buggy
+    prefab: {fileID: 4207645731652092459, guid: aa16354bb3aca2947a430734623fd1b4,
       type: 3}
-    icon: {fileID: 21300000, guid: eef9f7a2a0cb64942a359d85da81e3e5, type: 3}
-    price: 3500
-    freeByDefault: 0
-  - id: DeliveryVan
-    displayName: Delivery Van
-    prefab: {fileID: 558391980692793952, guid: 9e6f3aa55ab5dcd46a42f4dfdd858637, type: 3}
-    icon: {fileID: 21300000, guid: c7ab4af98a30c2446a09f662a54243ba, type: 3}
-    price: 4000
-    freeByDefault: 0
-  - id: VintageRoadster
-    displayName: Vintage Roadster
-    prefab: {fileID: 2978789236962827861, guid: cda365e62f6ee684882a49a6004c39f6,
-      type: 3}
-    icon: {fileID: 21300000, guid: b77de86b81658bc419a58ecfa34d5cd7, type: 3}
-    price: 4500
-    freeByDefault: 0
-  - id: VintageTourer
-    displayName: Vintage Tourer
-    prefab: {fileID: 5701244353303015610, guid: 4d258c6fbbf05444098bcabfd62f6442,
-      type: 3}
-    icon: {fileID: 21300000, guid: 86085201253a8aa4d83c6db36f7b3590, type: 3}
+    icon: {fileID: 21300000, guid: 27257da6781c7294da7d4e60fca2c535, type: 3}
     price: 5000
     freeByDefault: 0
-  - id: TNJeep
-    displayName: Tamil Nadu Jeep
-    prefab: {fileID: 8708308495250939013, guid: 5ab8aa8837d6c2d48bb37e7b265bb825,
+  - id: new_04-tractor
+    displayName: Tractor
+    prefab: {fileID: 6571805744352423178, guid: 6433238cad5ff1c41a128c565c5f0c51,
       type: 3}
-    icon: {fileID: 21300000, guid: 1dc8c67ac3b030f44a33914443dde6a4, type: 3}
-    price: 5500
+    icon: {fileID: 21300000, guid: 1596ae24a8bd7b44293e106e4fb70fc3, type: 3}
+    price: 7500
     freeByDefault: 0
-  - id: RedJeep
-    displayName: Red Safari Jeep
-    prefab: {fileID: 2802598646495813242, guid: 4fc4742e5c56eac4e8a27f9dfc3a0821,
+  - id: new_03-sport-bike
+    displayName: Sport Bike
+    prefab: {fileID: 6174353908517975568, guid: 9ed0f1a60ebf5fe4cbbfb49b3ae3ae77,
       type: 3}
-    icon: {fileID: 21300000, guid: ef102a5f7b30ac64983df1e1a3f1f84b, type: 3}
-    price: 6500
-    freeByDefault: 0
-  - id: OrangePickup
-    displayName: Orange Pickup
-    prefab: {fileID: 8014251498821938489, guid: cca7ae3423946d84a9bd55a908228527,
-      type: 3}
-    icon: {fileID: 21300000, guid: 1f299443d57da8a4c925f3079226bce3, type: 3}
-    price: 7000
-    freeByDefault: 0
-  - id: PoliceSUV
-    displayName: Police SUV
-    prefab: {fileID: 6484437535488626335, guid: f5553ad3a3db22e4396155d4459caa05,
-      type: 3}
-    icon: {fileID: 21300000, guid: bbc94c92ce716ef4e9f6b3060937ce50, type: 3}
-    price: 8000
-    freeByDefault: 0
-  - id: GreenTractor
-    displayName: Desi Tractor
-    prefab: {fileID: 1786486233402336359, guid: db063a8577005ec42b01ff4b4cd83cc3,
-      type: 3}
-    icon: {fileID: 21300000, guid: 7273febba06eda5488436968bb13af24, type: 3}
-    price: 8500
-    freeByDefault: 0
-  - id: IndianArmyJeep
-    displayName: Indian Army Jeep
-    prefab: {fileID: 3782365319596246753, guid: 5b337ce2cc1dc47458e6ce7164597ef9,
-      type: 3}
-    icon: {fileID: 21300000, guid: 4b966d67d54b5e941b8d69d159d68368, type: 3}
+    icon: {fileID: 21300000, guid: cc2a16010f1e61242826523fcfef1706, type: 3}
     price: 10000
     freeByDefault: 0
-  - id: BlueConvertible
-    displayName: Blue Convertible
-    prefab: {fileID: 5372387122548730308, guid: a59b3448ae57bef40b1f51f95c8783c5,
-      type: 3}
-    icon: {fileID: 21300000, guid: be878771bc46d27449a78956db8cb451, type: 3}
-    price: 12000
-    freeByDefault: 0
-  - id: DuneBuggy
-    displayName: Dune Buggy
-    prefab: {fileID: 3378914724430389200, guid: 2cf4f5b8061cf6147b0cb6b079251080,
-      type: 3}
-    icon: {fileID: 21300000, guid: 9e9e84c83e977734299445f5c10b9b94, type: 3}
+  - id: new_03-roadster
+    displayName: Roadster
+    prefab: {fileID: 423240523179234588, guid: 73d5cc9af9b907542888c5855ed0a90b, type: 3}
+    icon: {fileID: 21300000, guid: a02643cf53086914088015b471eb7d6f, type: 3}
     price: 14000
+    freeByDefault: 0
+  - id: new_04-scrambler
+    displayName: Scrambler
+    prefab: {fileID: 8974273871333645706, guid: 0f7c19175c3cd0a4999bb82cc0a9a100,
+      type: 3}
+    icon: {fileID: 21300000, guid: 71c9a35f3c1a64f46add3151d37780a2, type: 3}
+    price: 18000
+    freeByDefault: 0
+  - id: new_05-cruiser
+    displayName: Cruiser
+    prefab: {fileID: 445574392744983959, guid: a855fd14662ab4042aa3cff839d259bb, type: 3}
+    icon: {fileID: 21300000, guid: a2db199d4373bcf4787366cb65659446, type: 3}
+    price: 24000
+    freeByDefault: 0
+  - id: new_05-monster-truck
+    displayName: Monster Truck
+    prefab: {fileID: 5333218339917264998, guid: b75908a35d743064e91c037ff1b31d22,
+      type: 3}
+    icon: {fileID: 21300000, guid: dd1678ab2d8e3854f98f5d2afa2820ae, type: 3}
+    price: 32000
     freeByDefault: 0
   boostPacks:
   - count: 1
@@ -123,25 +87,25 @@ MonoBehaviour:
     price: 600
   - count: 10
     price: 1000
-  boostIcon: {fileID: 21300000, guid: 9a27e2b8601a2fd459d7e3c8b78bc0cf, type: 3}
+  boostIcon: {fileID: 21300000, guid: 86e36360972623245a77addc4bb4ba6e, type: 3}
   upgrades:
   - kind: 0
     displayName: Engine
     description: More power and faster acceleration on every vehicle.
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 31e8dfb073c792d49a2254b61f2a043f, type: 3}
     levelCosts: 2c01000058020000e8030000dc050000d0070000
   - kind: 1
     displayName: Tyres / Speed
     description: Higher top speed and better grip.
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 2811a36a46ed6a24982227dc90e8e5f0, type: 3}
     levelCosts: 2c01000058020000e8030000dc050000d0070000
   - kind: 2
     displayName: Suspension
     description: Less damage from obstacles and rough roads.
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 9614b1b232c288f44aea704b26c95aab, type: 3}
     levelCosts: 9001000020030000b004000008070000c4090000
   - kind: 3
     displayName: Horn
     description: Louder horn that clears animals and carts from farther away.
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 3e94685affa91c14ca1e4f059882e941, type: 3}
     levelCosts: c800000090010000bc020000e8030000dc050000

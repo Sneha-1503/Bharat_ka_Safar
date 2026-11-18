@@ -14,8 +14,10 @@ namespace BharatKaSafar.Obstacles
     public class BKS_CrossingObstacle : MonoBehaviour, IBKS_HornTarget, IBKS_SafarStarSource
     {
         [Header("Timing")]
-        [Tooltip("Starts walking when the car is this close")]
+        [Tooltip("Minimum approach distance. Faster vehicles trigger the crossing farther ahead.")]
         [SerializeField, Min(1f)] private float startDistance = 22f;
+        [Tooltip("Time the crossing should already be on the road before a steady-speed vehicle arrives.")]
+        [SerializeField, Min(0f)] private float reactionTime = 0.75f;
         [SerializeField, Min(0.1f)] private float enterTime = 1.5f;
         [Tooltip("Time spent standing/walking on the road (blocking)")]
         [SerializeField, Min(0.1f)] private float onRoadTime = 2.5f;
@@ -47,6 +49,9 @@ namespace BharatKaSafar.Obstacles
         private float speed = 1f;
         private bool wasHit, hornUsed;
         private Transform car;
+        private Rigidbody2D carBody;
+        private Collider2D[] carColliders;
+        private float roadNearEdge;
 
         public bool CanRespondToHorn => phase == Phase.Entering || phase == Phase.OnRoad;
 
@@ -58,6 +63,9 @@ namespace BharatKaSafar.Obstacles
             for (int i = 0; i < renderers.Length; i++) baseOrders[i] = renderers[i].sortingOrder;
             roadPos = transform.position;
             roadScale = transform.localScale;
+            roadNearEdge = roadPos.x;
+            foreach (var col in colliders)
+                if (col.enabled) roadNearEdge = Mathf.Min(roadNearEdge, col.bounds.min.x);
             SetBlocking(false);
             Pose(0f); // start on the far side
         }
@@ -65,8 +73,23 @@ namespace BharatKaSafar.Obstacles
         private void Update()
         {
             if (phase != Phase.Waiting) return;
-            if (car == null) car = BKS_ObstacleUtil.FindVehicle();
-            if (car != null && transform.position.x > car.position.x && roadPos.x - car.position.x < startDistance)
+            if (car == null)
+            {
+                car = BKS_ObstacleUtil.FindVehicle();
+                if (car == null) return;
+                carBody = car.GetComponent<Rigidbody2D>();
+                carColliders = car.root.GetComponentsInChildren<Collider2D>();
+            }
+            if (car.position.x >= roadPos.x) return;
+
+            float speedX = carBody != null ? Mathf.Max(0f, carBody.linearVelocity.x) : 0f;
+            float bumperX = car.position.x;
+            foreach (var col in carColliders)
+                if (col != null && col.isActiveAndEnabled && !col.isTrigger)
+                    bumperX = Mathf.Max(bumperX, col.bounds.max.x);
+
+            float warningDistance = Mathf.Max(startDistance, speedX * (enterTime + reactionTime));
+            if (roadNearEdge - bumperX <= warningDistance)
                 StartCoroutine(Cross());
         }
 

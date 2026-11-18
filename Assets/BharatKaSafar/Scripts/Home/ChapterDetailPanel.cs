@@ -193,13 +193,22 @@ namespace BharatKaSafar.Home
                 default:                      SetText(statusText, statusUnlocked);  break;
             }
 
-            SetActive(completedBadge, isCompleted);
+            // a badge whose Image has no sprite shows as a plain white box — keep it hidden until art is assigned
+            var badgeImg = completedBadge != null ? completedBadge.GetComponent<UnityEngine.UI.Image>() : null;
+            SetActive(completedBadge, isCompleted && (badgeImg == null || badgeImg.sprite != null));
+            // the badge sits in the round ticket frame: the ticket picture gives way to it once the chapter is done
+            if (mainStateImage != null) mainStateImage.enabled = !(completedBadge != null && completedBadge.activeSelf) && mainStateImage.sprite != null;
 
             // Action button
             if (isUpcoming)
                 SetText(actionButtonText, labelUpcoming);
             else if (isLocked)
+            {
                 SetText(actionButtonText, string.Format(labelUnlockFormat, unlockCost.ToString("N0")));
+                // a separate cost text sitting on the same button would print the price twice on top of the label → hide it
+                if (unlockCostText != null && actionButton != null && unlockCostText.transform.IsChildOf(actionButton.transform))
+                    unlockCostText.gameObject.SetActive(false);
+            }
             else
                 SetText(actionButtonText, labelEnter); // Unlocked AND Completed → can enter / replay
 
@@ -222,11 +231,43 @@ namespace BharatKaSafar.Home
             if (feedbackText == null) return;
 
             if (_feedbackRoutine != null) StopCoroutine(_feedbackRoutine);
-            feedbackText.text = message;
+            StyleFeedback();
+            feedbackText.text = message.Replace('\n', ' ');
             feedbackText.gameObject.SetActive(true);
 
             if (isActiveAndEnabled)
                 _feedbackRoutine = StartCoroutine(HideFeedbackAfter(duration));
+        }
+
+        private bool _feedbackStyled;
+
+        // white, one line, in the description's font, sitting just above the action button (below the blue divider line)
+        private void StyleFeedback()
+        {
+            if (_feedbackStyled || feedbackText == null) return;
+            _feedbackStyled = true;
+            if (descriptionText != null) { feedbackText.font = descriptionText.font; feedbackText.fontSharedMaterial = descriptionText.fontSharedMaterial; }
+            feedbackText.color = Color.white;
+            feedbackText.fontStyle = FontStyles.Bold;
+            feedbackText.alignment = TextAlignmentOptions.Center;
+            feedbackText.enableWordWrapping = false;
+            feedbackText.enableAutoSizing = true; feedbackText.fontSizeMin = 12f;
+            feedbackText.fontSizeMax = descriptionText != null ? descriptionText.fontSize : 24f;
+            feedbackText.overflowMode = TextOverflowModes.Ellipsis;
+            feedbackText.raycastTarget = false;
+
+            if (actionButton == null) return;
+            var rt = feedbackText.rectTransform;
+            var bt = (RectTransform)actionButton.transform;
+            var c = new Vector3[4];
+            bt.GetWorldCorners(c);
+            var parent = (RectTransform)rt.parent;
+            Vector2 bl = parent.InverseTransformPoint(c[1]), br = parent.InverseTransformPoint(c[2]);
+            float h = Mathf.Max(28f, feedbackText.fontSizeMax * 1.4f);
+            rt.anchorMin = rt.anchorMax = parent.pivot; // anchors at the parent's pivot = local origin
+            rt.pivot = new Vector2(0.5f, 0f);
+            rt.sizeDelta = new Vector2(Mathf.Abs(br.x - bl.x) * 1.15f, h);
+            rt.anchoredPosition = new Vector2((bl.x + br.x) / 2f, bl.y + 4f);
         }
 
         public void HideFeedback()

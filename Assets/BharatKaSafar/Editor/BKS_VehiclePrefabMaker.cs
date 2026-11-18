@@ -194,6 +194,7 @@ namespace BharatKaSafar.Editor
             float torsoScale = DriverScale(r.playerBodySprite, r.playerBodyScale, vehicleWidth, r.torsoHeightToVehicleWidth, r.autoFitDriver);
             float headScale = DriverScale(r.playerHeadSprite, r.playerHeadScale, vehicleWidth, r.headHeightToVehicleWidth, r.autoFitDriver);
             var torso = SpriteObject("Player Body", parent, r.playerBodySprite, r.playerBodyPosition, 11);
+            torso.transform.localRotation = Quaternion.Euler(0f, 0f, r.playerBodyAngle);
             torso.transform.localScale = new Vector3(torsoScale, torsoScale, 1);
             var head = SpriteObject("Player Head", parent, r.playerHeadSprite, r.playerHeadPosition, 12);
             head.transform.localScale = new Vector3(headScale, headScale, 1);

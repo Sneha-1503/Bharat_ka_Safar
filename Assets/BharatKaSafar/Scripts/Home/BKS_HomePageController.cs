@@ -90,7 +90,7 @@ namespace BharatKaSafar.Home
                 Debug.LogError("[BKS Home] ChapterDetailPanel is not assigned.", this);
 
             RefreshCoinHud();
-            SelectState(defaultStateId);
+            SelectState(StartStateId());
         }
 
         private void OnDestroy()
@@ -163,6 +163,18 @@ namespace BharatKaSafar.Home
         // ── Public API ────────────────────────────────────────────────────────────
 
         /// <summary>Select a state (works for locked and upcoming states too — preview is always allowed).</summary>
+        private const string LastStateKey = "BKS_LastSelectedState";
+
+        // the chapter just played, else the last unlocked state picked on the map, else Tamil Nadu
+        private string StartStateId()
+        {
+            var played = BKS_SceneLoader.Instance != null ? BKS_SceneLoader.Instance.ActiveChapter : null;
+            if (played != null && _dataById.ContainsKey(played.ChapterID)) return played.ChapterID;
+            string last = PlayerPrefs.GetString(LastStateKey, "");
+            if (!string.IsNullOrEmpty(last) && _dataById.ContainsKey(last) && _save != null && _save.IsStateUnlocked(last)) return last;
+            return defaultStateId;
+        }
+
         public void SelectState(string stateId)
         {
             if (string.IsNullOrEmpty(stateId)) return;
@@ -175,6 +187,8 @@ namespace BharatKaSafar.Home
             }
 
             _selectedStateId = stateId;
+            // remember the last unlocked state the player looked at: the map opens there next time
+            if (_save != null && _save.IsStateUnlocked(stateId)) { PlayerPrefs.SetString(LastStateKey, stateId); PlayerPrefs.Save(); }
             RefreshSelectedStatePanel();
             RefreshMapStateButtons();
             Debug.Log($"[BKS Home] Selected state: {stateId}");

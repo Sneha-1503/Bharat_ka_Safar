@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Linq;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 using BharatKaSafar.Core;
 
@@ -90,8 +91,10 @@ namespace BharatKaSafar.UI
             var canvas = designed.GetComponentInParent<Canvas>(true);
             if (confirmPrefab != null && canvas != null)
             {
-                var confirm = Instantiate(confirmPrefab, canvas.rootCanvas.transform, false);
+                var confirm = Instantiate(confirmPrefab);
                 confirm.name = "BKS_QuitConfirmPopup";
+                BKS_UIStyle.MakeOverlay(confirm, 31000); // own canvas: same size on every device / scene
+                BKS_UIStyle.OneLine(Find(confirm.transform, "Title")?.GetComponent<TMP_Text>());
                 quitConfirmRoot = confirm;
                 quitYesButton = Find(confirm.transform, "YesButton")?.GetComponent<Button>();
                 quitNoButton = Find(confirm.transform, "NoButton")?.GetComponent<Button>();
@@ -112,6 +115,8 @@ namespace BharatKaSafar.UI
 
             if (oldRoot != null && oldRoot != pauseRoot) oldRoot.SetActive(false);
             designed.SetAsLastSibling(); // drawn on top of the HUD
+            // same part of the screen height as the Settings / Result frames (measured when pausing, the layout is ready then)
+            frameScreenHeight = BKS_UIStyle.PopupFrameHeight / 1080f;
         }
 
         // the designed frame fills frameScreenHeight of the screen (measured when pausing, the layout is ready then)
@@ -148,6 +153,7 @@ namespace BharatKaSafar.UI
 
         public void Pause()
         {
+            if (BKS_DrivingTutorial.IsShowing) return;
             if (IsPaused || pauseRoot == null) return;
             IsPaused = true;
             Time.timeScale = 0f;
@@ -179,7 +185,7 @@ namespace BharatKaSafar.UI
 
         private void AskQuit()
         {
-            if (quitConfirmRoot != null) { quitConfirmRoot.SetActive(true); quitConfirmRoot.transform.SetAsLastSibling(); }
+            if (quitConfirmRoot != null) { quitConfirmRoot.SetActive(true); if (quitConfirmRoot.GetComponent<Canvas>() == null) quitConfirmRoot.transform.SetAsLastSibling(); }
             else GoHome();
         }
 

@@ -64,6 +64,7 @@ namespace BharatKaSafar.Gameplay
             RevivesUsed++;
             Challenges.BKS_ChallengeStats.Add(Challenges.BKS_Stat.RevivesUsed);
             Respawn();
+            if (pending != null) pending.ResumeAfterRevive();
             Time.timeScale = 1f;
             pending = null;
         }

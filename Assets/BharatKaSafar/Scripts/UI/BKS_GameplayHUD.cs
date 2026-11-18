@@ -66,6 +66,10 @@ namespace BharatKaSafar.UI
         [SerializeField] private Button accelerateButton;
         [SerializeField] private Button hornButton;
 
+        public RectTransform AccelerateControl => accelerateButton != null ? accelerateButton.transform as RectTransform : null;
+        public RectTransform BrakeControl => brakeButton != null ? brakeButton.transform as RectTransform : null;
+        public RectTransform HornControl => hornButton != null ? hornButton.transform as RectTransform : null;
+
         // ── Inspector: System References (Auto-detected if null) ──────────────────
         [Header("System References (auto-detected if empty)")]
         [SerializeField] private BKS_VehicleHealth vehicleHealth;
@@ -406,6 +410,7 @@ namespace BharatKaSafar.UI
         /// <summary>Called by Pause button.</summary>
         public void OnPausePressed()
         {
+            if (BKS_DrivingTutorial.IsShowing) return;
             if (BKS_PausePanel.Instance != null) BKS_PausePanel.Instance.Toggle();
             else Time.timeScale = Time.timeScale > 0f ? 0f : 1f;
         }

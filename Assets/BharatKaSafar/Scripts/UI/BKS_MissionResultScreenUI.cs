@@ -27,6 +27,10 @@ namespace BharatKaSafar.UI
         [SerializeField] private TMP_Text finalHealthText;
         [Tooltip("Optional: e.g. 'Uttar Pradesh  3 / 5 missions'")]
         [SerializeField] private TMP_Text chapterProgressText;
+        [Tooltip("Optional: the fail reason on its own line (e.g. 'Driver crashed'). Empty = added under the status text")]
+        [SerializeField] private TMP_Text failReasonText;
+        [Tooltip("Stars appear one after another with a small pop")]
+        [SerializeField] private bool animateStars = true;
 
         [Header("Star Rating Display")]
         [SerializeField] private Image[] starImages;
@@ -86,10 +90,16 @@ namespace BharatKaSafar.UI
                     resultStatusText.text = string.Format(labelChapterComplete, (result.ChapterName ?? string.Empty).ToUpperInvariant());
                 else if (result.MissionCompleted)
                     resultStatusText.text = labelMissionComplete;
+                else if (failReasonText != null || string.IsNullOrEmpty(result.FailReason))
+                    resultStatusText.text = labelMissionFailed;
                 else
-                    resultStatusText.text = string.IsNullOrEmpty(result.FailReason)
-                        ? labelMissionFailed
-                        : $"{labelMissionFailed}\n<size=60%>{result.FailReason}</size>";
+                    resultStatusText.text = $"{labelMissionFailed}\n<size=60%>{result.FailReason}</size>";
+            }
+            if (failReasonText != null)
+            {
+                bool show = !result.MissionCompleted && !string.IsNullOrEmpty(result.FailReason);
+                failReasonText.gameObject.SetActive(show);
+                if (show) failReasonText.text = result.FailReason;
             }
 
             if (chapterProgressText != null)
@@ -107,6 +117,7 @@ namespace BharatKaSafar.UI
             if (finalHealthText      != null) finalHealthText.text      = $"Health: {Mathf.RoundToInt(result.FinalHealthRatio * 100f)}%";
 
             UpdateStarDisplay(result.StarRating);
+            if (animateStars && result.StarRating > 0) StartCoroutine(PopStars(result.StarRating));
             SetupButtons(result.MissionCompleted);
 
             BKS_MissionResultStore.Clear();
@@ -135,6 +146,26 @@ namespace BharatKaSafar.UI
                 {
                     img.color = starEmptyTint;
                 }
+            }
+        }
+
+        // earned stars pop in one by one (unscaled time: the game is paused under the popup)
+        private System.Collections.IEnumerator PopStars(int rating)
+        {
+            int n = Mathf.Min(rating, starImages.Length);
+            for (int i = 0; i < n; i++) if (starImages[i] != null) starImages[i].transform.localScale = Vector3.zero;
+            for (int i = 0; i < n; i++)
+            {
+                var t = starImages[i] != null ? starImages[i].transform : null;
+                yield return new WaitForSecondsRealtime(i == 0 ? 0.25f : 0.2f);
+                if (t == null) continue;
+                for (float k = 0f; k < 1f; k += Time.unscaledDeltaTime / 0.25f)
+                {
+                    float e = 1f + 2.70158f * Mathf.Pow(k - 1f, 3) + 1.70158f * Mathf.Pow(k - 1f, 2); // ease-out-back
+                    t.localScale = Vector3.one * e;
+                    yield return null;
+                }
+                t.localScale = Vector3.one;
             }
         }
 

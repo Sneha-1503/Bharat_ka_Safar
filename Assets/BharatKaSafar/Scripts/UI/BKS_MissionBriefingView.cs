@@ -15,7 +15,7 @@ namespace BharatKaSafar.UI
 
         public static BKS_MissionBriefingView Create(GameObject previousPanel, Transform fallbackParent)
         {
-            var prefab = Resources.Load<BKS_MissionBriefingView>("BKS_MissionBriefingPopup");
+            var prefab = Resources.Load<BKS_MissionBriefingView>("BKS_LegacyChapterBriefing");
             if (prefab == null) return null;
             var parent = previousPanel != null ? previousPanel.transform.parent : fallbackParent;
             if (previousPanel != null) previousPanel.SetActive(false);

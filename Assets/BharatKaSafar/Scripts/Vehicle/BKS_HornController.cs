@@ -70,11 +70,21 @@ namespace BharatKaSafar.Vehicle
             if (detectionOrigin == null)
                 detectionOrigin = transform;
 
+            // most vehicle prefabs have no horn clip set → use the game's horn sound (Resources/BKS_Horn)
+            if (hornClip == null) hornClip = Resources.Load<AudioClip>("BKS_Horn");
+
             // Make sure the horn can be heard even if no AudioSource was set up on the prefab
-            if (hornAudioSource == null && hornClip != null)
+            // CarController treats a source on the chassis as a looping engine.
+            if (hornClip != null && (hornAudioSource == null || hornAudioSource.GetComponent<CarController>() != null))
             {
-                hornAudioSource = gameObject.AddComponent<AudioSource>();
+                var speaker = new GameObject("Horn Audio");
+                speaker.transform.SetParent(transform, false);
+                hornAudioSource = speaker.AddComponent<AudioSource>();
+            }
+            if (hornAudioSource != null)
+            {
                 hornAudioSource.playOnAwake = false;
+                hornAudioSource.loop = false;
             }
         }
 
@@ -92,6 +102,13 @@ namespace BharatKaSafar.Vehicle
         /// </summary>
         public void Honk()
         {
+            // Control practice plays the sound without clearing obstacles or granting rewards.
+            if (UI.BKS_DrivingTutorial.IsShowing)
+            {
+                OnHornPressed?.Invoke();
+                PlayHornSound();
+                return;
+            }
             if (_cooldownTimer > 0f) return;
 
             _cooldownTimer = hornCooldown;
@@ -166,10 +183,9 @@ namespace BharatKaSafar.Vehicle
             if (hornAudioSource == null || hornClip == null) return;
             if (hornAudioSource.isPlaying)
                 hornAudioSource.Stop();
-            hornAudioSource.clip = hornClip;
             hornAudioSource.volume = PlayerPrefs.GetFloat("SFXVolume", 1f)
                 * (AudioManager.instance != null ? AudioManager.instance.maxSFXVolume : 1f);
-            hornAudioSource.Play();
+            hornAudioSource.PlayOneShot(hornClip);
         }
 
         // ── Editor Gizmos ─────────────────────────────────────────────────────────

@@ -45,9 +45,9 @@ namespace BharatKaSafar.UI
             var canvas = GetComponentInParent<Canvas>(true);
             if (prefab == null || canvas == null) return;
             if (root != null) root.SetActive(false);
-            var popup = Instantiate(prefab, canvas.rootCanvas.transform, false);
+            var popup = Instantiate(prefab);
             popup.name = "BKS_RevivePopup";
-            popup.transform.SetAsLastSibling();
+            BKS_UIStyle.MakeOverlay(popup, 30000); // own canvas: same size on every device / scene
             root = popup;
             titleText = Find<TMP_Text>(popup, "Title");
             costText = Find<TMP_Text>(popup, "Cost");
@@ -56,6 +56,7 @@ namespace BharatKaSafar.UI
             reviveButton = Find<Button>(popup, "ReviveButton");
             declineButton = Find<Button>(popup, "DeclineButton");
             title = title.ToUpperInvariant();
+            BKS_UIStyle.OneLine(titleText);
         }
 
         private static T Find<T>(GameObject root, string name) where T : Component
@@ -74,7 +75,7 @@ namespace BharatKaSafar.UI
             if (reviveButton != null) reviveButton.interactable = canPay;
             timeLeft = countdownSeconds;
             open = true;
-            if (root != null) { root.SetActive(true); root.transform.SetAsLastSibling(); }
+            if (root != null) { root.SetActive(true); if (root.GetComponent<Canvas>() == null) root.transform.SetAsLastSibling(); }
         }
 
         private void Update()

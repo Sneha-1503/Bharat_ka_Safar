@@ -31,6 +31,7 @@ namespace BharatKaSafar.UI
             var prefab = Resources.Load<BKS_AudioSettingsPopup>("BKS_AudioSettingsPopup");
             if (prefab == null) { Debug.LogError("Missing shared audio settings prefab."); return; }
             instance = Instantiate(prefab);
+            BKS_UIStyle.FitPopup(instance.gameObject, 32100); // above the result popup
             blockNavigationThroughFrame = Time.frameCount + 1;
         }
 

@@ -162,81 +162,14 @@ namespace BharatKaSafar.Editor
             return view;
         }
 
-        private static BKS_MissionBriefingPopup BuildBriefing(Transform canvas)
+        internal static BKS_MissionBriefingPopup BuildBriefing(Transform canvas)
         {
-            var holder = Rect("MissionBriefing", canvas, Vector2.zero, Vector2.one);
-            var root = Img("BriefingRoot", holder, Vector2.zero, Vector2.one, null, new Color(0f, 0f, 0f, 0.8f));
-            var panel = Img("Panel", root.transform, new Vector2(0.12f, 0.1f), new Vector2(0.88f, 0.9f), Sprite(Art + "UI/briefing-panel.png"), Color.white);
-            panel.preserveAspect = true;
-            // keep the rect exactly the size of the artwork so child anchors line up with the parchment
-            var fit = panel.gameObject.AddComponent<AspectRatioFitter>();
-            fit.aspectMode = AspectRatioFitter.AspectMode.FitInParent;
-            fit.aspectRatio = panel.sprite != null ? panel.sprite.rect.width / panel.sprite.rect.height : 2f;
-            var p = panel.transform;
-
-            // text sits on the clear parchment between the compass (left) and stamps (right)
-            var titleT = Txt("Title", p, "Mission", 60, Teal, FontStyles.Bold, new Vector2(0.3f, 0.76f), new Vector2(0.8f, 0.86f));
-            var placeT = Txt("Place", p, "Place, State", 34, Saffron, FontStyles.Bold, new Vector2(0.3f, 0.7f), new Vector2(0.8f, 0.76f));
-            var objT = Txt("Objective", p, "Objective", 34, new Color(0.15f, 0.12f, 0.08f), FontStyles.Normal, new Vector2(0.3f, 0.58f), new Vector2(0.8f, 0.7f));
-            var colIcon = Img("CollectibleIcon", p, new Vector2(0.31f, 0.5f), new Vector2(0.35f, 0.58f), null, Color.white);
-            colIcon.preserveAspect = true;
-            var colT = Txt("Collectible", p, "Collect", 32, Teal, FontStyles.Bold, new Vector2(0.36f, 0.5f), new Vector2(0.8f, 0.58f));
-            colT.alignment = TextAlignmentOptions.Left;
-            var chT = Txt("Challenges", p, "Challenges", 36, new Color(0.25f, 0.18f, 0.1f), FontStyles.Normal, new Vector2(0.31f, 0.32f), new Vector2(0.8f, 0.5f));
-            chT.alignment = TextAlignmentOptions.TopLeft;
-            var tokIcon = Img("MemoryTokenIcon", p, new Vector2(0.31f, 0.22f), new Vector2(0.35f, 0.31f), null, Color.white);
-            tokIcon.preserveAspect = true;
-            var rwT = Txt("Rewards", p, "Rewards", 34, Teal, FontStyles.Bold, new Vector2(0.36f, 0.22f), new Vector2(0.8f, 0.31f));
-            rwT.alignment = TextAlignmentOptions.Left;
-            rwT.textWrappingMode = TextWrappingModes.NoWrap; // one line; auto-size shrinks it to fit
-
-            var startImg = Img("StartButton", p, new Vector2(0.44f, 0.09f), new Vector2(0.62f, 0.2f), null, Saffron);
-            var startBtn = startImg.gameObject.AddComponent<Button>();
-            var startLbl = Txt("Label", startImg.transform, "START", 44, Color.white, FontStyles.Bold, Vector2.zero, Vector2.one);
-            // Vehicle chooser next to START: ‹ [icon + name] ›
-            var pickerRT = Rect("VehiclePicker", p, new Vector2(0.64f, 0.07f), new Vector2(0.86f, 0.21f));
-            var pickIcon = Img("Icon", pickerRT, new Vector2(0.18f, 0.3f), new Vector2(0.82f, 1f), null, Color.white);
-            pickIcon.preserveAspect = true;
-            var pickName = Txt("Name", pickerRT, "Safar Jeep", 26, Teal, FontStyles.Bold, new Vector2(0.1f, 0f), new Vector2(0.9f, 0.3f));
-            var prevImg = Img("Prev", pickerRT, new Vector2(0f, 0.35f), new Vector2(0.15f, 0.85f), null, Teal);
-            var prevBtn = prevImg.gameObject.AddComponent<Button>();
-            Txt("Label", prevImg.transform, "<", 40, Color.white, FontStyles.Bold, Vector2.zero, Vector2.one);
-            var nextImg = Img("Next", pickerRT, new Vector2(0.85f, 0.35f), new Vector2(1f, 0.85f), null, Teal);
-            var nextBtn = nextImg.gameObject.AddComponent<Button>();
-            Txt("Label", nextImg.transform, ">", 40, Color.white, FontStyles.Bold, Vector2.zero, Vector2.one);
-            var picker = pickerRT.gameObject.AddComponent<Store.BKS_VehiclePicker>();
-            var pso = new SerializedObject(picker);
-            pso.FindProperty("icon").objectReferenceValue = pickIcon;
-            pso.FindProperty("nameText").objectReferenceValue = pickName;
-            pso.FindProperty("prevButton").objectReferenceValue = prevBtn;
-            pso.FindProperty("nextButton").objectReferenceValue = nextBtn;
-            pso.ApplyModifiedPropertiesWithoutUndo();
-
-            var closeImg = Img("CloseButton", p, new Vector2(0.88f, 0.8f), new Vector2(0.93f, 0.9f), null, new Color(0.75f, 0.2f, 0.12f));
-            var closeBtn = closeImg.gameObject.AddComponent<Button>();
-            Txt("X", closeImg.transform, "X", 44, Color.white, FontStyles.Bold, Vector2.zero, Vector2.one);
-
-            var popup = holder.gameObject.AddComponent<BKS_MissionBriefingPopup>();
-            var so = new SerializedObject(popup);
-            so.FindProperty("root").objectReferenceValue = root.gameObject;
-            so.FindProperty("panel").objectReferenceValue = panel.rectTransform;
-            so.FindProperty("titleText").objectReferenceValue = titleT;
-            so.FindProperty("placeText").objectReferenceValue = placeT;
-            so.FindProperty("objectiveText").objectReferenceValue = objT;
-            so.FindProperty("collectibleText").objectReferenceValue = colT;
-            so.FindProperty("challengesText").objectReferenceValue = chT;
-            so.FindProperty("rewardsText").objectReferenceValue = rwT;
-            so.FindProperty("collectibleIcon").objectReferenceValue = colIcon;
-            so.FindProperty("memoryTokenIcon").objectReferenceValue = tokIcon;
-            so.FindProperty("startButton").objectReferenceValue = startBtn;
-            so.FindProperty("startButtonLabel").objectReferenceValue = startLbl;
-            so.FindProperty("closeButton").objectReferenceValue = closeBtn;
-            so.ApplyModifiedPropertiesWithoutUndo();
-            root.gameObject.SetActive(false);
-            return popup;
+            const string path = "Assets/Resources/BKS_MissionBriefingPopup.prefab";
+            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(path);
+            var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab, canvas);
+            return instance.GetComponent<BKS_MissionBriefingPopup>();
         }
 
-        // ── helpers ──────────────────────────────────────────────────────────
         private static RectTransform Rect(string name, Transform parent, Vector2 min, Vector2 max)
         {
             var go = new GameObject(name, typeof(RectTransform)) { layer = LayerMask.NameToLayer("UI") };
